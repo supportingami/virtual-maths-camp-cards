@@ -12,7 +12,13 @@ html {
         tertiary: colors.$tertiary-palette,
         theme-type: light,
       ),
-      typography: "Open Sans",
+      typography: (
+        plain-family: Open Sans,
+        brand-family: Open Sans,
+        bold-weight: 900,
+        medium-weight: 500,
+        regular-weight: 300,
+      ),
       density: 0,
     )
   );

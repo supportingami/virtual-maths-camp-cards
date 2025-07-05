@@ -1,24 +1,27 @@
 import { Routes } from '@angular/router';
 
-import { inject } from '@angular/core';
 import { ResolveFn } from '@angular/router';
-import { CardService } from './services/card.service';
+import { ALL_CARDS_BY_LANGUAGE } from './utils/data.utils';
 
 const cardResolver: ResolveFn<any> = (route) => {
-  const cardService = inject(CardService);
   const id = route.paramMap.get('id')!;
-  console.log('resolving card', id, cardService.getById(id));
-  return cardService.getById(id);
+  return ALL_CARDS_BY_LANGUAGE.en[id] || { title: 'Not Found' };
 };
 
 const cardsResolver: ResolveFn<any> = () => {
-  const cardService = inject(CardService);
-  return cardService.getAll('en');
+  return Object.values(ALL_CARDS_BY_LANGUAGE.en);
 };
 
 export const routes: Routes = [
   {
     path: '',
+    loadComponent: () =>
+      import('./components/language-select/language-select.component').then(
+        (m) => m.LanguageSelectComponent
+      ),
+  },
+  {
+    path: ':language',
     loadComponent: () =>
       import('./components/home/home.component').then((m) => m.HomeComponent),
     resolve: { cards: cardsResolver },
