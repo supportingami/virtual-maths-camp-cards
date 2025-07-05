@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "vmc-cards-alt": {
+    "vmc-cards": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "vmc-cards-alt:build:production"
+              "buildTarget": "vmc-cards:build:production"
             },
             "development": {
-              "buildTarget": "vmc-cards-alt:build:development"
+              "buildTarget": "vmc-cards:build:development"
             }
           },
           "defaultConfiguration": "development"

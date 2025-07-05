@@ -1,9 +1,5 @@
-import {
-  ChangeDetectionStrategy,
-  Component,
-  inject,
-  REQUEST,
-} from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-card',
@@ -13,8 +9,6 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CardComponent {
-  constructor() {
-    const request = inject(REQUEST);
-    console.log(request?.url);
-  }
+  route = inject(ActivatedRoute);
+  card = this.route.snapshot.data['card'];
 }

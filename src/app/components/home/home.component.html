@@ -1,1 +1,6 @@
 <p>Home component works!</p>
+
+<p>{{ cards.length }} cards</p>
+@for(card of cards; track card.id){
+<div>title: {{ card.title }}</div>
+}
