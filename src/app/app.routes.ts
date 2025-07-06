@@ -4,6 +4,11 @@ import { ResolveFn } from '@angular/router';
 
 import { CARD_DATA } from './data';
 import { AvailableLanguage } from './types';
+import { HttpClient } from '@angular/common/http';
+import { inject } from '@angular/core';
+import { catchError, of } from 'rxjs';
+
+const NOT_FOUND_CARD = { title: 'Not Found', notFound: true };
 
 /**
  * When generating routes for /:language/card/:id automatically include
@@ -13,14 +18,17 @@ const cardResolver: ResolveFn<any> = (route) => {
   const id = route.paramMap.get('id')!;
   const language = route.paramMap.get('language') as AvailableLanguage;
   if (language) {
-    const card = CARD_DATA[language][id];
-    if (card) {
-      return card;
+    const meta = CARD_DATA[language][id];
+    if (meta) {
+      // retrieve full card data from http
+      const http = inject(HttpClient);
+      const url = `/assets/card-content/${language}/cards/${id}.json`;
+      return http.get(url).pipe(catchError(() => of(NOT_FOUND_CARD)));
     }
   }
 
   // If card not retrieved fallback to list page
-  return { title: 'Not Found', notFound: true };
+  return NOT_FOUND_CARD;
 };
 
 /**
