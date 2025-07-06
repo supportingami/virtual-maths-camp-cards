@@ -5,11 +5,13 @@ import { readFile } from 'fs/promises';
  * main card metadata
  */
 async function mergeStatement(lang: 'en' | 'fr') {
+  const cardAssetsDir = `src/assets/card-content/${lang}`;
   const cardDir = `src/assets/card-content/${lang}/cards`;
-  const meta = await readFile(`src/app/data/${lang}.json`, 'utf-8');
+  const meta = await readFile(`${cardAssetsDir}/metadata.json`, 'utf-8');
   const metaJson = JSON.parse(meta);
   const promises = metaJson.map(async (el) => {
-    const details = await readFile(`${cardDir}/${el.slug}.json`, 'utf8');
+    const cardAssetPath = `${cardAssetsDir}/cards/${el.slug}.json`;
+    const details = await readFile(cardAssetPath, 'utf8');
     const { main_version } = JSON.parse(details);
     el.statement = main_version.statement;
     return el;

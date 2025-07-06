@@ -1,7 +1,7 @@
 import { AvailableLanguage, CardMetadata } from '../types';
 import { arrayToHashmap } from '../utils/data.utils';
-import enJSON from './en.json';
-import frJSON from './fr.json';
+import enJSON from '../../assets/card-content/en/metadata.json';
+import frJSON from '../../assets/card-content/fr/metadata.json';
 
 type CardHashmap = Record<
   AvailableLanguage,

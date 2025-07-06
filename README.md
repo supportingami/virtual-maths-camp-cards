@@ -1,3 +1,14 @@
+# TODO
+
+- [ ] Add lightweight placeholder and QR pages to support pre-render (can't rely on redirect)
+- [ ] Card details page
+- [ ] Add lightweight translation system for hardcoded text
+- [ ] Consider partial defer or virtualised list for cards to avoid heavy render
+- [ ] Setup new git repo to deploy
+- [ ] SEO optimisation
+- [ ] Improve Readme (managing metadata/card data)
+- [ ] Optimise or try to remove redundant material styles inlined into every page
+
 # Virtual Maths Camp Cards
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
