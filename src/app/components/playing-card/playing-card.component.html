@@ -3,6 +3,9 @@
     <span class="rank">{{ card().card_value }}</span>
     <span class="suit"></span>
   </div>
+  <div class="card-statement-container">
+    <div class="card-statement" [innerHTML]="cardStatement()"></div>
+  </div>
   <!-- <div class="center-symbol">♠</div> -->
   <div class="corner bottom-right">
     <span class="rank">{{ card().card_value }}</span>
