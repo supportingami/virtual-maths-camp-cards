@@ -22,12 +22,10 @@ const cardResolver: ResolveFn<any> = (route) => {
   const language = route.paramMap.get('language') as AvailableLanguage;
   if (language) {
     const meta = CARD_DATA[language][id];
-    console.log('get card', meta);
     if (meta) {
       // retrieve full card data from http and merge with metadata
       const http = inject(HttpClient);
-      const url = '/assets/card-content/en/cards/2C.json';
-      console.log(url);
+      const url = `/assets/card-content/${language}/cards/${id}.json`;
       return http.get(url).pipe(
         map((data) => ({ ...data, ...meta })),
         catchError((e) => {
