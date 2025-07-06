@@ -1,0 +1,366 @@
+[
+  {
+    "title": "Abattre ou\nknock-down",
+    "type": "puzzle",
+    "slug": "AC",
+    "card_value": "A",
+    "card_suit": "club"
+  },
+  {
+    "title": "Un-deux-trois-quatre-cinq",
+    "type": "puzzle",
+    "slug": "2C",
+    "card_value": "2",
+    "card_suit": "club"
+  },
+  {
+    "title": "Moyen",
+    "type": "puzzle",
+    "slug": "3C",
+    "card_value": "3",
+    "card_suit": "club"
+  },
+  {
+    "title": "Maison",
+    "type": "puzzle",
+    "slug": "4C",
+    "card_value": "4",
+    "card_suit": "club"
+  },
+  {
+    "title": "Abeille \u00e0 miel",
+    "type": "puzzle",
+    "slug": "5C",
+    "card_value": "5",
+    "card_suit": "club"
+  },
+  {
+    "title": "Alphanum\u00e9rique",
+    "type": "puzzle",
+    "slug": "6C",
+    "card_value": "6",
+    "card_suit": "club"
+  },
+  {
+    "title": "Journal",
+    "type": "puzzle",
+    "slug": "7C",
+    "card_value": "7",
+    "card_suit": "club"
+  },
+  {
+    "title": "L\u2019\u00c9p\u00e9e de Josephus",
+    "type": "puzzle",
+    "slug": "8C",
+    "card_value": "8",
+    "card_suit": "club"
+  },
+  {
+    "title": "Restaurant",
+    "type": "puzzle",
+    "slug": "9C",
+    "card_value": "9",
+    "card_suit": "club"
+  },
+  {
+    "title": "Deux distances",
+    "type": "puzzle",
+    "slug": "10C",
+    "card_value": "10",
+    "card_suit": "club"
+  },
+  {
+    "title": "Partage des cartes",
+    "type": "puzzle",
+    "slug": "JC",
+    "card_value": "J",
+    "card_suit": "club"
+  },
+  {
+    "title": "Les Cartes perdues",
+    "type": "puzzle",
+    "slug": "QC",
+    "card_value": "Q",
+    "card_suit": "club"
+  },
+  {
+    "title": "Affaires de singe(quelque chose de louche)",
+    "type": "puzzle",
+    "slug": "KC",
+    "card_value": "K",
+    "card_suit": "club"
+  },
+  {
+    "title": "Poign\u00e9es de main \u00e0 la table",
+    "type": "counting",
+    "slug": "AD",
+    "card_value": "A",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Tranches triangulaires",
+    "type": "counting",
+    "slug": "2D",
+    "card_value": "2",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Buts marqu\u00e9s",
+    "type": "counting",
+    "slug": "3D",
+    "card_value": "3",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Coloriage",
+    "type": "counting",
+    "slug": "4D",
+    "card_value": "4",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "\u00c9viter la rivi\u00e8re",
+    "type": "counting",
+    "slug": "5D",
+    "card_value": "5",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Serrer la main",
+    "type": "counting",
+    "slug": "6D",
+    "card_value": "6",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Les parts de g\u00e2teau",
+    "type": "counting",
+    "slug": "7D",
+    "card_value": "7",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Chaussettes m\u00e9lang\u00e9es",
+    "type": "puzzle",
+    "slug": "8D",
+    "card_value": "8",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Compter les carr\u00e9s",
+    "type": "puzzle",
+    "slug": "9D",
+    "card_value": "9",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Aller \u00e0 l'\u00e9cole",
+    "type": "counting",
+    "slug": "10D",
+    "card_value": "10",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Diff\u00e9rents Chemins",
+    "type": "counting",
+    "slug": "JD",
+    "card_value": "J",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Tabourets",
+    "type": "counting",
+    "slug": "QD",
+    "card_value": "Q",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Les Chemins pav\u00e9s",
+    "type": "counting",
+    "slug": "KD",
+    "card_value": "K",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Probabilit\u00e9 d'anniversaire",
+    "type": "funfact",
+    "slug": "AH",
+    "card_value": "A",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Nombre de Kaprekar",
+    "type": "funfact",
+    "slug": "2H",
+    "card_value": "2",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Palindrome cube",
+    "type": "funfact",
+    "slug": "3H",
+    "card_value": "3",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Quatre couleurs",
+    "type": "funfact",
+    "slug": "4H",
+    "card_value": "4",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Ramanujan",
+    "type": "funfact",
+    "slug": "5H",
+    "card_value": "5",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Nombres abondants",
+    "type": "funfact",
+    "slug": "6H",
+    "card_value": "6",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Papier pli\u00e9",
+    "type": "funfact",
+    "slug": "7H",
+    "card_value": "7",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Supprimer le nombre premier",
+    "type": "funfact",
+    "slug": "8H",
+    "card_value": "8",
+    "card_suit": "heart"
+  },
+  {
+    "title": "-> M\u00e9langer les Cartes",
+    "type": "funfact",
+    "slug": "9H",
+    "card_value": "9",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Nombres carr\u00e9s et nombres triangulaires",
+    "type": "funfact",
+    "slug": "10H",
+    "card_value": "10",
+    "card_suit": "heart"
+  },
+  {
+    "title": "-> La Loi de Benford",
+    "type": "funfact",
+    "slug": "JH",
+    "card_value": "J",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Les Nombres de Lychrel",
+    "type": "funfact",
+    "slug": "QH",
+    "card_value": "Q",
+    "card_suit": "heart"
+  },
+  {
+    "title": "La conjecture de Collatz",
+    "type": "funfact",
+    "slug": "KH",
+    "card_value": "K",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Quinze",
+    "type": "game",
+    "slug": "AS",
+    "card_value": "A",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Patience",
+    "type": "game",
+    "slug": "2S",
+    "card_value": "2",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Vingt et un",
+    "type": "game",
+    "slug": "3S",
+    "card_value": "3",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Nim",
+    "type": "game",
+    "slug": "4S",
+    "card_value": "4",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Mastermind",
+    "type": "game",
+    "slug": "5S",
+    "card_value": "5",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Carr\u00e9 latin",
+    "type": "game",
+    "slug": "6S",
+    "card_value": "6",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Gomoku",
+    "type": "game",
+    "slug": "7S",
+    "card_value": "7",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Sim",
+    "type": "game",
+    "slug": "8S",
+    "card_value": "8",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Pong Hau K'i",
+    "type": "game",
+    "slug": "9S",
+    "card_value": "9",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Arr\u00eate ou Ose",
+    "type": "game",
+    "slug": "10S",
+    "card_value": "10",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Vingt-Quatre",
+    "type": "game",
+    "slug": "JS",
+    "card_value": "J",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Somme des cartes",
+    "type": "game",
+    "slug": "QS",
+    "card_value": "Q",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Gagnedeuxtroisquatre",
+    "type": "game",
+    "slug": "KS",
+    "card_value": "K",
+    "card_suit": "spade"
+  }
+]

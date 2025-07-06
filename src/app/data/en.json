@@ -1,0 +1,366 @@
+[
+  {
+    "title": "Knockdown",
+    "type": "puzzle",
+    "slug": "AC",
+    "card_value": "A",
+    "card_suit": "club"
+  },
+  {
+    "title": "OneTwoThreeFourFive",
+    "type": "puzzle",
+    "slug": "2C",
+    "card_value": "2",
+    "card_suit": "club"
+  },
+  {
+    "title": "Mean",
+    "type": "puzzle",
+    "slug": "3C",
+    "card_value": "3",
+    "card_suit": "club"
+  },
+  {
+    "title": "House",
+    "type": "puzzle",
+    "slug": "4C",
+    "card_value": "4",
+    "card_suit": "club"
+  },
+  {
+    "title": "Honey Bees",
+    "type": "puzzle",
+    "slug": "5C",
+    "card_value": "5",
+    "card_suit": "club"
+  },
+  {
+    "title": "Alphanumerics",
+    "type": "puzzle",
+    "slug": "6C",
+    "card_value": "6",
+    "card_suit": "club"
+  },
+  {
+    "title": "Newspaper",
+    "type": "puzzle",
+    "slug": "7C",
+    "card_value": "7",
+    "card_suit": "club"
+  },
+  {
+    "title": "Sword of Josephus",
+    "type": "puzzle",
+    "slug": "8C",
+    "card_value": "8",
+    "card_suit": "club"
+  },
+  {
+    "title": "Restaurant",
+    "type": "puzzle",
+    "slug": "9C",
+    "card_value": "9",
+    "card_suit": "club"
+  },
+  {
+    "title": "Two Distances",
+    "type": "puzzle",
+    "slug": "10C",
+    "card_value": "10",
+    "card_suit": "club"
+  },
+  {
+    "title": "Dealing Cards",
+    "type": "puzzle",
+    "slug": "JC",
+    "card_value": "J",
+    "card_suit": "club"
+  },
+  {
+    "title": "Lost cards",
+    "type": "puzzle",
+    "slug": "QC",
+    "card_value": "Q",
+    "card_suit": "club"
+  },
+  {
+    "title": "Monkey business",
+    "type": "puzzle",
+    "slug": "KC",
+    "card_value": "K",
+    "card_suit": "club"
+  },
+  {
+    "title": "Table Handshakes",
+    "type": "counting",
+    "slug": "AD",
+    "card_value": "A",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Triangular Slices",
+    "type": "counting",
+    "slug": "2D",
+    "card_value": "2",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Scoring Goals",
+    "type": "counting",
+    "slug": "3D",
+    "card_value": "3",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Colouring",
+    "type": "counting",
+    "slug": "4D",
+    "card_value": "4",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Avoid the River",
+    "type": "counting",
+    "slug": "5D",
+    "card_value": "5",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Shaking Hands",
+    "type": "counting",
+    "slug": "6D",
+    "card_value": "6",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Pieces of Cake",
+    "type": "counting",
+    "slug": "7D",
+    "card_value": "7",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Mixed-up Socks",
+    "type": "puzzle",
+    "slug": "8D",
+    "card_value": "8",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Counting Squares",
+    "type": "puzzle",
+    "slug": "9D",
+    "card_value": "9",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Going to School",
+    "type": "counting",
+    "slug": "10D",
+    "card_value": "10",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Different Paths",
+    "type": "counting",
+    "slug": "JD",
+    "card_value": "J",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Bar Stools",
+    "type": "counting",
+    "slug": "QD",
+    "card_value": "Q",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Paving Paths",
+    "type": "counting",
+    "slug": "KD",
+    "card_value": "K",
+    "card_suit": "diamond"
+  },
+  {
+    "title": "Birthday Probability",
+    "type": "funfact",
+    "slug": "AH",
+    "card_value": "A",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Kaprekar's Number",
+    "type": "funfact",
+    "slug": "2H",
+    "card_value": "2",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Palindrome Cube",
+    "type": "funfact",
+    "slug": "3H",
+    "card_value": "3",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Four Colours",
+    "type": "funfact",
+    "slug": "4H",
+    "card_value": "4",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Ramanujan",
+    "type": "funfact",
+    "slug": "5H",
+    "card_value": "5",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Abundant Numbers",
+    "type": "funfact",
+    "slug": "6H",
+    "card_value": "6",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Folding Paper",
+    "type": "funfact",
+    "slug": "7H",
+    "card_value": "7",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Prime Removal",
+    "type": "funfact",
+    "slug": "8H",
+    "card_value": "8",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Shuffling Cards",
+    "type": "funfact",
+    "slug": "9H",
+    "card_value": "9",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Square numbers and triangular numbers",
+    "type": "funfact",
+    "slug": "10H",
+    "card_value": "10",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Benford's Law",
+    "type": "funfact",
+    "slug": "JH",
+    "card_value": "J",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Lychrel Numbers",
+    "type": "funfact",
+    "slug": "QH",
+    "card_value": "Q",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Collatz Conjecture",
+    "type": "funfact",
+    "slug": "KH",
+    "card_value": "K",
+    "card_suit": "heart"
+  },
+  {
+    "title": "Fifteen",
+    "type": "game",
+    "slug": "AS",
+    "card_value": "A",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Patience",
+    "type": "game",
+    "slug": "2S",
+    "card_value": "2",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Twenty-one",
+    "type": "game",
+    "slug": "3S",
+    "card_value": "3",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Nim",
+    "type": "game",
+    "slug": "4S",
+    "card_value": "4",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Mastermind",
+    "type": "game",
+    "slug": "5S",
+    "card_value": "5",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Latin Squares",
+    "type": "game",
+    "slug": "6S",
+    "card_value": "6",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Gomoku",
+    "type": "game",
+    "slug": "7S",
+    "card_value": "7",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Sim",
+    "type": "game",
+    "slug": "8S",
+    "card_value": "8",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Pong Hau K'i",
+    "type": "game",
+    "slug": "9S",
+    "card_value": "9",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Stop or Dare",
+    "type": "game",
+    "slug": "10S",
+    "card_value": "10",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Twenty-four",
+    "type": "game",
+    "slug": "JS",
+    "card_value": "J",
+    "card_suit": "spade"
+  },
+  {
+    "title": "Card Sums",
+    "type": "game",
+    "slug": "QS",
+    "card_value": "Q",
+    "card_suit": "spade"
+  },
+  {
+    "title": "WinTwoThreeFour",
+    "type": "game",
+    "slug": "KS",
+    "card_value": "K",
+    "card_suit": "spade"
+  }
+]
