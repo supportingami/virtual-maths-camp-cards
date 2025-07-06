@@ -28,4 +28,4 @@ export type CardContent = {
     references: string[];
   };
   _not_found?: boolean;
-};
+} & CardMetadata;

@@ -6,7 +6,7 @@ import { CARD_DATA } from './data';
 import { AvailableLanguage, CardContent } from './types';
 import { HttpClient } from '@angular/common/http';
 import { inject } from '@angular/core';
-import { catchError, of } from 'rxjs';
+import { catchError, map, of } from 'rxjs';
 
 const NOT_FOUND_CARD: Partial<CardContent> = {
   title: 'Not Found',
@@ -24,12 +24,12 @@ const cardResolver: ResolveFn<any> = (route) => {
     const meta = CARD_DATA[language][id];
     console.log('get card', meta);
     if (meta) {
-      // retrieve full card data from http
+      // retrieve full card data from http and merge with metadata
       const http = inject(HttpClient);
-      // const url = `/assets/card-content/${language}/cards/${id}.json`;
       const url = '/assets/card-content/en/cards/2C.json';
       console.log(url);
       return http.get(url).pipe(
+        map((data) => ({ ...data, ...meta })),
         catchError((e) => {
           console.error(e);
           return of(NOT_FOUND_CARD);

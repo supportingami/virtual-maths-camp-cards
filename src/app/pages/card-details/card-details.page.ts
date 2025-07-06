@@ -1,9 +1,10 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { CardContent } from '../../types';
+import { CardContent, CardMetadata } from '../../types';
+import { PlayingCardComponent } from '../../components/playing-card/playing-card.component';
 
 @Component({
-  imports: [],
+  imports: [PlayingCardComponent],
   templateUrl: './card-details.page.html',
   styleUrl: './card-details.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -11,4 +12,5 @@ import { CardContent } from '../../types';
 export class CardDetailsComponent {
   route = inject(ActivatedRoute);
   card: CardContent = this.route.snapshot.data['card'];
+  meta: CardMetadata = this.route.snapshot.data['meta'];
 }

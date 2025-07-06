@@ -2,6 +2,9 @@
 <p>Not Found</p>
 <a href="/">Go To Home Page</a>
 } @else {
-
+<app-playing-card
+  [card]="card"
+  [attr.view-transition-name]="'card-' + card.slug"
+></app-playing-card>
 <div>title:{{ card.title }}</div>
 }
