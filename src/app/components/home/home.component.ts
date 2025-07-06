@@ -1,13 +1,14 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
+import { CardMetadata } from '../../types';
 
 @Component({
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HomeComponent {
   route = inject(ActivatedRoute);
-  cards = this.route.snapshot.data['cards'];
+  cards: CardMetadata[] = this.route.snapshot.data['cards'] || [];
 }

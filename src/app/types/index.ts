@@ -7,3 +7,24 @@ export type CardMetadata = {
   card_value: string;
   card_suit: 'heart' | 'diamond' | 'club' | 'spade';
 };
+
+type CardContentSection = {
+  statement: string;
+  correct_answer: string;
+  hint: string;
+  explanation: string;
+};
+
+export type CardContent = {
+  title: string;
+  metadata: {
+    type: CardMetadata['type'];
+  };
+  main_version: CardContentSection;
+  extension_1: CardContentSection;
+  extension_2: CardContentSection;
+  additional_information: {
+    about: string;
+    references: string[];
+  };
+};

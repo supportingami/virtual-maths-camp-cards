@@ -1,4 +1,4 @@
 <p>{{ cards.length }} cards</p>
-@for(card of cards; track card.id){
-<div>title: {{ card.title }}</div>
+@for(card of cards; track card.slug){
+<div [routerLink]="['card', card.slug]">title: {{ card.title }}</div>
 }
