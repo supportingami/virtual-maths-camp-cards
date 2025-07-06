@@ -3,12 +3,15 @@ import { Routes } from '@angular/router';
 import { ResolveFn } from '@angular/router';
 
 import { CARD_DATA } from './data';
-import { AvailableLanguage } from './types';
+import { AvailableLanguage, CardContent } from './types';
 import { HttpClient } from '@angular/common/http';
 import { inject } from '@angular/core';
 import { catchError, of } from 'rxjs';
 
-const NOT_FOUND_CARD = { title: 'Not Found', notFound: true };
+const NOT_FOUND_CARD: Partial<CardContent> = {
+  title: 'Not Found',
+  _not_found: true,
+};
 
 /**
  * When generating routes for /:language/card/:id automatically include
@@ -19,11 +22,19 @@ const cardResolver: ResolveFn<any> = (route) => {
   const language = route.paramMap.get('language') as AvailableLanguage;
   if (language) {
     const meta = CARD_DATA[language][id];
+    console.log('get card', meta);
     if (meta) {
       // retrieve full card data from http
       const http = inject(HttpClient);
-      const url = `/assets/card-content/${language}/cards/${id}.json`;
-      return http.get(url).pipe(catchError(() => of(NOT_FOUND_CARD)));
+      // const url = `/assets/card-content/${language}/cards/${id}.json`;
+      const url = '/assets/card-content/en/cards/2C.json';
+      console.log(url);
+      return http.get(url).pipe(
+        catchError((e) => {
+          console.error(e);
+          return of(NOT_FOUND_CARD);
+        })
+      );
     }
   }
 
@@ -40,6 +51,10 @@ const cardsResolver: ResolveFn<any> = (route) => {
   return Object.values(CARD_DATA[language]);
 };
 
+/**
+ * Handle routing and data to pass to route components
+ * This includes looking up card metadata and json as required
+ */
 export const routes: Routes = [
   // When landing on home route redirect to preferred language page, e.g. /en or /fr
   // Fallback to /en if preferred language not saved
@@ -67,7 +82,6 @@ export const routes: Routes = [
   // Important to include this route before next to not treat 'card' as language code
   {
     path: 'card/:id',
-    resolve: { card: cardResolver },
     redirectTo: (route) => {
       const id = route.params['id'];
       if (typeof window !== 'undefined' && window.localStorage) {
@@ -82,6 +96,7 @@ export const routes: Routes = [
     path: ':language/card/:id',
     loadComponent: () =>
       import('./components/card/card.component').then((m) => m.CardComponent),
+    resolve: { card: cardResolver },
   },
   // Fallback redirect to home page
   { path: '**', redirectTo: '' },

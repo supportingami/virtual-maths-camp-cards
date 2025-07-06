@@ -1,2 +1,7 @@
-<p>Card component works!</p>
-<div>title:{{ card?.title }}</div>
+@if(card._not_found){
+<p>Not Found</p>
+<a href="/">Go To Home Page</a>
+} @else {
+
+<div>title:{{ card.title }}</div>
+}

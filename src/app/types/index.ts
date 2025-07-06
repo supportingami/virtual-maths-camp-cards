@@ -22,9 +22,10 @@ export type CardContent = {
   };
   main_version: CardContentSection;
   extension_1: CardContentSection;
-  extension_2: CardContentSection;
+  extension_2?: CardContentSection;
   additional_information: {
     about: string;
     references: string[];
   };
+  _not_found?: boolean;
 };

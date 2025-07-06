@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { CardContent } from '../../types';
 
 @Component({
   selector: 'app-card',
@@ -10,5 +11,5 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class CardComponent {
   route = inject(ActivatedRoute);
-  card = this.route.snapshot.data['card'];
+  card: CardContent = this.route.snapshot.data['card'];
 }
