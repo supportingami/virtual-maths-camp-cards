@@ -3,13 +3,12 @@ import { ActivatedRoute } from '@angular/router';
 import { CardContent } from '../../types';
 
 @Component({
-  selector: 'app-card',
   imports: [],
-  templateUrl: './card.component.html',
-  styleUrl: './card.component.scss',
+  templateUrl: './card-details.page.html',
+  styleUrl: './card-details.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class CardComponent {
+export class CardDetailsComponent {
   route = inject(ActivatedRoute);
   card: CardContent = this.route.snapshot.data['card'];
 }

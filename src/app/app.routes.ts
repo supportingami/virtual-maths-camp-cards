@@ -74,7 +74,7 @@ export const routes: Routes = [
   {
     path: ':language',
     loadComponent: () =>
-      import('./components/home/home.component').then((m) => m.HomeComponent),
+      import('./pages/home/home.page').then((m) => m.HomeComponent),
     resolve: { cards: cardsResolver },
   },
   // Pages linked by QR codes do not include language, e.g. /card/2h
@@ -95,7 +95,9 @@ export const routes: Routes = [
   {
     path: ':language/card/:id',
     loadComponent: () =>
-      import('./components/card/card.component').then((m) => m.CardComponent),
+      import('./pages/card-details/card-details.page').then(
+        (m) => m.CardDetailsComponent
+      ),
     resolve: { card: cardResolver },
   },
   // Fallback redirect to home page

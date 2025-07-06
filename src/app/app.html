@@ -2,4 +2,12 @@
   <h1>Virtual Maths Camp</h1>
   <!-- <app-language-switcher style="margin-right: 1em"></app-language-switcher> -->
 </mat-toolbar>
-<router-outlet></router-outlet>
+<section style="flex: 1">
+  <router-outlet></router-outlet>
+</section>
+
+<mat-toolbar>
+  <div style="font-size: 16px">
+    © {{ currentYear }} Virtual Maths Camp. All rights reserved.
+  </div>
+</mat-toolbar>

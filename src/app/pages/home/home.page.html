@@ -1,0 +1,12 @@
+<div class="cards-container">
+  @for(card of cards; track card.slug){
+  <div>
+    <h3 class="card-heading">{{ card.title }}</h3>
+    <app-playing-card
+      [card]="card"
+      [routerLink]="['card', card.slug]"
+      [attr.view-transition-name]="'card-' + card.slug"
+    ></app-playing-card>
+  </div>
+  }
+</div>
