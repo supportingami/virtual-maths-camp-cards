@@ -1,6 +1,7 @@
 <mat-toolbar>
-  <h1>Virtual Maths Camp</h1>
-  <!-- <app-language-switcher style="margin-right: 1em"></app-language-switcher> -->
+  <h1 class="heading" [routerLink]="['/']">Virtual Maths Camp</h1>
+
+  <app-language-select style="margin: 0 1rem 0 auto"></app-language-select>
 </mat-toolbar>
 <section class="main-content">
   <router-outlet></router-outlet>

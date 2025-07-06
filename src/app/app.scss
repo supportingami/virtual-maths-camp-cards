@@ -6,14 +6,18 @@
   background-color: #dfdbe5;
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.3' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
-
+mat-toolbar {
+  display: flex;
+  align-items: center;
+}
 .main-content {
   max-width: 1080px;
   flex: 1;
   margin: auto;
   width: 100%;
 }
-
-mat-toolbar {
-  min-height: 64px;
+.heading {
+  cursor: pointer;
+  margin-left: 1rem;
+  flex: 1;
 }
