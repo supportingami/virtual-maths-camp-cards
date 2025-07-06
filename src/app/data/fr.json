@@ -4,363 +4,415 @@
     "type": "puzzle",
     "slug": "AC",
     "card_value": "A",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Les piquets numérotés de 1 à 50 sont placés dans l'ordre en ligne, avec le numéro 1 à gauche.</p>\n<p>Ils sont ensuite renversés, un par un, en suivant ces deux règles :</p>\n<p>(1.) En commençant par le premier piquet debout à gauche, les autres piquets sont renversés jusqu'à ce que la fin de la rangée soit atteinte.</p>\n<p>(2.) Chaque fois que la fin de la ligne est atteinte, répétez la règle précédente.</p>\n<p>Quel est le numéro du dernier pion à abattre ?</p>"
   },
   {
     "title": "Un-deux-trois-quatre-cinq",
     "type": "puzzle",
     "slug": "2C",
     "card_value": "2",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Le modèle 123451234512345... se poursuit pour former un nombre à 2000 chiffres.</p>\n<p>Quelle est la somme de tous les 2000 chiffres ?</p>"
   },
   {
     "title": "Moyen",
     "type": "puzzle",
     "slug": "3C",
     "card_value": "3",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>La moyenne (moyen) de 16 entiers positifs différents est 16. Quelle est la plus grete valeur possible que l'un de ces entiers puisse avoir ?</p>"
   },
   {
     "title": "Maison",
     "type": "puzzle",
     "slug": "4C",
     "card_value": "4",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>À partir de combien de sommets (points) est-il possible de dessiner cette figure sans soulever le stylo du papier tout en parcourant chaque ligne exactement une fois ?</p>\n<p><img alt=\"\" src=\"assets/images/Maison_image_0.png\" class=\"Maison_image_0\" /></p>"
   },
   {
-    "title": "Abeille \u00e0 miel",
+    "title": "Abeille à miel",
     "type": "puzzle",
     "slug": "5C",
     "card_value": "5",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Un gallon de miel permet à une abeille de voler sur sept millions de miles.</p>\n<p>Combien d'abeilles pourraient voler mille miles s'ils avaient dix gallons de miel ?</p>"
   },
   {
-    "title": "Alphanum\u00e9rique",
+    "title": "Alphanumérique",
     "type": "puzzle",
     "slug": "6C",
     "card_value": "6",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Dans la somme, CAR + CAT = RARE, chaque lettre représente un unique chiffre compris entre 0 et 9. Quelle est la valeur du mot RARE ?</p>"
   },
   {
     "title": "Journal",
     "type": "puzzle",
     "slug": "7C",
     "card_value": "7",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Ci-dessous, une seule feuille d'un journal. Étant donné que chaque feuille comporte quatre pages, combien y a-t-il de feuilles en tout ?</p>\n<p><img alt=\"\" src=\"assets/images/Journal_image_0.png\" class=\"Journal_image_0\" /></p>"
   },
   {
-    "title": "L\u2019\u00c9p\u00e9e de Josephus",
+    "title": "L’Épée de Josephus",
     "type": "puzzle",
     "slug": "8C",
     "card_value": "8",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Les pions numérotés de 1 à 52 sont placés en cercle. En commençant par le numéro 2, les pions alternés sont renversés jusqu'à ce qu'il n'en reste plus qu'un.</p>\n<p>Quel est le numéro du dernier pion à abattre ?</p>"
   },
   {
     "title": "Restaurant",
     "type": "puzzle",
     "slug": "9C",
     "card_value": "9",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Dans un restaurant, chaque table a 3 pieds, chaque chaise a 4 pieds et tous les clients et les trois membres du personnel ont 2 pieds chacun. Il y a quatre chaises à chaque table. Les trois quarts des chaises sont occupées par des clients et il y a 206 pieds au total dans le restaurant. Combien de chaises le restaurant a-t-il ?</p>"
   },
   {
     "title": "Deux distances",
     "type": "puzzle",
     "slug": "10C",
     "card_value": "10",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Combien de façons y-a-t-il de dessiner quatre points sur une feuille de papier, de façon que, n’importe quels deux points que vous choisissiez, aient une distance qui est une de seulement deux valeurs possibles ?</p>\n<p>Voici un exemple correct :</p>\n<p><img alt=\"\" src=\"assets/images/Two_Distances_image_0.png\" class=\"Two_Distances_image_0\" /></p>"
   },
   {
     "title": "Partage des cartes",
     "type": "puzzle",
     "slug": "JC",
     "card_value": "J",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Les enfants sont assis en cercle et un enseignant fait le tour du cercle en distribuant des cartes. L'enseignant donne un Valet à chaque deuxième enfant et une Reine à chaque troisième enfant.</p>\n<p>Après avoir fait quatre fois le tour, le sixième enfant dans le cercle, à partir d'où l'enseignant a commencé, a deux Valets et deux Dames.</p>\n<p>Quel est le plus petit nombre possible d’enfants dans le cercle ?</p>"
   },
   {
     "title": "Les Cartes perdues",
     "type": "puzzle",
     "slug": "QC",
     "card_value": "Q",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Un petit nombre de cartes ont été perdues à partir d'un pack complet de 52. Je distribue des cartes aux joueurs jusqu'à ce que tous aient le même nombre de cartes et certaines cartes sont restantes. Si je donne à quatre joueurs, trois cartes restent. Si je distribue à trois joueurs, deux cartes restent et si je distribue à cinq joueurs, il reste deux cartes. Combien y a-t-il de cartes ?</p>"
   },
   {
     "title": "Affaires de singe(quelque chose de louche)",
     "type": "puzzle",
     "slug": "KC",
     "card_value": "K",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Une grande pièce contient 1000 ampoules, toutes éteintes. 1000 singes entrent dans la pièce et décident d'appuyer sur les interrupteurs d'une manière très particulière.</p>\n<p>Le 1<sup>er</sup> singe appuie sur chaque multiple de 1.</p>\n<p>Le second singe appui sur tout les multiples de 2.</p>\n<p>Le troisième singe appui sur tout les multiples de 3.</p>\n<p>Etc., jusqu'au 1000<sup>ème</sup> singe. Une fois que tous les singes ont fini d'appuyer sur les interrupteurs, combien de lumières au total seront allumées ?</p>"
   },
   {
-    "title": "Poign\u00e9es de main \u00e0 la table",
+    "title": "Poignées de main à la table",
     "type": "counting",
     "slug": "AD",
     "card_value": "A",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>Si 8 personnes sont assises autour d’une table circulaire, en combien de manière peuvent-ils tous être en train de se serrer la main en simultané avec une autre personne a la table de telle manière qu'aucun de leurs bras se croisent? (Ils ont de très long bras).</p>"
   },
   {
     "title": "Tranches triangulaires",
     "type": "counting",
     "slug": "2D",
     "card_value": "2",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>Considérez le gâteau ci-dessous - un hexagone avec six côtés. Maintenant, divisez le en triangles en coupant le long de diagonales qui ne se croisent pas, un exemple est donné en rouge. Cette division en triangles s'appelle une triangulation, de combien de façons pouvez-vous le faire?</p>\n<p><img alt=\"\" src=\"assets/images/Triangular_Slices_image_0.png\" class=\"Triangular_Slices_image_0\" /></p>"
   },
   {
-    "title": "Buts marqu\u00e9s",
+    "title": "Buts marqués",
     "type": "counting",
     "slug": "3D",
     "card_value": "3",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>Lors de la finale d'une coupe de football, le score était de 5 à 2. Dans combien d'ordres possibles les buts pouvaient-ils être marqués ?</p>"
   },
   {
     "title": "Coloriage",
     "type": "counting",
     "slug": "4D",
     "card_value": "4",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>Combien de drapeaux tricolores similaires à celui ci-dessous y a-t-il si nous disposons seulement de 5 couleurs. Deux bandes juxtaposées ne peuvent PAS être de la même couleur.</p>\n<p><img alt=\"\" src=\"assets/images/Coloriage_image_0.png\" class=\"Coloriage_image_0\" /></p>"
   },
   {
-    "title": "\u00c9viter la rivi\u00e8re",
+    "title": "Éviter la rivière",
     "type": "counting",
     "slug": "5D",
     "card_value": "5",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>Quittez la maison (H) pour vous rendre à l'école (S). Vous ne pouvez avancer sur la grille 4x4 qu'en faisant des pas vers l’est ou le nord. Vous ne pouvez pas traverser la rivière (ligne bleue)! De combien de façons pouvez-vous rejoindre l’école?</p>\n<p><img alt=\"\" src=\"assets/images/Avoid_the_River_image_0.png\" class=\"Avoid_the_River_image_0\" /></p>"
   },
   {
     "title": "Serrer la main",
     "type": "counting",
     "slug": "6D",
     "card_value": "6",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>Le jour de l'anniversaire de votre ami, il y a 8 enfants. Chaque enfant serre la main de tous les autres enfants à la fête. Combien de poignées de main se sont produites au total? </p>"
   },
   {
-    "title": "Les parts de g\u00e2teau",
+    "title": "Les parts de gâteau",
     "type": "counting",
     "slug": "7D",
     "card_value": "7",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>Quel est le plus grand nombre de morceaux d'un gâteau circulaire que vous pouvez obtenir avec 5 coupes droites ? Les coupes doivent être faites sur le dessus du gâteau.</p>"
   },
   {
-    "title": "Chaussettes m\u00e9lang\u00e9es",
+    "title": "Chaussettes mélangées",
     "type": "puzzle",
     "slug": "8D",
     "card_value": "8",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>Vous avez une paire de chaussettes rouges, une paire de chaussettes bleues, une paire de chaussettes jaunes et une paire de chaussettes vertes. De combien de façons pouvez-vous les mélanger et former de nouvelles paires de telle façon que toutes les nouvelles paires soient dépareillées (de couleur différente) et aucune de ces nouvelles paires dépareillées soit la même qu’une autre paire dépareillée ? </p>"
   },
   {
-    "title": "Compter les carr\u00e9s",
+    "title": "Compter les carrés",
     "type": "puzzle",
     "slug": "9D",
     "card_value": "9",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>Combien de carrés y a-t-il dans la grille carrée de taille 10 fois 10 ci-dessous ?</p>\n<p><img alt=\"\" src=\"assets/images/Counting_Squares_image_0.png\" class=\"Counting_Squares_image_0\" /></p>"
   },
   {
-    "title": "Aller \u00e0 l'\u00e9cole",
+    "title": "Aller à l'école",
     "type": "counting",
     "slug": "10D",
     "card_value": "10",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>En quittant la maison (H) pour vous rendre à l'école (S), vous pouvez vous deplacer sur la grille 2 fois 5 qu'en faisant des pas vers l'est ou le nord. Combien de différents chemins pouvez-vous emprunter pour atteindre votre école ?</p>\n<p><img alt=\"\" src=\"assets/images/Going_to_School_image_0.png\" class=\"Going_to_School_image_0\" /></p>"
   },
   {
-    "title": "Diff\u00e9rents Chemins",
+    "title": "Différents Chemins",
     "type": "counting",
     "slug": "JD",
     "card_value": "J",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>Il y a 5 différents chemins que vous pouvez emprunter pour vous rendre de la maison à l'école. Dans une semaine (de lundi à vendredi) vous aimeriez essayer un chemin différent chaque jour. De combien de façons différentes pouvez-vous organiser votre trajet vers l'école pour la semaine ? </p>"
   },
   {
     "title": "Tabourets",
     "type": "counting",
     "slug": "QD",
     "card_value": "Q",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>De combien de façons différentes pouvez-vous disposer les enseignants et les élèves dans une rangée de 5 chaises de manière à ce qu'e deux enseignants ne soient assis l'un à côté de l'autre ?</p>"
   },
   {
-    "title": "Les Chemins pav\u00e9s",
+    "title": "Les Chemins pavés",
     "type": "counting",
     "slug": "KD",
     "card_value": "K",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>De combien de manières différentes pouvez-vous poser 6 dalles de pavage égales, chacune de 2 mètres sur 1 mètre, pour faire un chemin de 2 mètres de large et 6 mètres de long de ma porte arrière dans mon jardin, sans couper aucune des dalles de pavage ?</p>"
   },
   {
-    "title": "Probabilit\u00e9 d'anniversaire",
+    "title": "Probabilité d'anniversaire",
     "type": "funfact",
     "slug": "AH",
     "card_value": "A",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>Dans une chambre de 23 personnes, la probabilité que deux personnes aient le même anniversaire dépasse 50 %.</p>"
   },
   {
     "title": "Nombre de Kaprekar",
     "type": "funfact",
     "slug": "2H",
     "card_value": "2",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>Choisissez un nombre à quatre chiffres où les chiffres ne sont pas tous les mêmes.</p>\n<p>Réorganiser les chiffres pour obtenir le plus grand et le plus petit nombre possible que ces chiffres peuvent former.</p>\n<p>Soustrayez le plus petit nombre du plus grand pour obtenir un nouveau nombre, et continuez à répéter l'opération pour chaque nouveau nombre. Vous finirez toujours au même nombre.</p>"
   },
   {
     "title": "Palindrome cube",
     "type": "funfact",
     "slug": "3H",
     "card_value": "3",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>10662526601 = 2201³ est le seul cube palindromique connu dont la racine cube n’est pas palindromique (un palindrome est un nombre qui reste pareil qu'on le lise de gauche à droite ou de droite à gauche).</p>"
   },
   {
     "title": "Quatre couleurs",
     "type": "funfact",
     "slug": "4H",
     "card_value": "4",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>Il faut au plus quatre couleurs pour colorier chaque carte de telle sorte que les deux régions voisines (régions qui partagent une frontière) ne soient pas de la même couleur.</p>"
   },
   {
     "title": "Ramanujan",
     "type": "funfact",
     "slug": "5H",
     "card_value": "5",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>1729 est le plus petit nombre qui peut être écrit comme une somme de deux nombres cubes de deux manières différentes.</p>"
   },
   {
     "title": "Nombres abondants",
     "type": "funfact",
     "slug": "6H",
     "card_value": "6",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>L'entier 12 est le premier <strong>nombre abondant</strong>. La somme de ses diviseurs stricts (diviseurs distincts de 12 lui-même) 1, 2, 3, 4 et 6 s'élève à 16 et est plus grande que 12. </p>"
   },
   {
-    "title": "Papier pli\u00e9",
+    "title": "Papier plié",
     "type": "funfact",
     "slug": "7H",
     "card_value": "7",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>Si vous pouviez plier une feuille de papier en deux seulement 42 fois, elle atteindrait la Lune ! </p>"
   },
   {
     "title": "Supprimer le nombre premier",
     "type": "funfact",
     "slug": "8H",
     "card_value": "8",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>73939133 est le plus grand nombre premier qui, si vous continuez de retirer des chiffres de la\ndroite, restera toujours un nombre premier.</p>"
   },
   {
-    "title": "-> M\u00e9langer les Cartes",
+    "title": "-> Mélanger les Cartes",
     "type": "funfact",
     "slug": "9H",
     "card_value": "9",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>-> Si on mélange un packet de carte correctement, il est plus probable que l'orde de cartes a présent n'a jamais été vu a auparavant dans l'histoire de l'univers.</p>"
   },
   {
-    "title": "Nombres carr\u00e9s et nombres triangulaires",
+    "title": "Nombres carrés et nombres triangulaires",
     "type": "funfact",
     "slug": "10H",
     "card_value": "10",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>Les six premiers nombres triangulaires sont 1, 3, 6, 10 et 15</p>\n<p>Les six premiers numéros carrés sont 1, 4, 9, 16 et 25</p>\n<p>Tout nombre carré supérieur à 1 est la somme de deux nombres triangulaires consécutifs.</p>"
   },
   {
     "title": "-> La Loi de Benford",
     "type": "funfact",
     "slug": "JH",
     "card_value": "J",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>Quand on regarde au valeurs trouvés dans les données du monde réel, le premier chiffre pour la plupart des numéros est plus souvent 1 que tous lest autres nombres. 2 est un premier chiffre plus commun que 3, et ainsi de suite jusqu'à 9. En fait, ces premiers chiffres suivent souvent le même modèle (distribution).</p>\n<p><img alt=\"\" src=\"assets/images/Benford_s_Law_image_0.png\" class=\"Benford_s_Law_image_0\" /></p>"
   },
   {
     "title": "Les Nombres de Lychrel",
     "type": "funfact",
     "slug": "QH",
     "card_value": "Q",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>Prendre un nombre entier positif. Inverser les chiffres pour obtenir un nouveau nombre. Ajouter ces deux nombres ensemble. Répétez cette procédure jusqu'à obtenir un palindrome (un nombre qui se lit le même en avant et en arrière).</p>\n<p>Pouvez-vous trouver un numéro initiel qui ne se retrouve jamais à un palindrome? Personne ne sait si c'est possible.</p>"
   },
   {
     "title": "La conjecture de Collatz",
     "type": "funfact",
     "slug": "KH",
     "card_value": "K",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>Pensez à un entier positif (nombre entier). S'il est pair, divisez-le par 2. S'il est impair, multipliez-le par 3 et ajoutez 1. Répétez le processus avec votre nouveau numéro et continuez. Arrêtez-vous si vous arrivez au chiffre 1. Personne ne sait s'il existe un nombre qui ne finit pas par 1.</p>"
   },
   {
     "title": "Quinze",
     "type": "game",
     "slug": "AS",
     "card_value": "A",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Il s'agit d'un jeu pour deux joueurs (ou bien un groupe séparé en deux équipes). Prenez les As et 2 à 9 de n'importe quelle combinaison, et puis placez-les en ordre. As = 1 dans ce jeu. Prenez chaqun son tour pour choisir une des cartes et placez-la devant vous. Le premier joueur qui a exactement trois cartes qui s'ajoutent pour être 15 est le gagnant. Vous pouvez avoir plus de trois cartes, mais vous ne gagnez que si trois d'entre elles remontent à 15.</p>"
   },
   {
     "title": "Patience",
     "type": "game",
     "slug": "2S",
     "card_value": "2",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Ceci est une partie de patience pour qu'un seul joueur. Étalez un grille de 8 cartes en 2 rangées de 4 cartes, en face et retenez les cartes restantes. Si vous trouvez deux cartes dans la grille dont la somme monte à 11 vous pouvez mettre des nouvelle cartes dans votre main sur celles-ci (ici, l'as = 1). Si vous trouvez le Valet, la Reine ou le Roi vous pouvez aussi mettre une nouvelle carte au dessus de chacune. Le but du jeu est de déposer toutes les cartes dans la main. </p>"
   },
   {
     "title": "Vingt et un",
     "type": "game",
     "slug": "3S",
     "card_value": "3",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Deux joueurs prennent chaqun leur tour de compter vers le haut, à partir de 1 et comptant 1, 2 ou 3 chiffres à la fois. Chaque joueur continue à compter de l'endroit où l'autre joueur s'est arrêté. Le joueur qui doit dire 21 perd.</p>"
   },
   {
     "title": "Nim",
     "type": "game",
     "slug": "4S",
     "card_value": "4",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>|</p>\n<p>| | |</p>\n<p>| | | | |</p>\n<p>Arrangez 9 baquettes en 3 rangées comme indiqué. Deux joueurs prennent chacn son tour pour retirer une seule ou plusieurs baquettes de qu'une seule rangée. Le perdant est la personne à prendre le dernier bâton. Pouvez-vous trouver une stratégie gagnante?</p>"
   },
   {
     "title": "Mastermind",
     "type": "game",
     "slug": "5S",
     "card_value": "5",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Il s'agit d'un jeu à deux joueurs, le premier joueur choisit secrètement quatre cartes et les mets dans une rangée avec leur face cachée. Le deuxième joueur a sept essais pour deviner les enseignes/combinaisons (trèfles, carreaux, cœurs, piques) de ces cartes, en ordre. Le deuxième joueur devine en plaçant quatre cartes en rangée face vers le haut. Le premier joueur regarde les enseignes et leur dit combien d'enseignes ils ont devinés dans la bonne position (x), et combien d'autres enseignes ils ont bien deviné mais dans la mauvaise position (o). Le deuxième joueur utilise ces informations pour mieux deviner la prochaine fois.</p>"
   },
   {
-    "title": "Carr\u00e9 latin",
+    "title": "Carré latin",
     "type": "game",
     "slug": "6S",
     "card_value": "6",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Prenez les 16 cartes V, Re, Ro et As à partir d'un pack. Essayez de les mettre dans un carré de 4 par 4 en sorte que chaque figure (J, Q, K, A) et chaque enseigne (Trèfles, Carreaux, Cœurs, Piqeus) n'apparaît qu'une seule fois dans chaque ligne et colonne.</p>"
   },
   {
     "title": "Gomoku",
     "type": "game",
     "slug": "7S",
     "card_value": "7",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Commencez par dessiner une grille carrée de 15 par 15 lignes. Deux joueurs prennent chacun son tour de placer une pièce sur n'importe quel point où les lignes se croisent. Le joueur qui parvient à avoir cinq de ses compteurs sur une ligne droite gagne, la ligne peut être verticale, horizontale ou diagonale.</p>"
   },
   {
     "title": "Sim",
     "type": "game",
     "slug": "8S",
     "card_value": "8",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Dessinez six points dans un arrangement hexagonal. Les joueurs tracent\nà tour de rôle une ligne droite entre deux points quelconques, en\nessayant d'éviter de faire un triangle. Chaque joueur devrait utiliser\nune couleur différente. Le joueur qui complète un triangle avec sa\ncouleur en premier perd la partie.</p>"
   },
   {
     "title": "Pong Hau K'i",
     "type": "game",
     "slug": "9S",
     "card_value": "9",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p><img alt=\"\" src=\"assets/images/Pong_Hau_K_i_image_0.png\" class=\"Pong_Hau_K_i_image_0\" /></p>\n<p>Dessinez la grille montrée avec cinq points et sept lignes de\nconnexion. Deux joueurs placent deux pions de la même couleur/ du\nmême motif dans la grille comme indiqué.</p>\n<p>Décidez qui commencera en premier. Le premier joueur déplace une\nde ses pièces vers le point central. Ensuite, les joueurs\ndéplacent à tour de rôle un pion le long d'une ligne vers une case\nvide jusqu'à ce qu'un joueur ne puisse plus déplacer ses pions et\nperde.</p>"
   },
   {
-    "title": "Arr\u00eate ou Ose",
+    "title": "Arrête ou Ose",
     "type": "game",
     "slug": "10S",
     "card_value": "10",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>C’est un jeu pour deux où trois joueurs. Mélangez le jeu de cartes et\nplacez-le à face à l’envers. Le premier joueur retourne la carte sur le\ndessus et continue de retourner les cartes, ajoutant ensemble la valeur\nde chaque carte, jusqu’à ce qu’ils décident d’arrêter et d’enregistrer\nleur score. J= 11 et Q=12.</p>\n<p>Si un A or un K est retourné, on ne compte aucun point à ce tour et le\ntour est fini.</p>\n<p>Les joueurs jouent chacun à leur tour jusqu’à ce que l’un atteigne 100\nou bien plus-ce joueur est le gagnant.</p>"
   },
   {
     "title": "Vingt-Quatre",
     "type": "game",
     "slug": "JS",
     "card_value": "J",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Enlever le 10, J , Q , K et les cartes jocker du tas. Mélanger le reste et\nplacer quatre cartes, face vers le haut, pour que tous les joueurs\npuissent les voir. Chaque joueur essaye de faire le numéro 24\nsilencieusement en utilisant les quatre numéros (A compte comme 1) et\nautant d'opérations nécessaires +,-,*,÷, et les parenthèses si\nnécessaire. La première personne qui donne une réponse avec une\nexplication gagne et garde les quatre cartes. Continuer à jouer jusqu'à\nce qu’il y ait plus de cartes.</p>"
   },
   {
     "title": "Somme des cartes",
     "type": "game",
     "slug": "QS",
     "card_value": "Q",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Retirez les cartes 10, J, Q, K et Joker et mélangez le reste du paquet.</p>\n<p><img alt=\"\" src=\"assets/images/Card_Sums_image_0.png\" class=\"Card_Sums_image_0\" /></p>\n<p>N'importe quel nombre de joueurs peut jouer. Distribuez 6 cartes face visible sur une table. Chacun a 1 minute pour décider comment les disposer dans le schéma ci-dessus afin d'obtenir le plus grand total des deux multiplications. A compte pour 1. Le joueur avec le score le plus élevé gagne.</p>"
   },
   {
     "title": "Gagnedeuxtroisquatre",
     "type": "game",
     "slug": "KS",
     "card_value": "K",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Retirez les 10, J, Q, K et les Jokers. Distribuez 9 cartes à chaque\njoueur (A = 1 ici). Les joueurs arrangent secrètement leurs cartes pour\nformer un nombre à 4 chiffres, un nombre à 3 chiffres et un nombre à 2\nchiffres. Tout à coup, les joueurs montrent leurs trois numéros.</p>\n<p>Le numéro à 2 chiffres le plus grand gagne 2 points, le numéro à 3\nchiffres le plus grand gagne 3 points, le numéro à 4 chiffres le plus\ngrand gagne 4 points. S’ il y a égalité, les points sont partagés\nentres les joueurs.</p>"
   }
 ]

@@ -4,363 +4,415 @@
     "type": "puzzle",
     "slug": "AC",
     "card_value": "A",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Pegs numbered 1 to 50 are placed in order in a line, with number 1 on the left.</p>\n<p>They are then knocked over, one at a time, following these two rules:</p>\n<p>(1.) Starting with the first standing peg on the left, alternate pegs are knocked down, until the end of the row is reached.</p>\n<p>(2.) Each time the end of the row is reached, repeat the previous rule.</p>\n<p>What is the number of the last peg to be knocked down?</p>"
   },
   {
     "title": "OneTwoThreeFourFive",
     "type": "puzzle",
     "slug": "2C",
     "card_value": "2",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>The pattern 123451234512345... is continued to form a 2000 digit number.</p>\n<p>What is the sum of all 2000 digits?</p>"
   },
   {
     "title": "Mean",
     "type": "puzzle",
     "slug": "3C",
     "card_value": "3",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>The average (mean) of 16 different positive integers is 16. What is the greatest possible value that any of these integers could have?</p>"
   },
   {
     "title": "House",
     "type": "puzzle",
     "slug": "4C",
     "card_value": "4",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>From how many vertices (points) is it possible to draw this figure without lifting the pen from the paper and going through each line exactly once?</p>\n<p><img alt=\"\" src=\"assets/images/House_image_0.png\" class=\"House_image_0\" /></p>"
   },
   {
     "title": "Honey Bees",
     "type": "puzzle",
     "slug": "5C",
     "card_value": "5",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>One gallon of honey provides fuel for one bee to fly for seven million miles.</p>\n<p>How many bees could fly one thousand miles if they had ten gallons of honey?</p>"
   },
   {
     "title": "Alphanumerics",
     "type": "puzzle",
     "slug": "6C",
     "card_value": "6",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>In the sum CAR + CAT = RARE each letter represents a different digit from 0 to 9. What is the value of the word RARE?</p>"
   },
   {
     "title": "Newspaper",
     "type": "puzzle",
     "slug": "7C",
     "card_value": "7",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Below is a single sheet from a newspaper. Given that each sheet has four pages, how many sheets are there altogether?</p>\n<p><img alt=\"\" src=\"assets/images/Newspaper_image_0.png\" class=\"Newspaper_image_0\" /></p>"
   },
   {
     "title": "Sword of Josephus",
     "type": "puzzle",
     "slug": "8C",
     "card_value": "8",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Pegs numbered 1 to 52 are placed in a circle. Starting with number 2, alternate pegs are knocked down until only one is left.</p>\n<p>What is the number of the last peg to be knocked down?</p>"
   },
   {
     "title": "Restaurant",
     "type": "puzzle",
     "slug": "9C",
     "card_value": "9",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>At a restaurant each table has 3 legs, each chair has 4 legs and all the customers and the three members of staff have 2 legs each. There are four chairs at each table. Three quarters of the chairs are occupied by customers and there are 206 legs altogether in the restaurant. How many chairs does the restaurant have?</p>"
   },
   {
     "title": "Two Distances",
     "type": "puzzle",
     "slug": "10C",
     "card_value": "10",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>How many ways are there to draw four dots on a piece of paper such that whichever two dots you choose, the distance between these two points is one of only two possible values?</p>\n<p>Here is one correct example:</p>\n<p><img alt=\"\" src=\"assets/images/Two_Distances_image_0.png\" class=\"Two_Distances_image_0\" /></p>"
   },
   {
     "title": "Dealing Cards",
     "type": "puzzle",
     "slug": "JC",
     "card_value": "J",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>Children are sitting in a circle, and a teacher walks around the circle, dealing cards. The teacher gives a Jack to every second child, and a Queen to every third child.</p>\n<p>After going around four times, the sixth child in the circle from where the teacher started has two Jacks and two Queens.</p>\n<p>What is the smallest possible number of children in the circle?</p>"
   },
   {
     "title": "Lost cards",
     "type": "puzzle",
     "slug": "QC",
     "card_value": "Q",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>A small number of cards has been lost from a complete pack of 52. I deal cards to players until all have the same number of cards and some cards are left. If I deal to four players, three cards remain. If I deal to three players, two cards remain and if I deal to five players, two cards remain. How many cards are there?</p>"
   },
   {
     "title": "Monkey business",
     "type": "puzzle",
     "slug": "KC",
     "card_value": "K",
-    "card_suit": "club"
+    "card_suit": "club",
+    "statement": "<p>A large room has 1000 light bulbs in it, all are switched off. 1000 monkeys enter the room and decide to press the light switches in a very particular way.</p>\n<p>The 1<sup>st</sup> monkey presses every multiple of 1.</p>\n<p>The 2<sup>nd</sup> monkey presses every multiple of 2.</p>\n<p>The 3<sup>rd</sup> monkey presses every multiple of 3.</p>\n<p>Etc., until the 1000<sup>th</sup> monkey. After all the monkeys have finished pressing switches, how many lights in total will be on?</p>"
   },
   {
     "title": "Table Handshakes",
     "type": "counting",
     "slug": "AD",
     "card_value": "A",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>If 8 people are seated around a circular table, in how many ways can all of them be simultaneously shaking hands with one other person at the table in such a way that none of the arms cross each other? (They have very long arms).</p>"
   },
   {
     "title": "Triangular Slices",
     "type": "counting",
     "slug": "2D",
     "card_value": "2",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>Consider the cake below – a six-sided hexagon. Now split it into triangles by cutting along diagonals that don't cross each other, one example is given in red. This splitting into triangles is called a triangulation, in how many ways can you do this?</p>\n<p><img alt=\"\" src=\"assets/images/Triangular_Slices_image_0.png\" class=\"Triangular_Slices_image_0\" /></p>"
   },
   {
     "title": "Scoring Goals",
     "type": "counting",
     "slug": "3D",
     "card_value": "3",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>In the final of a football cup the score was 5 - 2. In how many possible orders could the goals in the game be scored?</p>"
   },
   {
     "title": "Colouring",
     "type": "counting",
     "slug": "4D",
     "card_value": "4",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>How many possible three-stripe flags similar to the one below are there if only 5 colours are available and two touching stripes must NOT have the same colour.</p>\n<p><img alt=\"\" src=\"assets/images/Colouring_image_0.png\" class=\"Colouring_image_0\" /></p>"
   },
   {
     "title": "Avoid the River",
     "type": "counting",
     "slug": "5D",
     "card_value": "5",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>Start from home (H) and go to school (S). You can walk along the 4 by 4 grid by making steps only towards east or north. You cannot cross the river (blue line)! In how many ways can you reach your school?</p>\n<p><img alt=\"\" src=\"assets/images/Avoid_the_River_image_0.png\" class=\"Avoid_the_River_image_0\" /></p>"
   },
   {
     "title": "Shaking Hands",
     "type": "counting",
     "slug": "6D",
     "card_value": "6",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>At your friend's birthday there are 8 children. Each child shakes hands with all the other children in the party. How many handshakes happened in total? </p>"
   },
   {
     "title": "Pieces of Cake",
     "type": "counting",
     "slug": "7D",
     "card_value": "7",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>What is the biggest number of pieces of a circular cake you can obtain with 5 straight cuts? Cuts must be made on the top of the cake.</p>"
   },
   {
     "title": "Mixed-up Socks",
     "type": "puzzle",
     "slug": "8D",
     "card_value": "8",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>You have a pair of red socks, a pair of blue socks, a pair of yellow socks, and a pair of green socks. In how many ways can you mix them up and form new pairs so that all the new pairs are mismatched (have different colours), and none of the new mismatched pairs is the same as another new mismatched pair? </p>"
   },
   {
     "title": "Counting Squares",
     "type": "puzzle",
     "slug": "9D",
     "card_value": "9",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>How many squares are there in the 10 by 10 square grid below?</p>\n<p><img alt=\"\" src=\"assets/images/Counting_Squares_image_0.png\" class=\"Counting_Squares_image_0\" /></p>"
   },
   {
     "title": "Going to School",
     "type": "counting",
     "slug": "10D",
     "card_value": "10",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>Start from home (H) and go to school (S). You can walk along the 2 by 5 grid by making steps only towards east or north. How many different paths can you take to reach your school?</p>\n<p><img alt=\"\" src=\"assets/images/Going_to_School_image_0.png\" class=\"Going_to_School_image_0\" /></p>"
   },
   {
     "title": "Different Paths",
     "type": "counting",
     "slug": "JD",
     "card_value": "J",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>There are 5 different paths you could take to get from home to school. In a week (from Monday to Friday) you would like to try a different path every day. In how many different ways can you organise your walk to school for the week? </p>"
   },
   {
     "title": "Bar Stools",
     "type": "counting",
     "slug": "QD",
     "card_value": "Q",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>How many different ways can you arrange teachers and students in a row of 5 chairs such that no 2 teachers are sat next to each other?</p>"
   },
   {
     "title": "Paving Paths",
     "type": "counting",
     "slug": "KD",
     "card_value": "K",
-    "card_suit": "diamond"
+    "card_suit": "diamond",
+    "statement": "<p>In how many different ways can you lay 6 equal paving slabs, each 2 meters by 1 meter, to make a path 2 meters wide and 6 meters long from my back door into my garden, without cutting any of the paving slabs?</p>"
   },
   {
     "title": "Birthday Probability",
     "type": "funfact",
     "slug": "AH",
     "card_value": "A",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>In a room with 23 people the probability that two people have the same birthday is more than 50%.</p>"
   },
   {
     "title": "Kaprekar's Number",
     "type": "funfact",
     "slug": "2H",
     "card_value": "2",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>Choose a four digit number where the digits are not all the same.</p>\n<p>Rearrange the digits to get the largest and smallest possible numbers these digits can make.</p>\n<p>Subtract the smallest number from the largest to get a new number, and carry on repeating the operation for each new number. You will always end up at the same number.</p>"
   },
   {
     "title": "Palindrome Cube",
     "type": "funfact",
     "slug": "3H",
     "card_value": "3",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>10662526601 = 2201³ is the only known palindromic cube whose cube root is not palindromic (a palindrome is a number that reads the same backwards as forwards).</p>"
   },
   {
     "title": "Four Colours",
     "type": "funfact",
     "slug": "4H",
     "card_value": "4",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>It takes at most four colours to colour every map such that no two adjacent regions (regions that share a border) are the same colour.</p>"
   },
   {
     "title": "Ramanujan",
     "type": "funfact",
     "slug": "5H",
     "card_value": "5",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>1729 is the smallest number that can be written as a sum of two cubed numbers in two different ways.</p>"
   },
   {
     "title": "Abundant Numbers",
     "type": "funfact",
     "slug": "6H",
     "card_value": "6",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>The integer 12 is the first <strong>abundant number</strong>. Its proper divisors (factors not including 12 itself)  are 1, 2, 3, 4, and 6 which add up to 16 which is more than 12. </p>"
   },
   {
     "title": "Folding Paper",
     "type": "funfact",
     "slug": "7H",
     "card_value": "7",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>If you could fold a piece of paper in half only 42 times, it would reach the Moon! </p>"
   },
   {
     "title": "Prime Removal",
     "type": "funfact",
     "slug": "8H",
     "card_value": "8",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>73939133 is the largest prime number that, if you keep removing digits from the right, will always leave a prime number.</p>"
   },
   {
     "title": "Shuffling Cards",
     "type": "funfact",
     "slug": "9H",
     "card_value": "9",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>If you shuffle a deck of cards properly, it's more than likely that the exact order of the cards you get has never been seen before in the whole history of the universe.</p>"
   },
   {
     "title": "Square numbers and triangular numbers",
     "type": "funfact",
     "slug": "10H",
     "card_value": "10",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>The first six triangular numbers are 1, 3, 6, 10, and 15</p>\n<p>The first six square numbers are 1, 4, 9, 16, and 25</p>\n<p>Any square number bigger than 1 is the sum of two consecutive triangular numbers.</p>"
   },
   {
     "title": "Benford's Law",
     "type": "funfact",
     "slug": "JH",
     "card_value": "J",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>When you look at numbers found in real-world data sets, for most sets of numbers the first digit is more often a 1 than any other digit. 2 is a more common first digit than 3, and so on up to 9. In fact, the first digits often follow the same pattern (distribution).</p>\n<p><img alt=\"\" src=\"assets/images/Benford_s_Law_image_0.png\" class=\"Benford_s_Law_image_0\" /></p>"
   },
   {
     "title": "Lychrel Numbers",
     "type": "funfact",
     "slug": "QH",
     "card_value": "Q",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>Take a positive integer (whole number). Reverse the digits to get a new number. Add the two numbers together. Repeat this process until you get a palindrome (a number that reads the same forwards and backwards).</p>\n<p>Can you find a starting number that doesn't end up at a palindrome? Nobody knows if this is possible.</p>"
   },
   {
     "title": "Collatz Conjecture",
     "type": "funfact",
     "slug": "KH",
     "card_value": "K",
-    "card_suit": "heart"
+    "card_suit": "heart",
+    "statement": "<p>Think of a positive integer (whole number). If it is even, divide it by 2. It if is odd, multiply it by 3 and add 1. Repeat the process with your new number and keep going. Stop if you get to the number 1. Nobody knows if a number exists that doesn't end up at 1.</p>"
   },
   {
     "title": "Fifteen",
     "type": "game",
     "slug": "AS",
     "card_value": "A",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>This is a game for two players (or a group split into two teams). Take the A and 2 to 9 cards of any suit and place them face up in order. A = 1 in this game. Take it in turns to choose one of the cards and place it in front of you. The first player that has exactly three cards that add up to 15 is the winner. You can have more than three cards, but you only win if three of them add up to 15.</p>"
   },
   {
     "title": "Patience",
     "type": "game",
     "slug": "2S",
     "card_value": "2",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>This is a one player game of patience. Lay out a grid of 8 cards in 2 rows of 4 cards, face up and hold the remaining cards. If you find two cards in the grid that sum to 11 you can put new cards from your hand on top of them (here A = 1). If you find the J, Q or K cards you can also put a new card on top of each. The objective of the game is to put down all the cards. </p>"
   },
   {
     "title": "Twenty-one",
     "type": "game",
     "slug": "3S",
     "card_value": "3",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Two players take it in turn to count up, starting from 1 and counting 1, 2, or 3 numbers at a time. Each player continues counting from where the other player stops. The player who says 21 loses.</p>"
   },
   {
     "title": "Nim",
     "type": "game",
     "slug": "4S",
     "card_value": "4",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>|</p>\n<p>| | |</p>\n<p>| | | | |</p>\n<p>Arrange 9 sticks in 3 rows as shown. Two players take it in turn to remove one or more sticks from a single row. The loser is the person to take the last stick. Can you find a winning strategy?</p>"
   },
   {
     "title": "Mastermind",
     "type": "game",
     "slug": "5S",
     "card_value": "5",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>This is a two player game. Player 1 secretly chooses four cards and puts them in a row face down. Player 2 has seven attempts to guess the suits (clubs, diamonds, hearts, spades) of these cards, in order. Player 2 guesses by laying four cards in a row face up. Player 1 looks at the suits, and tells them how many suits they guessed in the correct position (x), and how many other suits they have guessed correctly but in the wrong position (o). Player 2 uses this information to make a better guess next time.</p>"
   },
   {
     "title": "Latin Squares",
     "type": "game",
     "slug": "6S",
     "card_value": "6",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Select the 16 J, Q, K and A cards from a pack. Try to put them in a 4 by 4 square so that each rank (J, Q, K, A) and each suit (Clubs, Diamonds, Hearts, Spades) appears only once in each row and column.</p>"
   },
   {
     "title": "Gomoku",
     "type": "game",
     "slug": "7S",
     "card_value": "7",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Start by drawing a square grid of 15 by 15 lines. Two players take it in turns to place a counter on any point where lines cross. The player who gets five of their counters in a straight line wins. The line can be vertical, horizontal or diagonal.</p>"
   },
   {
     "title": "Sim",
     "type": "game",
     "slug": "8S",
     "card_value": "8",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Draw six points in a hexagonal arrangement. Players take turns to draw a straight line between any two points, trying to avoid making a triangle. Each player should use a different colour. The player that completes a triangle with their colour first loses the game.</p>"
   },
   {
     "title": "Pong Hau K'i",
     "type": "game",
     "slug": "9S",
     "card_value": "9",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p><img alt=\"\" src=\"assets/images/Pong_Hau_K_i_image_0.png\" class=\"Pong_Hau_K_i_image_0\" /></p>\n<p>Draw the grid shown with five points and seven connecting lines. Two players place two counters of the same colour/design in the grid as shown.</p>\n<p>Decide who will go first. The first player moves one of their pieces to the centre point. Then players take turns moving a counter along a line to an empty point until one player cannot move their counters and loses.</p>"
   },
   {
     "title": "Stop or Dare",
     "type": "game",
     "slug": "10S",
     "card_value": "10",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>This is a game for two or three players. Shuffle the deck and place it face down. The first player turns over the top card and continues turning over cards, adding together the value of each card, until they decide to stop and record their score. J = 11 and Q = 12.</p>\n<p>If an A or a K is turned over, no points are scored in that turn and the turn is finished.</p>\n<p>Players take turns until someone reaches 100 or more - this player is the winner.</p>"
   },
   {
     "title": "Twenty-four",
     "type": "game",
     "slug": "JS",
     "card_value": "J",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Remove the 10, J, Q, K, and Joker cards from the deck. Shuffle the rest and deal four cards face up on the table so that every player can see them. Each player attempts to make the number 24 silently using all four numbers (A count as 1), and as many operations +, −, × and ÷ and brackets () as needed. The first person to give an answer with an explanation wins and keeps the 4 cards. Keep playing until there are no cards left.</p>"
   },
   {
     "title": "Card Sums",
     "type": "game",
     "slug": "QS",
     "card_value": "Q",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Remove the 10, J, Q, K, and Joker cards and shuffle the rest of the pack.</p>\n<p><img alt=\"\" src=\"assets/images/Card_Sums_image_0.png\" class=\"Card_Sums_image_0\" /></p>\n<p>Any number of players can play. Deal 6 cards face up on a table. Everyone has 1 minute to decide how to set them out in the layout above to make the biggest total of the two multiplications. A counts as 1. The player with the highest score wins.</p>"
   },
   {
     "title": "WinTwoThreeFour",
     "type": "game",
     "slug": "KS",
     "card_value": "K",
-    "card_suit": "spade"
+    "card_suit": "spade",
+    "statement": "<p>Remove the 10, J, Q, K, and Jokers. Deal each player 9 cards (A = 1 here). Players secretly arrange their cards to make a 4-digit number, a 3-digit number and a 2-digit number. All at once, the players show their three numbers.</p>\n<p>The biggest 2-digit number gets 2 points, biggest 3-digit gets 3 points, biggest 4-digit gets 4 points. If there is a tie then the points are split between the players.</p>"
   }
 ]
