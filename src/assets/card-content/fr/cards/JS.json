@@ -1,0 +1,23 @@
+{
+  "title": "Vingt-Quatre",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p>Enlever le 10, J , Q , K et les cartes jocker du tas. M\u00e9langer le reste et\nplacer quatre cartes, face vers le haut, pour que tous les joueurs\npuissent les voir. Chaque joueur essaye de faire le num\u00e9ro 24\nsilencieusement en utilisant les quatre num\u00e9ros (A compte comme 1) et\nautant d'op\u00e9rations n\u00e9cessaires +,-,*,\u00f7, et les parenth\u00e8ses si\nn\u00e9cessaire. La premi\u00e8re personne qui donne une r\u00e9ponse avec une\nexplication gagne et garde les quatre cartes. Continuer \u00e0 jouer jusqu'\u00e0\nce qu\u2019il y ait plus de cartes.</p>",
+    "further_instructions": "<p>Ceci est un jeu pour deux ou plus de joueurs. </p>\n<p>Quelques combinaisons peuvent \u00eatre impossibles. Dans ce cas,\nremettre les cartes, et m\u00e9langer encore pour en choisir encore quatre. </p>",
+    "strategy_tips": "<p>Pensez \u00e0 un nombre des facteurs de 24,pour faire par\nexemple 1x24, 2x12 ,3x8 et 4x6. Si vous avez l\u2019un des\nfacteurs dans votre liste comme 1, 2, 3, 4, 6, 8,...\nutilisez les derniers nombres pour cr\u00e9er un autre nombre\nou utilisez vos num\u00e9ros pour cr\u00e9er des combinaisons.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Vous pouvez jouer ce jeu comme snap avec 2 ou 4 joueurs. Distribuer les\ncartes de mani\u00e8re \u00e9gale \u00e0 tous les joueurs. Pour deux joueurs, sur le\ncompte de trois, ils retournent leurs deux premi\u00e8res cartes. Pour\nquatre joueurs, ils retournent juste tous une carte par tour. Tout le\nmonde essaye de faire 24 avec leur quatre cartes. La premi\u00e8re personne\n\u00e0 le faire prends les cartes et les met au bas de leur pile. Le jeu\ncontinue jusqu\u2019\u00e0 ce qu\u2019un joueur n\u2019ait plus de cartes. Alors le joueur\navec le plus de cartes est le gagnant.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Le nombre 24 est utilis\u00e9 parce qu\u2019il a tellement de facteurs.\nCependant, une analyse de toutes les combinaisons possibles de 4 cartes\nmontre que le chiffre 2 aurait \u00e9t\u00e9 le meilleur nombre cible! 99,19% des\ncombinaisons pourraient \u00eatre r\u00e9solues, comparativement \u00e0 80,20 % pour\n24. Si vous \u00eates autoris\u00e9 \u00e0 utiliser des factorielles (par exemple 3! =\n3\u00d72\u00d71 = 6), vous pouvez r\u00e9soudre beaucoup plus de combinaisons pour 24.</p>",
+    "references": [
+      "<p><a href=\"https://nrich.maths.org/7669\" target=\"_blank\">https://nrich.maths.org/7669</a></p>",
+      "<p><a href=\"https://nrich.maths.org/1262\" target=\"_blank\">https://nrich.maths.org/1262</a></p>",
+      "<p><a href=\"http://www.ijastnet.com/journals/Vol_1_No_5_September_2011/20.pdf\" target=\"_blank\">http://www.ijastnet.com/journals/Vol_1_No_5_September_2011/20.pdf</a></p>",
+      "<p><a href=\"https://gottfriedville.net/games/24/index.shtml\" target=\"_blank\">https://gottfriedville.net/games/24/index.shtml</a></p>"
+    ]
+  }
+}

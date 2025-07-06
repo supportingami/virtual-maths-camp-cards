@@ -1,0 +1,22 @@
+{
+  "title": "Papier pli\u00e9",
+  "metadata": {
+    "type": "funfact"
+  },
+  "main_version": {
+    "statement": "<p>Si vous pouviez plier une feuille de papier en deux seulement 42 fois, elle atteindrait la Lune ! </p>",
+    "hint": "<p>Disons que l'\u00e9paisseur du papier est d'environ 0,1 millim\u00e8tre (ou 0,0039 pouce). Si vous le pliez une fois sur lui-m\u00eame, quelle serait l'\u00e9paisseur ? Et si vous le pliez une fois de plus sur lui-m\u00eame? Et si vous le pliez 10 fois?</p>",
+    "explanation": "<p>La distance entre la Terre et la Lune est un peu moins de 400000 kilom\u00e8tres (ou 250000 miles). Pour nous le papier est de 0.1 millim\u00e8tre (mm) en \u00e9paisseur. Si nous plions le papier une fois, l'\u00e9paisseur sera doubl\u00e9e, elle deviendra donc 0.2mm. Replier donne 0,4mm. Si on le plie 10 fois, l'\u00e9paisseur devient (0.1mm)\u00d72\u00b9\u2070 (2 \u00e0 la puissance 10). Maintenant, si on calcule (0.1mm)\u00d72\u2074\u00b2, le r\u00e9sultat est de 440 000km!</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Combien de fois auriez-vous besoin de plier le m\u00eame morceau de papier pour atteindre la hauteur de la Tour Britam, la plus haute gratte-ciel de Nairobi? (200m, ou 640 pieds)</p>",
+    "hint": "<p>Assurez-vous de convertir d'abord le 0,1 mm en m\u00e8tres ou 200 m en millim\u00e8tres. </p>",
+    "explanation": "<p>Vous auriez besoin de plier le papier 21 fois. 200 m est 200000 mm. Vous devez r\u00e9soudre (0.1 mm)\u00d72\u207f = 200000 pour n. Nous pouvons r\u00e9soudre des \u00e9quations comme celles-ci en utilisant des logarithmes ou juste avec des essais et des erreurs - continuez \u00e0 multiplier par 2 jusqu'\u00e0 ce que vous ayez atteint la hauteur de la tour\u2026 20 est presque suffisant, mais vous aurez besoin de 21 plis pour atteindre plus de 200 m de hauteur. </p>"
+  },
+  "additional_information": {
+    "about": "<p>Essayez de plier une feuille de papier 6 fois, souvenez-vous de la plier compl\u00e8tement sur elle-m\u00eame \u00e0 chaque r\u00e9p\u00e9tition. Pouvez-vous la plier une septi\u00e8me fois ? Une huiti\u00e8me ? Jusqu'o\u00f9 pouvez-vous aller ? Peut-\u00eatre avons-nous besoin d'une plus grande feuille de papier! On a pens\u00e9 pendant des ann\u00e9es que 7 \u00e9tait le nombre maximum de fois qu'un morceau de papier pouvait \u00eatre pli\u00e9. Mais en 2002, l'adolescente am\u00e9ricaine Britney Gallivan a d\u00e9montr\u00e9 qu'une feuille de papier peut \u00eatre pli\u00e9e 12 fois, \u00e0 condition qu'elle soit assez longue et assez mince. Britney Gallivan l'a d\u00e9montr\u00e9 en utilisant un papier de toilette de 1200m de longueur, qui lui a fourni \u00e0 la fois la longueur et la minceur dont elle avait besoin. Britney a m\u00eame propos\u00e9 une formule qui a montr\u00e9 en combien de longueur le morceau de papier devrait \u00eatre pour qu'il puisse \u00eatre pli\u00e9 n fois :</p>\n<p><!-- LaTeX Start -->$$ L = \\frac{\\pi \\times t}{6} (2^n + 4)(2^n - 1) $$<!-- LaTeX End --><!-- L = \u03c0\u00d7t\u00d7(2\u207f + 4)(2\u207f - 1) \u2215 6 --></p>\n<p>L est la longueur de papier requise, t est l'\u00e9paisseur du papier et n est le nombre de plis que vous pouvez faire.</p>\n<p>Dix ans plus tard, en 2012, un groupe d'\u00e9tudiants ont battu le record de Britney en prenant 16 km de rouleaux de toilettes et en le pliant 13 fois dans une direction. </p>",
+    "references": [
+      "<p><a href=\"https://www.mathscareers.org.uk/article/how-many-times-can-you-fold-a-sheet-of-paper/\" target=\"_blank\">https://www.mathscareers.org.uk/article/how-many-times-can-you-fold-a-sheet-of-paper/</a></p>"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Abeille \u00e0 miel",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>Un gallon de miel permet \u00e0 une abeille de voler sur sept millions de miles.</p>\n<p>Combien d'abeilles pourraient voler mille miles s'ils avaient dix gallons de miel\u202f?</p>",
+    "correct_answer": "70000 ",
+    "hint": "<p>Jusqu'o\u00f9 une abeille peut-elle voyager avec dix gallons de miel\u202f?</p>",
+    "explanation": "<p>10 gallons permettraient \u00e0 une abeille de voyager sur 70 millions de miles. 70000000 \u2215 1000 = 70000, ainsi 70000 abeilles pourraient parcourir 1000 miles chacun.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Maintenant, supposons que 4 abeilles peuvent voyager chacun 6 millions de miles avec 2 gallons de miel. Dans quelle mesure 8 abeilles peuvent-elles voyager avec 6 gallons de miel\u202f?</p>",
+    "hint": "<p>Jusqu'o\u00f9 une abeille peut voyager avec 1 gallon de miel\u202f?</p>",
+    "correct_answer": "9000000",
+    "explanation": "<p>\u00bd\u00d76000000\u00d74 = 12000000. C'est le nombre de miles qu'une abeille peut parcourir avec 1 gallon de miel. Pour trouver la r\u00e9ponse, vous pouvez multiplier ce chiffre par 6 pour trouver le nombre total de miles qu'une abeille peut parcourir avec 6 gallons de miel, puis diviser par 8 pour trouver la distance par abeille. La r\u00e9ponse est 12000000\u00d76 \u2215 8 = 9000000.</p>"
+  },
+  "extension_2": {
+    "statement": "<p>Une abeille ouvri\u00e8re peut construire une ruche d'hexagones en 60 minutes et une reine peut construire une ruche de m\u00eame taille en 40 minutes. Combien de minutes leur faudra-t-il si elles le font ensemble ?</p>",
+    "hint": "<p>It might be easier to choose a number of hexagons to work with - try 120 and work out how many they can each do per minute.</p>",
+    "correct_answer": "24",
+    "explanation": "<p>Nous pouvons voir cela avec un exemple sur le nombre d'hexagones dans la ruche. S'il y a 120 hexagones, l'abeille ouvri\u00e8re en fait 2 par minute et la reine en fait 3 par minute. Donc ensemble, elles en font 5 par minute. 120 \u2215 5 = 24 . </p>\n<p>Le m\u00eame argument fonctionne pour tout nombre d'hexagones dans une ruche. Prenons le nombre total d'hexagones comme h. L'abeille ouvri\u00e8re travaillera \u00e0 un rythme de (h \u2215 60) hexagones par minute et la reine \u00e0 un rythme de (h \u2215 40) par minute. En ajoutant simplement les taux ensemble, </p>\n<p>(h \u2215 60) + (h \u2215 40) = 100\u00d7h \u2215 2400 = h \u2215 24, nous pouvons trouver la r\u00e9ponse, 24 minutes. </p>"
+  },
+  "additional_information": {
+    "about": "<p>Probl\u00e8mes tels que \"Si une personne peut creuser une tranch\u00e9e en B<strong> jours </strong>alors combien de temps faudra-t-il \u00e0 C<strong> </strong>personnes pour creuser la tranch\u00e9e\u202f? peuvent \u00eatre r\u00e9solus en calculant (A\u00d7B/ C). Cette technique ancienne est appel\u00e9e \"la r\u00e8gle de trois\" et a \u00e9t\u00e9 \u00e9crite dans une comptine en 1570 : <strong> \"</strong>La multiplication est une vexation ;</p>\n<p>La division est aussi mauvaise ; la r\u00e8gle de trois m'intrigue et la pratique me rend fou.\"</p>",
+    "references": [
+      "<p><a href=\"https://nrich.maths.org/5668\" target=\"_blank\">https://nrich.maths.org/5668</a></p>",
+      "<p><a href=\"https://en.wikipedia.org/wiki/Cross-multiplication#Rule_of_Three\" target=\"_blank\">https://en.wikipedia.org/wiki/Cross-multiplication#Rule_of_Three</a></p>"
+    ]
+  }
+}

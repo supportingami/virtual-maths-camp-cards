@@ -1,0 +1,21 @@
+{
+  "title": "Vingt et un",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p>Deux joueurs prennent chaqun leur tour de compter vers le haut, \u00e0 partir de 1 et comptant 1, 2 ou 3 chiffres \u00e0 la fois. Chaque joueur continue \u00e0 compter de l'endroit o\u00f9 l'autre joueur s'est arr\u00eat\u00e9. Le joueur qui doit dire 21 perd.</p>",
+    "further_instructions": "<p>Une partie comme exemple: P1 = Joueur 1, P2 = Joueur 2. </p>\n<p>P1 : 1,2,3     P2 : 4 </p>\n<p>P1 : 5,6       P2 : 7,8,9 </p>\n<p>P1 : 10         P2 : 11,12,13</p>\n<p>P1: 14,15,16 P2:17,18,19</p>\n<p>P1: 20         P2: 21</p>\n<p>Le joueur 1 gagne!</p>",
+    "strategy_tips": "<p>La personne qui dit 20 gagnera, parce qu'elle force la personne suivante \u00e0 dire 21. Comment pouvez-vous vous assurer de dire 20 ? Essayez de marcher en arri\u00e8re. Une fois que vous avez jou\u00e9 plusieurs fois, vous pouvez deviner qui va gagner avant d'atteindre 20 - pensez \u00e0 la fa\u00e7on dont vous le savez. Pouvez-vous vous entra\u00eener s'il vaut mieux commencer en premier ou en deuxi\u00e8me? Pouvez-vous vous \u00eatre s\u00fbr que vous gagnez toujours?</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Il y a plusieurs fa\u00e7ons de changer ce jeu. Vous pouvez dire jusqu'\u00e0 4 nombres cons\u00e9cutifs au lieu de 3, ou changer le nombre final de 21 \u00e0 quelque chose de diff\u00e9rent, ou bien encore changer la r\u00e8gle de sorte que le joueur qui dit 21 est maintenant le gagnant, et pas le perdant. Pouvez-vous toujours d\u00e9terminer comment gagner d\u00e8s que les r\u00e8gles sont modifi\u00e9es? </p>\n<p>Le jeu original peut \u00eatre chang\u00e9 pour un groupe de joueurs qui jouent dans un cercle, en commen\u00e7ant dans le sens des aiguilles d'une montre. Juste pour le plaisir, vous pouvez avoir de nouvelles r\u00e8gles, comme si quelqu'un dit deux chiffres d'affil\u00e9, la direction est invers\u00e9e. Si quelqu'un dit trois chiffres d'affil\u00e9e, vous sautez une personne dans le cercle. La personne qui dit 21 peut fabriquer une nouvelle r\u00e8gle. Par exemple: \"Au lieu du num\u00e9ro 5, vous devez dire patate\". Le jeu recommence au num\u00e9ro 1, mais il faut se souvenir des nouvelles r\u00e8gles ! Vous pouvez jouer pour que si quelqu'un se trompe deux fois, il est hors de la partie. La derni\u00e8re personne qui joue encore est gagnant!</p>"
+  },
+  "additional_information": {
+    "about": "<p>21 est une version simple du groupe de jeux, Nim. Il est parfois appel\u00e9 un jeu de Mis\u00e9re, ce qui signifie un jeu que vous jouez pour perdre. On pense qu'il est originaire de Chine, et qu'il est mentionn\u00e9 pour la premi\u00e8re fois dans l'histoire europ\u00e9enne au d\u00e9but du XVIe si\u00e8cle. Le jeu a \u00e9t\u00e9 jou\u00e9 originellement avec 21 pierres, et vous devez choisir 1, 2, ou 3 pierres chaque fois, et le perdant est le dernier \u00e0 piocher une pierre.  </p>",
+    "references": [
+      "<p><a href=\"https://en.wikipedia.org/wiki/Nim\" target=\"_blank\">https://en.wikipedia.org/wiki/Nim</a></p>",
+      "<p><a href=\"https://en.wikipedia.org/wiki/Nim#The_21_game\" target=\"_blank\">https://en.wikipedia.org/wiki/Nim#The_21_game</a></p>"
+    ]
+  }
+}

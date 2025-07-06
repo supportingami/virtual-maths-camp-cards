@@ -1,0 +1,32 @@
+{
+  "title": "Les Chemins pav\u00e9s",
+  "metadata": {
+    "type": "counting"
+  },
+  "main_version": {
+    "statement": "<p>De combien de mani\u00e8res diff\u00e9rentes pouvez-vous poser 6 dalles de pavage \u00e9gales, chacune de 2 m\u00e8tres sur 1 m\u00e8tre, pour faire un chemin de 2 m\u00e8tres de large et 6 m\u00e8tres de long de ma porte arri\u00e8re dans mon jardin, sans couper aucune des dalles de pavage\u00a0?</p>",
+    "correct_answer": "13",
+    "hint": "<p>De combien de mani\u00e8res diff\u00e9rentes pouvez-vous le faire au cas o\u00f9 vous auriez moins de dalles de pavage pour un chemin plus court\u00a0? R\u00e9fl\u00e9chissez \u00e0 une bonne strat\u00e9gie pour classer les diff\u00e9rentes mani\u00e8res. Par exemple, combien de fa\u00e7ons peut-on avoir 2 paires de dalles dans le sens de la longueur ?</p>",
+    "explanation": "<p>Ce probl\u00e8me est d'abord destin\u00e9 \u00e0 vous faire r\u00e9fl\u00e9chir \u00e0 une bonne strat\u00e9gie pour compter. Vous pouvez dessiner toutes les possibilit\u00e9s de chemins plus courts. Cependant, cela deviendra vite trop long. Une premi\u00e8re \u00e9tape vers la recherche d'un principe d'organisation pourrait consister \u00e0 classer les chemins en fonction du nombre de paires de dalles plac\u00e9es dans le sens de la longueur. Notons n le nombre de dalles de pavage. Pour n = 1, il n'y a clairement qu'une seule possibilit\u00e9 (pas de paires) ; pour n = 2 il y a 2 possibilit\u00e9s (pas de paires, et 1 paire) ; pour n = 3 il y a 1\u00d7(pas de paires) + 2\u00d7(1 paire) = 3 fa\u00e7ons ; pour n = 4 il y a 1\u00d7(pas de paires) + 3\u00d7(1 paire) + 1\u00d7(2 paires)= 5. En utilisant cette strat\u00e9gie, nous pouvons facilement compter n = 6 : il y a 1\u00d7(pas de paires) + 5\u00d7(1 paire) + 6\u00d7(2 paires) + 1\u00d7(3 paires) = 13. En regardant la s\u00e9quence 1, 2 , 3, 5, 8, 13, \u2026vous reconna\u00eetrez peut-\u00eatre le motif\u00a0!</p>"
+  },
+  "extension_1": {
+    "statement": "<p>De combien de mani\u00e8res diff\u00e9rentes pouvez-vous poser les 11 dalles de m\u00eame type pour faire un chemin de 2 m\u00e8tres de large et 11 m\u00e8tres de long, sans couper aucune des dalles ?</p>",
+    "hint": "<p>Compter explicitement peut \u00eatre trop long. Pouvez-vous trouver un moyen de r\u00e9duire le probl\u00e8me dans des cas plus simples que vous avez d\u00e9j\u00e0 compt\u00e9s\u00a0?</p>",
+    "correct_answer": "144",
+    "explanation": "<p>Supposons que vous deviez poser n dalles. Notons F(n) la solution du probl\u00e8me pour n dalles. Vous pouvez terminer votre chemin de deux mani\u00e8res : soit en posant la derni\u00e8re paire de dalles dans le sens de la longueur, soit en posant la derni\u00e8re dalle en travers. Dans le premier cas, vous \u00eates libre de disposer les premi\u00e8res (n - 2) dalles comme vous le souhaitez pour faire un chemin de longueur (n - 2) m\u00e8tres : il y a exactement F(n - 2) fa\u00e7ons de faire. En ce qui concerne le deuxi\u00e8me cas, vous \u00eates alors libre de disposer les premi\u00e8res (n - 1) dalles comme vous le souhaitez pour faire un chemin de longueur (n - 1) m\u00e8tres : il existe exactement F(n - 1) voies de Ce faisant. Par cons\u00e9quent, vous trouvez que F(n) = F(n - 1) + F(n - 2) : c'est la preuve de la relation de r\u00e9currence pour votre suite de nombres ! Par des exp\u00e9riences pr\u00e9c\u00e9dentes, il devrait \u00eatre clair que F(1) = 1 et F(2) = 2. Nous pouvons maintenant construire la suite facilement : chaque terme de la suite peut \u00eatre trouv\u00e9 en additionnant les deux termes pr\u00e9c\u00e9dents. Nous pouvons continuer :</p>\n<p>1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144</p>\n<p>Il y a donc 144 fa\u00e7ons de poser les 11 dalles de pavage pour faire le chemin.</p>"
+  },
+  "extension_2": {
+    "statement": "<p>Pour tous les chemins construits avec un nombre de dalles compris entre 1 et 30 inclus, combien d'entre eux auront un nombre impair de fa\u00e7ons de les construire ?</p>",
+    "hint": "<p>Think about how the sequence is generated \u2026 can you find a pattern that repeats thinking about odd and even numbers?</p>",
+    "correct_answer": "20",
+    "explanation": "<p>Pour la s\u00e9quence 1, 2, 3, 5, 8, 13, 21, \u2026 nous pouvons voir qu'il existe un mod\u00e8le impair-pair-impair, impair-pair-impair, impair-etc. Cela a du sens car pair + impair = impair et impair + impair = pair. Donc dans une suite de 30 nombres, il y a 30 \u2215 3\u00d72= 20 nombres impairs.</p>"
+  },
+  "additional_information": {
+    "about": "<p>La suite de nombres dans ce puzzle fait partie de la suite de Fibonacci : </p>\n<p>0, 1, 1, 2, 3, 5, 8, 13, 21, 34,... Il est facile de trouver le num\u00e9ro suivant en additionnant les deux num\u00e9ros pr\u00e9c\u00e9dents, mais vous pouvez \u00e9galement trouver des num\u00e9ros dans la s\u00e9quence directement en utilisant ce formule:</p>\n<p><!-- LaTeX Start -->$$F_n = \\frac{1}{\\sqrt{5}}\\left[ \\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n+1} - \\left(\\frac{1-\\sqrt{5}}{2}\\right)^{n+1}\\right]$$<!-- LaTeX End --><!-- F\u2099 = (1 \u2215 \u221a5)\u00d7( ((1 + \u221a5) \u2215 2)\u207f\u207a\u00b9 - ((1 - \u221a5) \u2215 2)\u207f\u207a\u00b9 ) --></p>",
+    "references": [
+      "<p><a href=\"http://datagenetics.com/blog/june52020/index.html\" target=\"_blank\">http://datagenetics.com/blog/june52020/index.html</a></p>",
+      "<p><a href=\"http://datagenetics.com/blog/october22015/index.html\" target=\"_blank\">http://datagenetics.com/blog/october22015/index.html</a></p>",
+      "<p><a href=\"https://www.mathsisfun.com/numbers/fibonacci-sequence.html\" target=\"_blank\">https://www.mathsisfun.com/numbers/fibonacci-sequence.html</a></p>"
+    ]
+  }
+}

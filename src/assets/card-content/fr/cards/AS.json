@@ -1,0 +1,21 @@
+{
+  "title": "Quinze",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p>Il s'agit d'un jeu pour deux joueurs (ou bien un groupe s\u00e9par\u00e9 en deux \u00e9quipes). Prenez les As et 2 \u00e0 9 de n'importe quelle combinaison, et puis placez-les en ordre. As = 1 dans ce jeu. Prenez chaqun son tour pour choisir une des cartes et placez-la devant vous. Le premier joueur qui a exactement trois cartes qui s'ajoutent pour \u00eatre 15 est le gagnant. Vous pouvez avoir plus de trois cartes, mais vous ne gagnez que si trois d'entre elles remontent \u00e0 15.</p>",
+    "further_instructions": "<p>Rappelez-vous que vous ne pouvez pas utiliser deux nombres pour faire 15, vous ne pouvez pas non plus utiliser quatre nombres, il doit \u00eatre que trois nombres. Vous pouvez avoir plus de trois cartes dans votre main et n'en utiliser que trois d'entre eux. Le jeu est un tirage au sort si toutes les cartes ont \u00e9t\u00e9 choisies et que personne ne peut faire 15.</p>",
+    "strategy_tips": "<p>Notez toutes les combinaisons de trois nombres qui totalisent jusqu'\u00e0 15. Comment pouvez-vous \u00eatre s\u00fbr que vous avez trouv\u00e9 toutes les combinaisons ? Quels chiffres apparaissent dans exactement 2, 3 et 4 de ces combinaisons not\u00e9es?</p>\n<p>Pensez a d'autres jeux similaires que vous aviez jouez? Est-ce qu'il y an un avantage \u00e0 passer en premier ou en deuxi\u00e8me?</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Essayez de jouer \u00e0 nouveau ce jeu, mais avec les cartes arrang\u00e9es comme ceci pour commencer. </p>\n<p><img alt=\"\" src=\"assets/images/Quinze_image_0.png\" class=\"Quinze_image_0\" /></p>\n<p>Qu'est-ce que vous remarquez sur la fa\u00e7on dont les nombres sont arrang\u00e9s ? Est-ce que cela vous rappelle un autre jeu ?</p>"
+  },
+  "additional_information": {
+    "about": "<p>Ce jeu est int\u00e9ressant parce qu'il est similaire au jeu du morpion/tic-tac-toe. Le terme technique pour cela est <em>isomorphe. </em>. En math\u00e9matiques, lorsqu'on est confront\u00e9 \u00e0 un nouveau probl\u00e8me, il est souvent utile de le relier \u00e0 un probl\u00e8me que vous savez d\u00e9j\u00e0 r\u00e9soudre.</p>",
+    "references": [
+      "<p><a href=\"https://www.ms.uky.edu/~lee/ma310sp15/gameoffifteen.pdf\" target=\"_blank\">https://www.ms.uky.edu/~lee/ma310sp15/gameoffifteen.pdf</a></p>",
+      "<p><a href=\"https://en.wikipedia.org/wiki/Number_Scrabble\" target=\"_blank\">https://en.wikipedia.org/wiki/Number_Scrabble</a></p>"
+    ]
+  }
+}

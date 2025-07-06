@@ -1,0 +1,23 @@
+{
+  "title": "Sim",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p>Dessinez six points dans un arrangement hexagonal. Les joueurs tracent\n\u00e0 tour de r\u00f4le une ligne droite entre deux points quelconques, en\nessayant d'\u00e9viter de faire un triangle. Chaque joueur devrait utiliser\nune couleur diff\u00e9rente. Le joueur qui compl\u00e8te un triangle avec sa\ncouleur en premier perd la partie.</p>",
+    "further_instructions": "<p>Vous voudrez peut-\u00eatre prendre toutes les lignes possibles entres les\npoints pour commencer et apr\u00e8s colorier dessus. Cela rendrait le jeu un\npeu plus facile \u00e0 jouer. Si vous n'avez pas deux couleurs diff\u00e9rentes,\nvous pouvez utiliser des lignes pleines et des pointill\u00e9s pour les deux\njoueurs. </p>",
+    "strategy_tips": "<p>Essayez de faire des mouvements dans le but d'enlever des options pour\nvotre adversaire. Vous pourriez essayer de completer les triangles qui\nsont de couleur mixte.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Dessinez un cadre/grille de points 5 par . Deux joueurs \u00e9changent leur\ntour pour colorer un point (utilisez des couleurs diff\u00e9rentes ou un x\net un +). Le gagnant est le premier qui r\u00e9alise un carr\u00e9 avec quatre\npoints. Les carr\u00e9s peuvent \u00eatre aussi bien inclin\u00e9s que droits.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Le jeu de crayon Sim a \u00e9t\u00e9 invent\u00e9 en 1969 par Gustavus Simmons, un\ncryptographe, qui l'a d\u00e9crit dans le Journal of Recreational\nMathematics. Frank P. Ramsey a prouv\u00e9 qu'il doit toujours y avoir un\ngagnant dans ce jeu par le \"th\u00e9or\u00e8me sur les amis et les \u00e9trangers\". Il\na montr\u00e9 qu'en compl\u00e9tant toutes les ar\u00eates du graphique, il doit y\navoir un triangle qui est enti\u00e8rement de la m\u00eame couleur.</p>",
+    "references": [
+      "<p><a href=\"https://www.whatdowedoallday.com/sim-pencil-game/\" target=\"_blank\">https://www.whatdowedoallday.com/sim-pencil-game/</a></p>",
+      "<p><a href=\"http://web.math.ucsb.edu/~padraic/ucsb_2013_14/mathcs103_s2014/images/SIM_game.pdf\" target=\"_blank\">http://web.math.ucsb.edu/~padraic/ucsb_2013_14/mathcs103_s2014/images/SIM_game.pdf</a></p>",
+      "<p><a href=\"https://nrich.maths.org/2526\" target=\"_blank\">https://nrich.maths.org/2526</a></p>",
+      "<p><a href=\"https://en.wikipedia.org/wiki/Theorem_on_friends_and_strangers\" target=\"_blank\">https://en.wikipedia.org/wiki/Theorem_on_friends_and_strangers</a></p>"
+    ]
+  }
+}

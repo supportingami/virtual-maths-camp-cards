@@ -1,0 +1,21 @@
+{
+  "title": "Carr\u00e9 latin",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p>Prenez les 16 cartes V, Re, Ro et As \u00e0 partir d'un pack. Essayez de les mettre dans un carr\u00e9 de 4 par 4 en sorte que chaque figure (J, Q, K, A) et chaque enseigne (Tr\u00e8fles, Carreaux, C\u0153urs, Piqeus) n'appara\u00eet qu'une seule fois dans chaque ligne et colonne.</p>",
+    "further_instructions": "<p>Ceci peut \u00eatre une \u00e9nigme pour une seule personne ou peut attirer un groupe de personnes \u00e0 l'essayer, puisqu'il est plein d'astuces ! </p>",
+    "strategy_tips": "<p>Commencez par ignorer les enseignes et essayez de placer les figures dans un carr\u00e9 afin que chaque figure n'apparaisse qu'une seule fois dans chaque rang\u00e9e et chaque colonne. </p>"
+  },
+  "extension_1": {
+    "statement": "<p>Cr\u00e9ez un carr\u00e9 5 x 5 avec les m\u00eames r\u00e8gles, mais en incluant cette fois-ci tous les 10, J, Q, K et As. Vous aurez besoin d'un enseigne suppl\u00e9mentaire : vous pouvez dessiner un 10, un J, un Q, un K et un As sur cinq feuilles de couleur diff\u00e9rentes, constituant une nouvelle enseigne de votre choix.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Ce puzzle est un exemple de Carr\u00e9 Latin. Fait int\u00e9ressant, si le probl\u00e8me avait impliqu\u00e9 6 figures de cartes, cela aurait \u00e9t\u00e9 impossible. Mais avec 7 figures, il est assez facile de trouver une solution. Les carr\u00e9s latins sont utilis\u00e9s dans les essais m\u00e9dicaux pour s'assurer que chaque participant est introduit \u00e0 chaque traitement pendant la m\u00eame p\u00e9riode afin de prouver quel est le meilleur traitement.</p>",
+    "references": [
+      "<p><a href=\"https://www.mathsisfun.com/puzzles/index.html\" target=\"_blank\">https://www.mathsisfun.com/puzzles/index.html</a></p>",
+      "<p><a href=\"https://www.wikiwand.com/en/Mutually_orthogonal_Latin_squares\" target=\"_blank\">https://www.wikiwand.com/en/Mutually_orthogonal_Latin_squares</a></p>"
+    ]
+  }
+}

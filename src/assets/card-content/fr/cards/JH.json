@@ -1,0 +1,23 @@
+{
+  "title": "-> La Loi de Benford",
+  "metadata": {
+    "type": "funfact"
+  },
+  "main_version": {
+    "statement": "<p>Quand on regarde au valeurs trouv\u00e9s dans les donn\u00e9es du monde r\u00e9el, le premier chiffre pour la plupart des num\u00e9ros est plus souvent 1 que tous lest autres nombres. 2 est un premier chiffre plus commun que 3, et ainsi de suite jusqu'\u00e0 9. En fait, ces premiers chiffres suivent souvent le m\u00eame mod\u00e8le (distribution).</p>\n<p><img alt=\"\" src=\"assets/images/Benford_s_Law_image_0.png\" class=\"Benford_s_Law_image_0\" /></p>",
+    "hint": "<p>Regardez a des donn\u00e9es qui couvrents plusieurs ordres de grandeur. Par example, quels sont les premier chiffres de: les100 nombres premier initiaux (et encore plus!), de la population de pays d'Afrique, la hauteur des plus hauts b\u00e2timents du monde?</p>",
+    "explanation": "<p>De nombreux ensembles de donn\u00e9es (par exemple, les populations de pays, les hauteurs des b\u00e2timents, le prix des actions) ou des suites bien connues (nombres de Fibonacci, les nombres premiers) sont r\u00e9partis sur des \u00e9chelles tr\u00e8s diff\u00e9rentes (ordres de grandeur). Beaucoup de ces donn\u00e9es massives d\u00e9coulent de lois de puissance d\u00e9croissante. Un exemple simple pourrait \u00eatre  </p>\n<p>y = k\u00d710\u207d\u207b\u1d43\u02e3\u207e where k, a &gt; 0. Choosing a = 0.1 and k = 1000 gives the following:</p>\n<p><img alt=\"\" src=\"assets/images/Benford_s_Law_image_1.png\" class=\"Benford_s_Law_image_1\" /></p>\n<p>Les lois sur la puissance ressembleront \u00e0 une ligne droite sur le papier de graphes \u00e0 demi-loch - o\u00f9 l'axe y est sur un papier \u00e0 \u00e9chelle logique. On peut le montrer en r\u00e9\u00e9crivant notre formule pour la loi de puissance y = k\u00d710\u207d\u207b\u1d43\u02e3\u207e = 10\u1d47\u00d710\u207d\u207b\u1d43\u02e3\u207e = 10\u207d\u207b\u1d43\u02e3\u207a\u1d47\u207e , puis en appliquant un logarithme des deux c\u00f4t\u00e9s : log\u2081\u2080(y) = - a\u00d7x + b. Il s'agit de l'\u00e9quation lorsque l'axe Y est sur une \u00e9chelle de log. Le m\u00eame exemple est affich\u00e9 ci-dessous:</p>\n<p><img alt=\"\" src=\"assets/images/Benford_s_Law_image_2.png\" class=\"Benford_s_Law_image_2\" /></p>\n<p>Les lignes horizontales repr\u00e9sentent 1, 2, 3, 4, \u2026, 10, 20, 30, \u2026, 100, 200, 300, \u2026 et notez qu'ils sont in\u00e9galement r\u00e9parti sur l'axe y ! Les plus grands espaces sont entre 1 et 2, entre 10 et 20 et entre 100 et 200. Les espaces les plus petits sont compris entre 9 et 10, 90 et 100.</p>\n<p>Try picking random values of x, and reading off corresponding values of y from our (power law) straight line. Because of the spacing of the horizontal lines we see that we are most likely to get a value of y with first digit 1, then we are next likely to get a value of y with a first digit 2, etc. These probabilities are what leads to -> La Loi de Benford. </p>"
+  },
+  "extension_1": {
+    "statement": "<p>Pouvez-vous penser \u00e0 quels s\u00e9ries de chiffres n'ob\u00e9issent pas a la loi de Benford?</p>",
+    "hint": "<p>L'explication de la loi de Benford remarquait que l'ensemble de donn\u00e9es couvre g\u00e9n\u00e9ralement de nombreuses ordres de grandeur.</p>",
+    "explanation": "<p>Tout ce qui se trouve dans une petite port\u00e9e, un exemple serait quelque chose normalement distribu\u00e9. Par exemple: mesurer la hauteur de tout le monde (en m\u00e8tres). Presque toutes les hauteurs commenceraient par un 1.</p>"
+  },
+  "additional_information": {
+    "about": "<p>-> La Loi de Benford is used in the real world to check for fraud on big data sets. If they don't follow the law when they should, it is possible they have been falsified!</p>",
+    "references": [
+      "<p><a href=\"https://brilliant.org/wiki/benfords-law/\" target=\"_blank\">https://brilliant.org/wiki/benfords-law/</a></p>",
+      "<p><a href=\"https://towardsdatascience.com/what-is-benfords-law-and-why-is-it-important-for-data-science-312cb8b61048\" target=\"_blank\">https://towardsdatascience.com/what-is-benfords-law-and-why-is-it-important-for-data-science-312cb8b61048</a></p>"
+    ]
+  }
+}

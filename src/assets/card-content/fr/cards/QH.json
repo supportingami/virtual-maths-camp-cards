@@ -1,0 +1,24 @@
+{
+  "title": "Les Nombres de Lychrel",
+  "metadata": {
+    "type": "funfact"
+  },
+  "main_version": {
+    "statement": "<p>Prendre un nombre entier positif. Inverser les chiffres pour obtenir un nouveau nombre. Ajouter ces deux nombres ensemble. R\u00e9p\u00e9tez cette proc\u00e9dure jusqu'\u00e0 obtenir un palindrome (un nombre qui se lit le m\u00eame en avant et en arri\u00e8re).</p>\n<p>Pouvez-vous trouver un num\u00e9ro initiel qui ne se retrouve jamais \u00e0 un palindrome? Personne ne sait si c'est possible.</p>",
+    "hint": "<p>Prenez un nombre entier positif, par exemple 57. Inverser les chiffres pour obtenir 75. La somme donne 57 +75 = 132, puis inversez ce nouveau nombre et ajoutez les ensemble. Vous obtenez 132 + 231 = 353. C'est un palindrome car il lit le m\u00eame en avant qu'en arri\u00e8re, donc nous pouvons arr\u00eater. Pouvez-vous trouver un nombre qui prend plus de temps pour atteindre un palindrome? </p>",
+    "explanation": "<p>Certains nombres se retrouvent comme palindrome apr\u00e8s une seule \u00e9tape, par exemple 243: 243 + 342 = 585. Certains prennent un peu plus de temps, par exemple 87: </p>\n<p>87 + 78 = 165, </p>\n<p>165 + 561 = 726, </p>\n<p>726 + 627 = 1353, </p>\n<p>1353 + 3531 = 4884.</p>\n<p>Certains nombres prennent un tr\u00e8s long temps : 89 prends 24 \u00e9tapes, qui est inhabituellement grand (le plus grand que n'importe quel nombre moins de 10 000) pour atteindre le palindrome 8813200023188.</p>\n<p>Un nombre est appel\u00e9 un nombre Lychrel s'il n'atteint jamais un palindrome. Personne n'a prouv\u00e9 l'existence d'un seul nombre Lychrel. Une possibilit\u00e9 est 196 - les premiers milliards d'\u00e9tapes ont \u00e9t\u00e9 calcule\u00e9s par des ordinateurs, et il n'a pas atteint un palindrome\u2026 mais cela ne prouve pas qu'il ne le sera jamais !</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Pouvez-vous trouver diff\u00e9rents nombres \u00e0 3 chiffres qui prennent 1, 2, 3 et 4 \u00e9tapes pour devenir un palindrome?</p>",
+    "hint": "<p>La plupart des plus petits nombres \u00e0 3 chiffres ne prennent qu'une seule \u00e9tape pour devenir un palindrome, mais essayez d'utiliser des chiffres plus grand qui signifieront que vous devrez retenir et monter le un lorsque vous faites la somme (e. . 8 + 9 = 17 donc vous devrez porter le 1).</p>",
+    "explanation": "<p>Il y a beaucoup d'options, mais 122 prend 1 \u00e9tape, 109 prend 2 \u00e9tapes, 199 fait 3 \u00e9tapes et 192 en prend 4.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Si vous changez la base du probl\u00e8me en binaire, alors 10110 (22 en d\u00e9cimal) est un nombre Lychrel. Le nom Lychrel vient d'un anagramme de la petite amie de Wade Van Landingham, Cheryl.</p>",
+    "references": [
+      "<p><a href=\"https://lycee.samicharity.co.uk/2020/02/06/lychrel-numbers/\" target=\"_blank\">https://lycee.samicharity.co.uk/2020/02/06/lychrel-numbers/</a></p>",
+      "<p><a href=\"https://en.wikipedia.org/wiki/Lychrel_number#196_palindrome_quest\" target=\"_blank\">https://en.wikipedia.org/wiki/Lychrel_number#196_palindrome_quest</a></p>",
+      "<p><a href=\"http://datagenetics.com/blog/october12015/index.html\" target=\"_blank\">http://datagenetics.com/blog/october12015/index.html</a></p>"
+    ]
+  }
+}

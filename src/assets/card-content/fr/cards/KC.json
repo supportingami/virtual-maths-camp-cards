@@ -1,0 +1,33 @@
+{
+  "title": "Affaires de singe(quelque chose de louche)",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>Une grande pi\u00e8ce contient 1000 ampoules, toutes \u00e9teintes. 1000 singes entrent dans la pi\u00e8ce et d\u00e9cident d'appuyer sur les interrupteurs d'une mani\u00e8re tr\u00e8s particuli\u00e8re.</p>\n<p>Le 1<sup>er</sup> singe appuie sur chaque multiple de 1.</p>\n<p>Le second singe appui sur tout les multiples de 2.</p>\n<p>Le troisi\u00e8me singe appui sur tout les multiples de 3.</p>\n<p>Etc., jusqu'au 1000<sup>\u00e8me</sup> singe. Une fois que tous les singes ont fini d'appuyer sur les interrupteurs, combien de lumi\u00e8res au total seront allum\u00e9es\u00a0?</p>",
+    "correct_answer": "31",
+    "hint": "<p>Pouvez-vous d\u00e9terminer si le num\u00e9ro 8 sera allum\u00e9 ou \u00e9teint\u00a0? Et le num\u00e9ro 9 ? Qu'y a-t-il dans les facteurs de ces deux nombres qui signifient que l'un d'eux est allum\u00e9 et l'autre est \u00e9teint\u00a0?</p>",
+    "explanation": "<p>La plupart des nombres seront press\u00e9s par un nombre pair de singes, par ex. 24 a des facteurs (1\u00d724, 2\u00d712, 3\u00d78, 4\u00d76), donc les singes 1, 2, 3, 4, 6, 8, 12, 24 appuieront sur l'interrupteur, et comme c'est un nombre pair la lumi\u00e8re sera \u00e9teinte.</p>\n<p>Les nombres carr\u00e9s sont les seuls qui n'ont pas un nombre pair de facteurs, par ex. 16 a des facteurs (1\u00d716, 2\u00d78, 4\u00d74). Les singes 1, 2, 4, 8, 16 appuieront sur l'interrupteur, et comme il s'agit d'un nombre impair d'appuis sur l'interrupteur, la lumi\u00e8re restera allum\u00e9e (le singe 4 n'appuiera pas deux fois\u00a0!).</p>\n<p>Nous avons donc juste besoin de d\u00e9terminer combien de nombres carr\u00e9s il y a entre 1 et 1000. </p>\n<p>On trouve le plus grand nombre carr\u00e9 inf\u00e9rieur \u00e0 1000 : 31\u00d731 = 961, 32\u00d732 = 1024</p>\n<p>Il restera donc 31 interrupteurs allum\u00e9s ! (commutateurs num\u00e9ros 1, 4, 9, 16, 25, 36, \u2026 , 900, 961)</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Combien d'interrupteurs d'\u00e9clairage seront touch\u00e9s par exactement trois singes\u00a0?</p>",
+    "hint": "<p>L'interrupteur num\u00e9ro 9 sera touch\u00e9 par trois singes\u00a0: 1, 3 et 9. Pouvez-vous trouver d'autres chiffres qui le feront\u00a0?</p>",
+    "correct_answer": "11",
+    "explanation": "<p>Les interrupteurs qui ne sont touch\u00e9s que par trois singes sont les carr\u00e9s des nombres premiers (car ce sont les seuls nombres qui ont exactement trois facteurs.) Les nombres sont 4,9, 25, 49, 121, 169, 289, 361, 529, 841 et 961 soit 11 au total.</p>"
+  },
+  "extension_2": {
+    "statement": "<p>Quelle ampoule sera touch\u00e9e par le plus de singes\u00a0?</p>",
+    "hint": "<p>Which number under 1000 has most factors? Try and build up a number using small prime numbers.</p>",
+    "correct_answer": "840",
+    "explanation": "<p>Un nombre aura le plus grand nombre de facteurs si sa d\u00e9composition en facteurs premiers contient le plus de nombres. Par exemple 24 = 2\u00b3\u00d73 a 8 facteurs (1, 2, 3, 4, 6, 8, 12, 24) contre 25 = 5\u00b2 qui n'en a que 3 (1, 5, 25). </p>\n<p>Pour trouver le nombre inf\u00e9rieur \u00e0 1000 qui a le plus de facteurs, nous commen\u00e7ons avec autant de plus petits nombres premiers que possible, puis multiplions \u00e0 moins de 1000 (2 \u00d7 3 \u00d7 5 \u00d7 7) puis nous pouvons multiplier par 2 jusqu'\u00e0 ce que le nombre est aussi proche que possible de 1000.</p>\n<p>Par cons\u00e9quent, la r\u00e9ponse est 2\u00b3\u00d73\u00d75\u00d77 = 840.</p>\n<p>Le nombre de facteurs de 840 est 32, donc l'interrupteur 840 a \u00e9t\u00e9 touch\u00e9 par 32 singes.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Il s'agit d'un casse-t\u00eate tr\u00e8s c\u00e9l\u00e8bre qui peut \u00eatre trouv\u00e9 dans diff\u00e9rents contextes - l'ouverture et la fermeture des casiers est un autre probl\u00e8me courant. Il est con\u00e7u pour vous faire r\u00e9fl\u00e9chir sur les propri\u00e9t\u00e9s de diff\u00e9rents nombres. </p>",
+    "references": [
+      "<p><a href=\"https://mathsclub.samicharity.co.uk/en/monkey-business\" target=\"_blank\">https://mathsclub.samicharity.co.uk/en/monkey-business</a></p>",
+      "<p><a href=\"https://tasks.illustrativemathematics.org/content-standards/tasks/938\" target=\"_blank\">https://tasks.illustrativemathematics.org/content-standards/tasks/938</a></p>",
+      "<p><a href=\"https://nrich.maths.org/countingfactors\" target=\"_blank\">https://nrich.maths.org/countingfactors</a></p>",
+      "<p><a href=\"https://en.wikipedia.org/wiki/Highly_composite_number\" target=\"_blank\">https://en.wikipedia.org/wiki/Highly_composite_number</a></p>"
+    ]
+  }
+}
