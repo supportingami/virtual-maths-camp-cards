@@ -2,7 +2,7 @@
 
 - [ ] Add references
 - [ ] Add feedback (possibly confirm)
-- [ ] Add lightweight translation system for hardcoded text
+- [ ] Add lightweight translation system for hardcoded text (service + pipe)
 - [ ]
 - [ ] Add favicon
 - [ ] SEO optimisation (lang pages, block qr redirect)
