@@ -1,0 +1,21 @@
+{
+  "title": "Somme des cartes",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p>Retirez les cartes 10, J, Q, K et Joker et m\u00e9langez le reste du paquet.</p>\n<p><img alt=\"\" src=\"assets/images/Card_Sums_image_0.png\" class=\"Card_Sums_image_0\" /></p>\n<p>N'importe quel nombre de joueurs peut jouer. Distribuez 6 cartes face visible sur une table. Chacun a 1 minute pour d\u00e9cider comment les disposer dans le sch\u00e9ma ci-dessus afin d'obtenir le plus grand total des deux multiplications. A compte pour 1. Le joueur avec le score le plus \u00e9lev\u00e9 gagne.</p>",
+    "further_instructions": "<p>Cela pourrait aider si tout le monde avait un stylo et du papier. Apr\u00e8s une minute, chacun annonce son total le plus \u00e9lev\u00e9. La personne qui prononce le nombre le plus \u00e9lev\u00e9 explique comment elle est parvenue \u00e0 ce nombre, en disposant les cartes. S'ils ont raison, ils gagnent un point, s'ils sont incorrects, la personne ayant le total suivant le plus \u00e9lev\u00e9 tente de justifier sa r\u00e9ponse. Si deux personnes ont la m\u00eame r\u00e9ponse, elles gagnent chacune un point.</p>",
+    "strategy_tips": "<p>Pensez \u00e0 l\u2019endroit o\u00f9 il sera pr\u00e9f\u00e9rable de placer les plus grands nombres.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Une fois les cartes J, Q, K et Joker retir\u00e9es, distribuez 4 cartes \u00e0 chaque joueur. Chaque joueur doit faire deux fractions avec ses cartes qui peuvent \u00eatre additionn\u00e9es, soustraites, multipli\u00e9es ou divis\u00e9es pour essayer de rendre la r\u00e9ponse la plus proche possible de 1. Quiconque parvient \u00e0 en faire 1 obtient exactement 2 points. Si personne ne peut faire 1, alors le plus proche de 1 obtient 1 point.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Ces jeux figurent dans le livre Leader of the Pack d'Andrew Jeffrey, qui propose 52 jeux et activit\u00e9s \u00e0 r\u00e9aliser avec un jeu de cartes. Il existe une strat\u00e9gie parfaite pour le jeu principal. </p>",
+    "references": [
+      "<p><a href=\"http://andrewjeffrey.co.uk/product/leader-of-the-pack/\" target=\"_blank\">http://andrewjeffrey.co.uk/product/leader-of-the-pack/</a></p>",
+      "<p><a href=\"https://www.jennettspark.bracknell-forest.sch.uk/wp-content/uploads/2020/04/52-Card-Activities-for-Mathematics.pdf\" target=\"_blank\">https://www.jennettspark.bracknell-forest.sch.uk/wp-content/uploads/2020/04/52-Card-Activities-for-Mathematics.pdf</a></p>"
+    ]
+  }
+}

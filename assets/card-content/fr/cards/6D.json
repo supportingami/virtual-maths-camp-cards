@@ -1,0 +1,33 @@
+{
+  "title": "Serrer la main",
+  "metadata": {
+    "type": "counting"
+  },
+  "main_version": {
+    "statement": "<p>Le jour de l'anniversaire de votre ami, il y a 8 enfants. Chaque enfant serre la main de tous les autres enfants \u00e0 la f\u00eate. Combien de poign\u00e9es de main se sont produites au total? </p>",
+    "correct_answer": "28",
+    "hint": "<p>Commencez par un petit nombre d'enfants, par exemple. 3, 4 ou 5. Combien de poign\u00e9es de main devez-vous ajouter si un autre enfant rejoint le groupe? </p>",
+    "explanation": "<p>En comptant sur de petits exemples, vous trouverez = erreur de temps et de vocabulaire peut-\u00eatre que chaque fois que vous ajoutez une personne \u00e0 la f\u00eate d'anniversaire avec n enfants, le nombre de poign\u00e9es de main augmente de n.</p>\n<p>Si nous avons 2 enfants (disons A et B), nous n'avons qu'une poign\u00e9e de main AB. </p>\n<p>Lorsque nous avons 3 enfants (disons A, B et C), nous avons 3 poign\u00e9es de main: AB, AC et BC. Il y a l'original et 2 autres maintenant que C a rejoint. 1 + 2 = 3.  </p>\n<p>Si l\u2019on ajoute un autre enfant (par exemple D) ils doivent serrer la main de A, B et C et tous les autres se d\u00e9rouleront quand-m\u00eame. Alors il y aura 1+2+3=6 poign\u00e9es de main</p>\n<p>Si l\u2019on ajoute un autre enfant au groupe de 4, il y aura 4 poign\u00e9es de main en plus. Alors 1+2+3+4=10 poign\u00e9es de main.</p>\n<p>Si on suit ce mod\u00e8le, on peut trouver que la r\u00e9ponse pour 8 enfants est 1+2+3+4+5+6+7=28.</p>\n<p>Une autre mani\u00e8re d\u2019y penser est que si vous \u00eates l\u2019un des 8 enfants, il faut que vous vous serriez la main avec les 7 autres personnes. Ainsi que tous les autres dans la f\u00eate. Puisqu'il y a 8 d\u2019entre vous, et vous serrez la main avec 7 autres personnes, il devrait avoir 8\u00d77 poign\u00e9es de main. Cependant, comme il faut 2 personnes pour serrer la main, nous avons compt\u00e9 chaque poign\u00e9e de main deux fois. Il faut donc diviser par deux et la r\u00e9ponse est 8\u00d77 \u2215 2 = 28 </p>"
+  },
+  "extension_1": {
+    "statement": "<p>Toute l\u2019\u00e9cole est venue \u00e0 la f\u00eate d'anniversaire: il y a maintenant 100 enfants! Combien de poign\u00e9es de main se d\u00e9roulent le = accord ?</p>",
+    "hint": "<p>Est-ce que vous pouvez trouver une formule pour le nombre de poign\u00e9es de main quand il y a n enfant \u00e0 la f\u00eate d\u2019anniversaire? Pensez \u00e0 la strat\u00e9gie que vous aviez utilis\u00e9e pour r\u00e9pondre \u00e0 la question pr\u00e9c\u00e9dente et essayez de la g\u00e9n\u00e9raliser pour quelconque de tous les = pas s\u00fbre pour la traduction de any nombres d'enfants.</p>",
+    "correct_answer": "4950",
+    "explanation": "<p>En g\u00e9n\u00e9ralisant ce que vous avez trouv\u00e9 auparavant, vous pouvez cr\u00e9er une r\u00e8gle qui est, pour une f\u00eate d\u2019anniversaire avec n enfants vous avez 1 + 2 + \u2026 + (n - 1) poign\u00e9es de mains. Vous r\u00e9aliserez que vous pouvez ensuite utiliser une formule (n\u00d7(n - 1) \u2215 2) pour calculer le nombre de poign\u00e9es de mains. Pour 100 enfants il y a 100\u00d799 \u2215 2 = 4950 poign\u00e9es de mains. Ceci est la m\u00eame chose que d\u2019ajouter les nombres 1 + 2 + 3 + \u2026+ 99.</p>"
+  },
+  "extension_2": {
+    "statement": "<p>Une plus grande \u00e9cole a eu une f\u00eate. Il y avait 28680 poign\u00e9es de mains! Combien d\u2019enfants y avait-il?</p>",
+    "hint": "<p>Try using the formula we have derived for the total number of handshakes for n children.</p>",
+    "correct_answer": "240",
+    "explanation": "<p>La formule pour le nombre de poign\u00e9es de mains pour n enfants est n\u00d7(n - 1) \u2215 2. On a besoin de trouver la valeur de n tel que n\u00d7(n - 1) \u2215 2=28680. En multipliant par deux cela nous donne n\u00d7(n - 1) = 57360. Remarquez qu\u2019on veut \u00e0 peu pr\u00e8s n\u00d7n = 57360 donc essayez de prendre la racine carr\u00e9 de 57360. Ceci nous donne 239.49947\u2026 Alors essayons 240, ce qui nous donne en effet 240\u00d7239/2 = 28680.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Ceci est un puzzle classique qui existe depuis de nombreuses ann\u00e9es. Il y a plusieurs strat\u00e9gies de r\u00e9solution du probl\u00e8me qui peuvent \u00eatre utilis\u00e9es pour trouver la solution - mimer, dessiner un diagramme, chercher une tendance, r\u00e9soudre un probl\u00e8me plus simple, cr\u00e9er une liste organis\u00e9e, faire un tableau, utiliser un raisonnement logique\u2026 La solution \u00e0 des propri\u00e9t\u00e9s math\u00e9matiques profondes et est un r\u00e9sultat cl\u00e9 dans le domaine de la combinatoire. Le nombre de poign\u00e9es de mains est toujours un nombre triangulaire. Les premiers dix nombres triangulaires sont 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, \u2026</p>",
+    "references": [
+      "<p><a href=\"https://nrich.maths.org/6708\" target=\"_blank\">https://nrich.maths.org/6708</a></p>",
+      "<p><a href=\"https://www.nctm.org/Publications/Teaching-Children-Mathematics/Blog/Reflecting-on-the-Handshake-Problem/\" target=\"_blank\">https://www.nctm.org/Publications/Teaching-Children-Mathematics/Blog/Reflecting-on-the-Handshake-Problem/</a></p>",
+      "<p><a href=\"https://www.mathsisfun.com/algebra/triangular-numbers.html\" target=\"_blank\">https://www.mathsisfun.com/algebra/triangular-numbers.html</a></p>",
+      "<p><a href=\"https://en.wikipedia.org/wiki/Triangular_number\" target=\"_blank\">https://en.wikipedia.org/wiki/Triangular_number</a></p>"
+    ]
+  }
+}

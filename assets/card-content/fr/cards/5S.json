@@ -1,0 +1,21 @@
+{
+  "title": "Mastermind",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p>Il s'agit d'un jeu \u00e0 deux joueurs, le premier joueur choisit secr\u00e8tement quatre cartes et les mets dans une rang\u00e9e avec leur face cach\u00e9e. Le deuxi\u00e8me joueur a sept essais pour deviner les enseignes/combinaisons (tr\u00e8fles, carreaux, c\u0153urs, piques) de ces cartes, en ordre. Le deuxi\u00e8me joueur devine en pla\u00e7ant quatre cartes en rang\u00e9e face vers le haut. Le premier joueur regarde les enseignes et leur dit combien d'enseignes ils ont devin\u00e9s dans la bonne position (x), et combien d'autres enseignes ils ont bien devin\u00e9 mais dans la mauvaise position (o). Le deuxi\u00e8me joueur utilise ces informations pour mieux deviner la prochaine fois.</p>",
+    "further_instructions": "<p>Voici comment une partie pourrait fonctionner :</p>\n<p>Le joueur 1 choisit 1) 4 C\u0153ur, 2) 3 Tr\u00e8fle, 3) 8 Pique, 4) 10 Pique et les places face vers le bas.</p>\n<p>Le joueur 2 pose par exemple : 1) 6 C\u0153urs, 2) 4 Pique, 3) Valet de Carreau, 4) 3 Pique.</p>\n<p>Le joueur 2 a trois enseignes corrects (C\u0153ur, Pique et Pique) et deux dans la bonne position - 1) et 4) donc le joueur 1 dirait \"vous en avez deux dans la bonne position et une dans la mauvaise position\", mais ne dit pas lequels - une methode facile d'enregistrer cela serait xxo. Alors le joueur 2 devinerait \u00e0 nouveau. Ils pourraient estimer que ce sont les deux derni\u00e8res cartes qui ont \u00e9t\u00e9 tout \u00e0 fait correctes, alors les gardes et devinerai les deux premi\u00e8res diff\u00e9ramment . Enregistrer les r\u00e9sultats avec stylo et papier sera n\u00e9cessaire et ressemblerait \u00e0 ceci:</p>\n<p>CoPCaP xxo</p>\n<p>TTCaP xoo </p>\n<p>Notez que ce n'est que les enseignes qui nous int\u00e9ressent et non les chiffres. Le joueur 1 ne dit pas exactement lesquels sont corrects, il suffit de dire combien ont \u00e9t\u00e9 bien devin\u00e9, le joueur 2 continue \u00e0 deviner jusqu'\u00e0 ce que tous les quatre soient corrects. </p>",
+    "strategy_tips": "<p>Pour celui qui devine : Votre premi\u00e8re essai sera au hasard, mais apr\u00e8s cela, vous devriez utiliser la logique pour d\u00e9terminer quelle est la solution. Une bonne strat\u00e9gie pour les d\u00e9butants est juste de changer une seule carte \u00e0 la fois, mais des que vous jouez plus, vous pouvez trouver une meilleure strat\u00e9gie optimale.</p>\n<p>Pour celui qui d\u00e9cide: pensez a savoir s'il est mieux d'avoir que le m\u00eame enseigne, tous diff\u00e9rent, ou quelques uns pareils. </p>"
+  },
+  "extension_1": {
+    "statement": "<p>Essayez de jouer au jeu en devinant le chiffre des cartes - 1 (As) \u00e0 10 - au lieu des enseignes. Il y aura plus d'options donc ce sera beaucoup plus difficile, vous pouvez m\u00eame utiliser V, Re, Ro aussi.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Ce jeu peut \u00eatre jou\u00e9 avec des chiffres, des lettres, des symboles ou bien des couleurs comme dans le jeux de soci\u00e9t\u00e9 du m\u00eame nom.</p>",
+    "references": [
+      "<p><a href=\"https://en.wikipedia.org/wiki/Mastermind_(board_game)\" target=\"_blank\">https://en.wikipedia.org/wiki/Mastermind_(board_game)</a></p>",
+      "<p><a href=\"https://lycee.samicharity.co.uk/2017/09/21/mastermind-problems/\" target=\"_blank\">https://lycee.samicharity.co.uk/2017/09/21/mastermind-problems/</a></p>"
+    ]
+  }
+}

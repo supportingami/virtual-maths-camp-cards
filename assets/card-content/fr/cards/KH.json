@@ -1,0 +1,27 @@
+{
+  "title": "La conjecture de Collatz",
+  "metadata": {
+    "type": "funfact"
+  },
+  "main_version": {
+    "statement": "<p>Pensez \u00e0 un entier positif (nombre entier). S'il est pair, divisez-le par 2. S'il est impair, multipliez-le par 3 et ajoutez 1. R\u00e9p\u00e9tez le processus avec votre nouveau num\u00e9ro et continuez. Arr\u00eatez-vous si vous arrivez au chiffre 1. Personne ne sait s'il existe un nombre qui ne finit pas par 1.</p>",
+    "hint": "<p>Par exemple, si vous choisissez le num\u00e9ro 6, vous obtiendrez la s\u00e9quence 6, 3, 10, 5, 16, 8, 4, 2, 1. Il a donc fallu 8 \u00e9tapes pour arriver \u00e0 1. Essayez ceci avec vos propres nombres.</p>",
+    "explanation": "<p>Cette activit\u00e9 est int\u00e9ressante parce qu'il est facile a comprendre ses r\u00e8gles et de commencer \u00e0 produire des s\u00e9quences, mais personne ne sait si tous les chiffres se retrouvent \u00e0 1; c'est un probl\u00e8me non r\u00e9solu en math\u00e9matiques. La s\u00e9quence la plus longue pour un nombre plus petit que 100 est pour 97, qui prend 118 \u00e9tapes mais finit quand m\u00eame par 1. Le nombre juste avant, 96, ne prend que 12 \u00e9tapes ! En utilisant des ordinateurs, tous le nombres jusqu'\u00e0 environ 2.95\u00d710\u00b2\u2070 ont \u00e9t\u00e9 v\u00e9rifi\u00e9s, et tous retombent \u00e0 1.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Quel est le plus grand nombre qui prends exactemenet 8 \u00e9tapes pour arriver \u00e0 1?</p>",
+    "hint": "<p>Quel type de nombres descendent tr\u00e8s rapidement vers 1 parce qu-ils suivent toujours la loi de division par 2?</p>",
+    "correct_answer": "256",
+    "explanation": "<p>Les s\u00e9quences les plus courtes sont celles o\u00f9 vous pouvez toujours r\u00e9duire de moiti\u00e9 ces nombres. Cela signifie qu'ils sont des puissances de 2, par exemple 1, 2, 4, 8, 16, 32, etc. comme ces nombres s'\u00e9coulent \u00e0 1. 256 reduit \u00e0 1 de 8 pas, chaque fois par dminuer de moiti\u00e9: 256, 128, 64, 32, 16, 8, 4, 2, 1.</p>"
+  },
+  "additional_information": {
+    "about": "<p>La conjecture porte le nom de Lothar Collatz, qui a introduit l'id\u00e9e en 1937, deux ans apr\u00e8s avoir re\u00e7u son doctorat. Depuis Collatz, de nombreuses personnes ont essay\u00e9 de trouver une suite qui ne tend pas vers 1, ou bien pour prouver que toutes les suites tendent vers 1, mais personne n'a r\u00e9ussi. Il y a plusieurs prix \u00e0 gagner si vous r\u00e9ussissez ! Le 8 septembre 2019, Terence Tao a prouv\u00e9 que, en utilisant des \u00e9chantillons de chiffres, presque tous les nombres finissent par atteindre une valeur qui est assez proche de 1. En gros, il a prouv\u00e9 que 99% des valeurs initiales sup\u00e9rieures \u00e0 1 quadrillion finissent par atteindre une valeur inf\u00e9rieure \u00e0 200. C'est un grand pas en avant pour un probl\u00e8me aussi difficile\u202f! </p>",
+    "references": [
+      "<p><a href=\"https://lycee.samicharity.co.uk/2017/03/17/collatz-conjecture/\" target=\"_blank\">https://lycee.samicharity.co.uk/2017/03/17/collatz-conjecture/</a></p>",
+      "<p><a href=\"https://www.quantamagazine.org/mathematician-terence-tao-and-the-collatz-conjecture-20191211/\" target=\"_blank\">https://www.quantamagazine.org/mathematician-terence-tao-and-the-collatz-conjecture-20191211/</a></p>",
+      "<p><a href=\"https://en.wikipedia.org/wiki/Collatz_conjecture\" target=\"_blank\">https://en.wikipedia.org/wiki/Collatz_conjecture</a></p>",
+      "<p><a href=\"https://www.quantamagazine.org/cash-for-math-the-erdos-prizes-live-on-20170605/\" target=\"_blank\">https://www.quantamagazine.org/cash-for-math-the-erdos-prizes-live-on-20170605/</a></p>",
+      "<p><a href=\"http://thescienceexplorer.com/universe/earn-two-thousand-dollars-solving-simple-math-problem\" target=\"_blank\">http://thescienceexplorer.com/universe/earn-two-thousand-dollars-solving-simple-math-problem</a></p>"
+    ]
+  }
+}

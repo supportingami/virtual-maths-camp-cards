@@ -1,0 +1,30 @@
+{
+  "title": "Les Cartes perdues",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>Un petit nombre de cartes ont \u00e9t\u00e9 perdues \u00e0 partir d'un pack complet de 52. Je distribue des cartes aux joueurs jusqu'\u00e0 ce que tous aient le m\u00eame nombre de cartes et certaines cartes sont restantes. Si je donne \u00e0 quatre joueurs, trois cartes restent. Si je distribue \u00e0 trois joueurs, deux cartes restent et si je distribue \u00e0 cinq joueurs, il reste deux cartes. Combien y a-t-il de cartes ?</p>",
+    "correct_answer": "47",
+    "hint": "<p>Pensez aux restes lors de la division. S'il y a deux restants lors de la division entre cinq personnes\nalors le nombre doit \u00eatre deux fois plus qu'un\nmultiple de 5, par ex. 7 ou 32</p>",
+    "explanation": "<p>Comme seul un petit nombre de cartes ont \u00e9t\u00e9 perdues, commen\u00e7ons par lister les nombres qui fonctionnent et qui sont proches de 52.</p>\n<p>S'il ne restait plus de cartes lorsqu'elles \u00e9taient distribu\u00e9es entre quatre personnes, nous saurions que le nombre de cartes \u00e9tait dans la table de multiplication par quatre, c'est-\u00e0-dire \u2026, 36, 40, 44, 48. Mais il en reste trois, donc le nombre de cartes doit \u00eatre dans la s\u00e9quence \u2026, 39, 43, 47, 51.</p>\n<p>Pour distribuer entre trois personnes les deux restants, nous obtenons la s\u00e9quence \u2026, 41,44,47,50</p>\n<p>Pour distribuer entre cinq personnes les deux restants, nous obtenons la s\u00e9quence \u2026, 32, 37,42,47</p>\n<p>Le nombre qui appara\u00eet sur toutes les trois listes est 47.</p>\n<p>On pourrait aussi r\u00e9soudre l'\u00e9nigme en commen\u00e7ant par les deux derniers indices. Il reste le m\u00eame nombre de cartes lorsqu'on distribue \u00e0 trois ou cinq personnes, donc la r\u00e9ponse doit \u00eatre deux de plus qu'un multiple de 15, donc 17, 32 ou 47. Le seul de ces nombres qui correspond au premier indice est 47 .</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Certaines cartes ont \u00e9t\u00e9 perdues dans un paquet complet de 52. Si je distribue entre trois ou quatre personnes, il reste toujours deux cartes. Combien d'options diff\u00e9rentes existe-t-il pour le nombre de cartes restantes\u00a0?</p>",
+    "hint": "<p>Pensez aux multiples de 12.</p>",
+    "correct_answer": "4",
+    "explanation": "<p>Il doit y avoir deux de plus qu'un multiple de 12, car il y a deux de plus qu'un multiple de 3 et deux de plus qu'un multiple de 4. Il y a donc quatre nombres... \u00e0 savoir 14, 26, 38, 50.</p>"
+  },
+  "extension_2": {
+    "statement": "<p>Certaines cartes ont \u00e9t\u00e9 perdues dans un paquet complet de 52. Si je distribue entre deux personnes, il reste une carte, et si je distribue entre quatre personnes, il reste deux cartes. Combien d'options diff\u00e9rentes existe-t-il pour le nombre de cartes restantes\u00a0?</p>",
+    "hint": "<p>Think about odd and even numbers.</p>",
+    "correct_answer": "0",
+    "explanation": "<p>Il y a 0 options car il est impossible d'avoir un nombre qui soit \u00e0 la fois un de plus qu'un multiple de 2 (doit \u00eatre impair) et deux de plus qu'un multiple de 4 (doit \u00eatre pair).</p>"
+  },
+  "additional_information": {
+    "about": "<p>Il existe un nom sp\u00e9cial pour l'op\u00e9ration consistant \u00e0 diviser par un nombre et \u00e0 trouver le reste en math\u00e9matiques - c'est ce qu'on appelle l'arithm\u00e9tique <strong>mod</strong>ulaire. 47 mod 5 = 2 car lorsque vous divisez 47 par 5 vous avez un reste de 2. C'est une technique puissante en math\u00e9matiques pour prouver des faits sur les nombres. Nous l'utilisons dans la vie de tous les jours lorsque nous donnons l'heure avec une horloge de 24 heures. </p>\n<p>(18 + 8) mode 24 = 2 soit 8h apr\u00e8s 18h c'est 2h du matin ! </p>",
+    "references": [
+      "<p><a href=\"https://betterexplained.com/articles/fun-with-modular-arithmetic/\" target=\"_blank\">https://betterexplained.com/articles/fun-with-modular-arithmetic/</a></p>"
+    ]
+  }
+}

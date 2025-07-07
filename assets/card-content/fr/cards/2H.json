@@ -1,0 +1,23 @@
+{
+  "title": "Nombre de Kaprekar",
+  "metadata": {
+    "type": "funfact"
+  },
+  "main_version": {
+    "statement": "<p>Choisissez un nombre \u00e0 quatre chiffres o\u00f9 les chiffres ne sont pas tous les m\u00eames.</p>\n<p>R\u00e9organiser les chiffres pour obtenir le plus grand et le plus petit nombre possible que ces chiffres peuvent former.</p>\n<p>Soustrayez le plus petit nombre du plus grand pour obtenir un nouveau nombre, et continuez \u00e0 r\u00e9p\u00e9ter l'op\u00e9ration pour chaque nouveau nombre. Vous finirez toujours au m\u00eame nombre.</p>",
+    "hint": "<p>Par exemple, si vous commencez par 4252, vous devez faire le calcul 5422 - 2245 = 3177, puis faire 7731 - 1377 et ainsi de suite.</p>",
+    "explanation": "<p>Vous finissez toujours avec le nombre 6174. Ceci est connu sous le nom de nombre de Kaprekar. Par exemple 5432 \u2013 2345 = 3087</p>\n<p>8730 \u2013 0378 = 8352</p>\n<p>8532 \u2013 2358 = 6174</p>\n<p>7641 \u2013 1467 = 6174</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Que se passe-t-il lorsque vous effectuez ce processus avec des nombres \u00e0 3 chiffres (o\u00f9 tous les chiffres ne sont pas les m\u00eames)? Pouvez-vous expliquer pourquoi vous vous retrouvez toujours avec le m\u00eame nombre ? Notez que si vous trouvez 99 comme r\u00e9ponse \u00e0 n'importe quel moment, cela donnerait alors 099 comme le plus petit nombre et 990 comme le plus grand.</p>",
+    "hint": "<p>Par exemple, si vous commencez par 792, le premier calcul que vous devez effectuer est 972 - 279 = 693. </p>",
+    "explanation": "<p>On peut \u00e9crire un nombre abc \u00e0 trois chiffres (imaginez qu'il soit aussi grand que possible) que 100\u00d7a + 10\u00d7b + c. Si nous r\u00e9organisons les chiffres pour les rendre aussi petits que possible, ce serait cba que nous pouvons \u00e9crire comme 100\u00d7c + 10\u00d7b + a. Puis soustraire pour donner 100\u00d7a + 10\u00d7b + c - (100\u00d7c + 10\u00d7b + a) = 99\u00d7a - 99\u00d7c = 99\u00d7(c). Donc, apr\u00e8s une \u00e9tape, le nombre sera un multiple de 99. Les 10 seuls nombres qui sont des multiples de 99 sont 099, 198, 297, 396, 495, 594, 693, 792, 891, et 990. Nous avons seulement besoin de v\u00e9rifier les cinq premiers (comme nous r\u00e9arrangerons les chiffres de toute fa\u00e7on) et nous pouvons v\u00e9rifier que tous finissent par donner la r\u00e9ponse 495.</p>"
+  },
+  "additional_information": {
+    "about": "<p>D. R. Kaprekar (1905 - 1986) \u00e9tait un professeur indien de math\u00e9matiques qui aimait jouer avec les nombres. Il a d\u00e9couvert un certain nombre de r\u00e9sultats dans la th\u00e9orie des nombres et d\u00e9crit diverses propri\u00e9t\u00e9s des nombres.</p>",
+    "references": [
+      "<p><a href=\"https://en.wikipedia.org/wiki/D._R._Kaprekar\" target=\"_blank\">https://en.wikipedia.org/wiki/D._R._Kaprekar</a></p>",
+      "<p><a href=\"https://plus.maths.org/content/mysterious-number-6174\" target=\"_blank\">https://plus.maths.org/content/mysterious-number-6174</a></p>"
+    ]
+  }
+}

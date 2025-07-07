@@ -1,0 +1,30 @@
+{
+  "title": "Journal",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>Ci-dessous, une seule feuille d'un journal. \u00c9tant donn\u00e9 que chaque feuille comporte quatre pages, combien y a-t-il de feuilles en tout\u00a0?</p>\n<p><img alt=\"\" src=\"assets/images/Journal_image_0.png\" class=\"Journal_image_0\" /></p>",
+    "correct_answer": "17",
+    "hint": "<p>Pouvez-vous travailler \u00e0 rebours \u00e0 partir de 8 pour d\u00e9terminer combien de feuilles il y aurait sous celle-ci\u00a0? Vous pouvez utiliser des morceaux de papier et les num\u00e9roter pour vous aider.</p>",
+    "explanation": "<p>Au verso du num\u00e9ro 8 il doit y avoir le num\u00e9ro 7. La feuille en dessous doit avoir les chiffres 6 et 5. En continuant il y aura 4 et 3 et enfin 2 et 1. Il y a donc trois feuilles en dessous. Ajouter 7 au 61 donne la derni\u00e8re page comme 68. \u00c9tant donn\u00e9 que chaque feuille a quatre pages, il y a 68 \u2215 4 = 17 feuilles.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>S'il faut 852 chiffres pour num\u00e9roter toutes les pages d'un livre, dans l'ordre habituel, quel est le num\u00e9ro de la derni\u00e8re page du livre ?</p>",
+    "hint": "<p>Combien y a-t-il de nombres \u00e0 1 chiffre ? Combien de nombres \u00e0 2 chiffres ?</p>",
+    "correct_answer": "320",
+    "explanation": "<p>Il existe 9 nombres \u00e0 un chiffre (les nombres 1 \u00e0 9), 90 nombres \u00e0 deux chiffres (les nombres 10 \u00e0 99) et 900 nombres \u00e0 trois chiffres (les nombres 100 \u00e0 999). Au total, cela ferait 9 \u00d7 1 + 90 \u00d7 2 + 900 \u00d7 3 = 9 + 180 + 2700 = 2889 chiffres, donc le nombre de pages est inf\u00e9rieur \u00e0 999. Il y a 852 - 9 - 180 = 663 chiffres utilis\u00e9s dans les nombres \u00e0 trois chiffres. 663 \u2215 3 = 221, il y a donc 221 pages avec des nombres \u00e0 trois chiffres. 99 + 221 = 320 nous donne la r\u00e9ponse.  </p>"
+  },
+  "extension_2": {
+    "statement": "<p>Num\u00e9roter les pages d'un livre n\u00e9cessite d'imprimer 200 neufs. Quel est le nombre minimum de pages que le livre pourrait avoir ?</p>",
+    "hint": "<p>How many 9s are there in the first 100 numbers?</p>",
+    "correct_answer": "918",
+    "explanation": "<p>Pensez d'abord aux nombres inf\u00e9rieurs \u00e0 100. Il y a 10 nombres se terminant par 9 et 10 nombres ayant 9 comme chiffre sup\u00e9rieur (90\u201299), soit un total de 20 9. De la m\u00eame fa\u00e7on, on a 20 9 entre 100 et 199, et entre 200 et 299, etc. On obtient donc 9\u00d720 = 180 9 jusqu'\u00e0 899. Il nous en faut 20 de plus pour atteindre 200 9s. De 900 \u00e0 999, chaque nombre commence par un 9. Parce que 909 a deux 9, nous obtenons les 20 derniers 9 des nombres de 900 \u00e0 918.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Vous pouvez essayer ce puzzle avec un vrai journal - sortez l'une des feuilles et regardez les chiffres dessus. D\u00e9terminez le nombre de feuilles qu'il devrait y avoir et voyez ensuite si vous avez raison. </p>",
+    "references": [
+      "<p><a href=\"https://nrich.maths.org/7180\" target=\"_blank\">https://nrich.maths.org/7180</a></p>"
+    ]
+  }
+}

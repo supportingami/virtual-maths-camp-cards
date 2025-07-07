@@ -1,0 +1,25 @@
+{
+  "title": "Restaurant",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>Dans un restaurant, chaque table a 3 pieds, chaque chaise a 4 pieds et tous les clients et les trois membres du personnel ont 2 pieds chacun. Il y a quatre chaises \u00e0 chaque table. Les trois quarts des chaises sont occup\u00e9es par des clients et il y a 206 pieds au total dans le restaurant. Combien de chaises le restaurant a-t-il ?</p>",
+    "correct_answer": "32",
+    "hint": "<p>Pouvez-vous d\u00e9terminer combien de pieds il y a \u00e0 chaque table si les trois quarts des chaises sont occup\u00e9es par des personnes\u00a0?</p>",
+    "explanation": "<p>Les trois membres du personnel ont six pattes, alors retirez cela du total, ce qui donne 206 - 6 = 200. Maintenant, les tables, les chaises et les clients ont 200 pattes. En moyenne, \u00e0 chaque table il y a 3 pieds de table, 16 pieds de chaise et 6 pieds clients (puisque seulement les trois quarts des chaises sont prises). Cela donne 3 + 16 + 6 = 25 pieds par table. Le nombre de tables est donc 200 \u2215 25 = 8, donc le nombre de chaises est 8\u00d74 = 32. </p>"
+  },
+  "extension_1": {
+    "statement": "<p>J'ai 30 pi\u00e8ces. Certaines des pi\u00e8ces sont de 1 \u00a2, d'autres de 2 \u00a2 et d'autres de 6 \u00a2. La valeur des pi\u00e8ces de 6 \u00a2 vaut le m\u00eame montant que la valeur totale des pi\u00e8ces de 1 \u00a2 et des pi\u00e8ces de 2 \u00a2 combin\u00e9es. \u00c9tant donn\u00e9 que j'ai un nombre diff\u00e9rent de chaque type de pi\u00e8ce, quelle est la valeur totale de toutes les pi\u00e8ces (en \u00a2)\u00a0?</p>",
+    "hint": "<p>Commencez par consid\u00e9rer combien de pi\u00e8ces de 6 \u00a2 je pourrais avoir... si j'en ai trop, je ne pourrai pas faire correspondre leur valeur avec les pi\u00e8ces de 1 \u00a2 et les pi\u00e8ces de 2 \u00a2.</p>",
+    "correct_answer": "84",
+    "explanation": "<p>D'abord, nous supposons que nous avons des pi\u00e8ces de 8 \u00d7 6 \u00a2, cela a une valeur de 48 \u00a2, avec 22 pi\u00e8ces restantes. La valeur cible est toujours un multiple de six et donc paire, nous aurons donc besoin d'un nombre pair de 1 \u00a2 pour obtenir le nombre pair. Le plus grand total pair parmi le reste des pi\u00e8ces est de 20x2 \u00a2 + 2x1 \u00a2 = 42 \u00a2, soit moins de 48 \u00a2.</p>\n<p>Donc, au plus, nous pouvons avoir 7 \u00d7 6 \u00a2 = 42 \u00a2, avec 23 pi\u00e8ces restantes. Dans ce cas, le total pair le plus \u00e9lev\u00e9 est 21x2 \u00a2 + 2x1 \u00a2 = 44 \u00a2. Notre objectif \u00e9tait de 42 \u00a2, donc nous incluons plus de pi\u00e8ces de 1 \u00a2 et moins de pi\u00e8ces de 2 \u00a2. Le total pair suivant le plus \u00e9lev\u00e9 est de 19x2 \u00a2 + 4x1 \u00a2 = 42 \u00a2, atteignant notre objectif.</p>\n<p>Par cons\u00e9quent, la valeur totale de toutes les pi\u00e8ces est de 7 \u00d7 6 \u00a2 + 19 x 2 \u00a2 + 4 x 1 \u00a2 = 84 \u00a2.</p>\n<p>Pour \u00eatre complet, le plus petit nombre de pi\u00e8ces de 6 \u00a2 est 5 (choisir 4 donne un total de 24 \u00a2 avec 26 pi\u00e8ces restantes). La solution avec 5\u00d76\u00a2 est 5\u00d72\u00a2 et 10\u00d71\u00a2. La solution pour 6 \u00d7 6 \u00a2 est 12 \u00d7 2 \u00a2 et 12 \u00d7 1 \u00a2. Cependant, aucune de ces solutions n'a une quantit\u00e9 diff\u00e9rente de chaque pi\u00e8ce.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Ce puzzle \u00e9tait \u00e0 l'origine un probl\u00e8me d'un d\u00e9fi de math\u00e9matiques UKMT  </p>",
+    "references": [
+      "<p><a href=\"https://nrich.maths.org/2458\" target=\"_blank\">https://nrich.maths.org/2458</a></p>",
+      "<p><a href=\"https://www.ukmt.org.uk/\" target=\"_blank\">https://www.ukmt.org.uk/</a></p>"
+    ]
+  }
+}

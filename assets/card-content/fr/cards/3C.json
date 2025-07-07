@@ -1,0 +1,31 @@
+{
+  "title": "Moyen",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>La moyenne (moyen) de 16 entiers positifs diff\u00e9rents est 16. Quelle est la plus grete valeur possible que l'un de ces entiers puisse avoir\u00a0?</p>",
+    "correct_answer": "136",
+    "hint": "<p>Faites en sorte que les 15 premiers nombres (diff\u00e9rents) soient aussi petits que possible. Qu'est-ce que cela nous apprend sur le 16\u00e8me nombre ?</p>",
+    "explanation": "<p>Si la moyenne de 16 nombres est 16, alors le total de tous les nombres est 16 \u00d7 16 = 256. Nous voulons rendre l'un des nombres aussi gret que possible, nous devons donc rendre les 15 autres nombres aussi petits que possible. Les nombres entiers doivent \u00eatre diff\u00e9rents, nous devons donc choisir 1, 2, 3, ..., 15. Si vous les additionnez, cela donne 120 (un moyen rapide de le faire est \u00bd \u00d7 15 \u00d7 16 = 120). Donc le plus gret nombre est 256 - 120 = 136.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>L'\u00e2ge moyen (la moyenne) de 7 personnes est de 16 ans. \u00c9tant donn\u00e9 que tous leurs \u00e2ges sont des nombres entiers positifs diff\u00e9rents, quel est le nombre maximum de personnes qui pourraient avoir plus de 16\u00a0ans\u00a0?</p>",
+    "hint": "<p>Est-ce que tout le monde pourrait avoir plus de 16 ans ? Sinon, pouvez-vous essayer de trouver le nombre maximum de personnes qui pourraient avoir plus de 16 ans si une seule des personnes est aussi jeune que possible\u00a0?</p>",
+    "correct_answer": "5",
+    "explanation": "<p>Vous ne pouvez pas faire en sorte que les 7 personnes aient plus de 16 ans car la moyenne est de 16 ans. Vous pouvez commencer avec la plus jeune personne ayant 1 an et essayer de faire en sorte que les 6 autres personnes aient plus de 16 ans, mais le total doit \u00eatre de 7 \u00d7 16 = 112. Avec cette strat\u00e9gie, 112 - 1 = 111 et 16 + 17 + 18 + 19 + 20 + 21 = 111 donc cela ne donne que 5 personnes de plus de 16 ans car vous ne pouvez pas compter 16 lui-m\u00eame. Cela montre que vous ne pouvez pas le faire avec 6 personnes de plus de 16 ans, mais parce que vous avez une possibilit\u00e9 avec 5, c'est le plus gret nombre que vous puissiez avoir. </p>"
+  },
+  "extension_2": {
+    "statement": "<p>Quet Albert est entr\u00e9 dans la salle, l'\u00e2ge moyen a augment\u00e9 de 4 ans. Lorsque Belinda est ensuite entr\u00e9e dans la pi\u00e8ce, l'\u00e2ge moyen a encore augment\u00e9 de 3 ans. Albert et Belinda sont jumeaux. Combien de personnes \u00e9taient dans la pi\u00e8ce avant qu'Albert n'entre ?</p>",
+    "hint": "<p>Think about Albert giving 4 years to all the people in the room et Belinda giving 3 years to everyone (including Albert).</p>",
+    "correct_answer": "6",
+    "explanation": "<p>Il existe diff\u00e9rentes mani\u00e8res de r\u00e9soudre ce casse-t\u00eate. Pour chaque m\u00e9thode, soit n le nombre de personnes dans la pi\u00e8ce.</p>\n<p>Si Albert et Belinda \u00e9taient entr\u00e9s ensemble, \u00e0 eux deux ils auraient ajout\u00e9 (n + 2)\u00d77 au total de tous les \u00e2ges de la pi\u00e8ce. Si seul Albert \u00e9tait entr\u00e9, il aurait ajout\u00e9 (n + 1) \u00d7 4 au total. C'est la m\u00eame chose pour Belinda, donc s'ils entraient tous les deux ensemble, ce serait le double de ce montant. Donc (n + 2)\u00d77 = 2\u00d7(n + 1)\u00d74. La r\u00e9solution de ceci donne n = 6.</p>\n<p>Alternativement, soit a l'\u00e2ge d'Albert et Belinda. La nouvelle moyenne apr\u00e8s l'entr\u00e9e d'Albert est (a - 4 \u00d7 n) parce qu'Albert a partag\u00e9 4 ans avec tout le monde dans la pi\u00e8ce pour que son \u00e2ge soit le m\u00eame. Apr\u00e8s Belinda marche dans la moyenne est (a - 3 \u00d7 (n + 1)) parce qu'elle a donn\u00e9 3 ans \u00e0 tout le monde dans la salle, y compris Albert. Nous savons que cette deuxi\u00e8me expression doit \u00eatre sup\u00e9rieure de 3 \u00e0 la premi\u00e8re expression car la moyenne a augment\u00e9 de 3 lorsque Belinda est entr\u00e9e. On peut donc r\u00e9soudre (a - 3\u00d7(n + 1)) = a - 4\u00d7n + 3 ce qui donne n = 6.</p>\n<p>Voici une autre fa\u00e7on. Soit m la moyenne originale. La somme de tous les \u00e2ges est \u00e0 l'origine (m\u00d7n). Soit l'\u00e2ge d'Albert soit a. Quet Albert arrive, la nouvelle moyenne est (m + 4). Celle-ci doit \u00eatre \u00e9gale \u00e0 (m\u00d7n + a) \u2215 (n + 1). Lorsque Belinda entre dans la pi\u00e8ce, la nouvelle moyenne est (m + 7). Celle-ci doit \u00eatre \u00e9gale \u00e0 (m\u00d7n + 2\u00d7a) \u2215 (n + 2). La r\u00e9organisation de ces \u00e9quations donne </p>\n<p>m\u00d7n + a = m\u00d7n + m + 4\u00d7n + 4</p>\n<p>et</p>\n<p>m\u00d7n + 2\u00d7a = m\u00d7n + 2\u00d7m + 7\u00d7n + 14</p>\n<p>Qui simplifient \u00e0</p>\n<p>a = m + 4\u00d7n + 4 et 2\u00d7a = 2\u00d7m + 7\u00d7n + 14. </p>\n<p>Multiplying the first equation by 2 et subtracting the second one gives n = 6. So there are 6 people in the room at the start. </p>"
+  },
+  "additional_information": {
+    "about": "<p>La moyenne est une fa\u00e7on de d\u00e9crire tout un ensemble de donn\u00e9es avec un seul chiffre. La m\u00e9diane est une autre fa\u00e7on de d\u00e9crire l'ensemble de donn\u00e9es avec un nombre. Si le puzzle avait demet\u00e9 \"La m\u00e9diane de 16 nombres entiers positifs diff\u00e9rents est 16. Quelle est la plus grete valeur possible que l'un de ces nombres entiers pourrait avoir\u00a0?\", alors il n'y aurait pas de solution car vous pourriez choisir n'importe quel nombre aussi gret que vous le souhaitez pour le plus gret nombre, car la valeur de la m\u00e9diane de 16 nombres ne d\u00e9pend que des huit et neuvi\u00e8me plus grets nombres\u00a0! </p>",
+    "references": [
+      "<p><a href=\"https://www.mathsisfun.com/mean.html\" target=\"_blank\">https://www.mathsisfun.com/mean.html</a></p>",
+      "<p><a href=\"https://www.mathsisfun.com/median.html\" target=\"_blank\">https://www.mathsisfun.com/median.html</a></p>"
+    ]
+  }
+}

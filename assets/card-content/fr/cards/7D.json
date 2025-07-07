@@ -1,0 +1,30 @@
+{
+  "title": "Les parts de g\u00e2teau",
+  "metadata": {
+    "type": "counting"
+  },
+  "main_version": {
+    "statement": "<p>Quel est le plus grand nombre de morceaux d'un g\u00e2teau circulaire que vous pouvez obtenir avec 5 coupes droites ? Les coupes doivent \u00eatre faites sur le dessus du g\u00e2teau.</p>",
+    "correct_answer": "16",
+    "hint": "<p>Commencez par un petit nombre de coupes, par ex. 1, 2, 3. Comment pouvez-vous ajouter une autre coupe pour obtenir le plus grand nombre de pi\u00e8ces ? Rappelez-vous qu'il ne dit pas que les pi\u00e8ces doivent \u00eatre de la m\u00eame taille\u00a0! Que se passe-t-il si plusieurs coupes passent par le m\u00eame point\u00a0?</p>",
+    "explanation": "<p>Avec une coupe, vous obtenez toujours 2 pi\u00e8ces. Avec deux coupes, vous pouvez obtenir 4 pi\u00e8ces. Avec trois coupes, si toutes les coupes passent par le m\u00eame point, vous obtenez 6 pi\u00e8ces. Cependant, vous pouvez obtenir 7 pi\u00e8ces si la troisi\u00e8me coupe ne passe pas par le m\u00eame point que les deux pr\u00e9c\u00e9dentes. Utilisez cette id\u00e9e pour obtenir le nombre maximum avec quatre coupes. Donc, pour obtenir le plus de morceaux, assurez-vous que pas plus de deux coupes passent par le m\u00eame point, sinon vous obtenez moins de morceaux. Avec quatre coupes, vous pouvez obtenir 11 pi\u00e8ces. Recommencez la m\u00eame chose pour cinq coupes, commencez par les quatre coupes qui donnent 7 pi\u00e8ces et ajoutez une coupe sans passer par aucun point de rencontre (intersections) et vous pouvez obtenir 16 pi\u00e8ces.</p>\n<p><img alt=\"\" src=\"assets/images/Pieces_of_Cake_image_0.png\" class=\"Pieces_of_Cake_image_0\" /></p>"
+  },
+  "extension_1": {
+    "statement": "<p>Quel est le plus grand nombre de morceaux de g\u00e2teau que vous pouvez obtenir avec 7 coupes ?</p>",
+    "hint": "<p>Au fur et \u00e0 mesure que le nombre de coupes augmente, le dessin et le comptage peuvent \u00eatre trop compliqu\u00e9s\u00a0: pouvez-vous rep\u00e9rer le motif dans la s\u00e9quence de nombres obtenue \u00e0 partir des exemples pr\u00e9c\u00e9dents\u00a0? Pour 7 coupes, calculez d'abord la r\u00e9ponse pour 6 coupes, puis utilisez ce r\u00e9sultat.</p>",
+    "correct_answer": "29",
+    "explanation": "<p>Vous vous rendez peut-\u00eatre compte qu'il existe une formule pour obtenir le num\u00e9ro suivant dans la s\u00e9quence \u00e0 partir du pr\u00e9c\u00e9dent. Vous pouvez le voir en calculant le nombre de nouvelles pi\u00e8ces cr\u00e9\u00e9es lorsque vous ajoutez une coupe suppl\u00e9mentaire. Par exemple, ajouter une quatri\u00e8me coupe \u00e0 7 pi\u00e8ces obtenues \u00e0 partir de 3 coupes ajoute 4 nouvelles pi\u00e8ces (11). L'ajout d'une cinqui\u00e8me coupe \u00e0 cela ajoute 5 nouvelles pi\u00e8ces (16). (Pouvez-vous voir pourquoi cela est vrai en g\u00e9n\u00e9ral en pensant \u00e0 la fa\u00e7on dont nous croisons les coupes existantes pour cr\u00e9er le plus de pi\u00e8ces\u00a0?)</p>\n<p>Donc si C est le nombre de coupes et P(C) est le nombre maximum de pi\u00e8ces de C coupes, alors la formule est : </p>\n<p>P(C + 1) = P(C) + C + 1</p>\n<p>Donc :\n P(6) = P(5) + 5 + 1 = 16 + 6 = 22 \nP(7) = P(6) + 6 + 1 = 22 + 7 = 29</p>"
+  },
+  "extension_2": {
+    "statement": "<p>Pouvez-vous calculer le plus grand nombre de pi\u00e8ces que vous pouvez obtenir avec 99 coupes ?</p>",
+    "hint": "<p>Once you've found out the pattern, try to find a simple formula for the maximum number of pieces. Triangular numbers might help.</p>",
+    "correct_answer": "4951",
+    "explanation": "<p>Nous avons trouv\u00e9 la formule P(C + 1) = P(C) + C + 1 pour le nombre maximum de pi\u00e8ces donnant les coupes. Cependant, ce n'est pas pratique \u00e0 utiliser pour le cas de 99 coupes car il faudrait d'abord conna\u00eetre le nombre de pi\u00e8ces pour 98 coupes, puis le nombre de pi\u00e8ces pour 97 coupes, et ainsi de suite. Vous devez penser comment obtenir la formule explicite : P(C) = \u00bd\u00d7C\u00d7(C + 1) + 1.</p>\n<p>Soit par intuition, soit en utilisant la formule pour remonter de P(C) \u00e0 P(1) : P(C) = P(C - 1) + C - 1 + 1 </p>\n<p>= P(C - 1) + C  </p>\n<p>= P(C - 2) + (C - 1) + C</p>\n<p>= P(C - 3) + (C - 2) + (C - 1)  + C</p>\n<p>\u2026 </p>\n<p>= P(1) + 2 + 3 \u2026 + (C - 2) + (C - 1) + C</p>\n<p>= 2 + (2 + 3 + \u2026 + C)</p>\n<p>= 1 + (1 + 2 + 3 + \u2026 + C) </p>\n<p>= 1 + \u00bd\u00d7C\u00d7(C + 1)</p>\n<p>La derni\u00e8re \u00e9tape est obtenue \u00e0 partir de ce que nous savons sur les nombres triangulaires. Par cons\u00e9quent, P(99) = \u00bd\u00d799\u00d7100 = 4951.</p>\n<p>Ce probl\u00e8me est li\u00e9 au nombre de r\u00e9gions (morceaux du g\u00e2teau) dans un plan d\u00e9limit\u00e9 par une configuration g\u00e9n\u00e9rique de lignes (coupes). \"G\u00e9n\u00e9rique\" signifie qu'il n'y a pas de lignes parall\u00e8les et que pas plus de deux lignes se croisent aux m\u00eames points. Cela garantit que le nombre de parts de g\u00e2teau est maximal. \u00c9tant donn\u00e9 C lignes sur un plan (dans une configuration g\u00e9n\u00e9rique), puis ajouter une ligne suppl\u00e9mentaire telle qu'elle coupe toutes les lignes pr\u00e9c\u00e9dentes cr\u00e9erait (C + 1) nouvelles r\u00e9gions (autour de chaque point d'intersection de la nouvelle ligne avec les pr\u00e9c\u00e9dentes, nous ajouter deux nouvelles r\u00e9gions. Cependant, l'un des deux est \u00e9galement compt\u00e9 au point d'intersection suivant). Cela conduit \u00e0 P(C + 1) = P(C) + C + 1.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Si vous pouviez couper le g\u00e2teau dans n'importe quelle direction, pas seulement par le haut, avec seulement trois coupes, vous pourriez le couper en 8 morceaux (au lieu de seulement 6)\u00a0!</p>",
+    "references": [
+      "<p><a href=\"http://www.murderousmaths.co.uk/teacher/pizza.htm\" target=\"_blank\">http://www.murderousmaths.co.uk/teacher/pizza.htm</a></p>"
+    ]
+  }
+}

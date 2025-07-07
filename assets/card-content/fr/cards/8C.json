@@ -1,0 +1,24 @@
+{
+  "title": "L\u2019\u00c9p\u00e9e de Josephus",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>Les pions num\u00e9rot\u00e9s de 1 \u00e0 52 sont plac\u00e9s en cercle. En commen\u00e7ant par le num\u00e9ro 2, les pions altern\u00e9s sont renvers\u00e9s jusqu'\u00e0 ce qu'il n'en reste plus qu'un.</p>\n<p>Quel est le num\u00e9ro du dernier pion \u00e0 abattre ?</p>",
+    "correct_answer": "41",
+    "hint": "<p>Que se passe-t-il si vous n'aviez que 2 pions ? Qu'en est-il de 3, 4, 5, 6, 7 ou 8 pions ? Pouvez-vous rep\u00e9rer le mod\u00e8le apr\u00e8s avoir examin\u00e9 ces cas\u00a0?</p>",
+    "explanation": "<p>En commen\u00e7ant avec seulement 2 pions, nous savons que le dernier pion \u00e0 renverser serait le num\u00e9ro 1. Nous pouvons d\u00e9terminer quel serait le dernier pion si nous augmentons le nombre de pions. Pour commencer, nous enregistrons nos r\u00e9sultats et recherchons un mod\u00e8le.</p>\n<p>2 - 1</p>\n<p>3 - 3</p>\n<p>4 - 1</p>\n<p>5 - 3</p>\n<p>6 - 5</p>\n<p>7 - 7</p>\n<p>8 - 1</p>\n<p>9 - 3</p>\n<p>Et ainsi de suite. Chaque puissance de deux (1, 2, 4, 8 \u2026) r\u00e9initialise la derni\u00e8re cheville debout pour \u00eatre num\u00e9ro 1. Vous pouvez voir que le num\u00e9ro de la derni\u00e8re cheville debout monte en nombres impairs apr\u00e8s cela. Pour trouver la r\u00e9ponse pour 52, nous savons que la derni\u00e8re r\u00e9initialisation \u00e9tait la plus grande puissance de deux. La plus grande puissance de deux en dessous 52 est 32, et 52-32 = 20. Donc c\u2019est le vingti\u00e8me nombres impair qui est calcul\u00e9 comme 2x20 +1 =41.  </p>"
+  },
+  "extension_1": {
+    "statement": "<p>Les pions (chevilles) num\u00e9rot\u00e9es 1 \u00e0 2000 sont plac\u00e9es dans un cercle. Commen\u00e7ant avec le num\u00e9ro 2, les chevilles sont renvers\u00e9es alternativement jusqu'\u00e0 qu'il n'y en ait plus qu'un qui reste.</p>\n<p>Quel est le num\u00e9ro du dernier pion \u00e0 abattre ?</p>",
+    "hint": "<p>Quelle est la plus grande puissance de 2 (1, 2, 4, 8, ...) inf\u00e9rieure \u00e0 2000 ?</p>",
+    "correct_answer": "1953",
+    "explanation": "<p>La plus grande puissance de deux en dessous de 2000 est 1024. Car 2000 - 1024 = 976, la derni\u00e8re cheville va \u00eatre le 976 eme nombre impair, 976x2 + 1 = 1953.</p>"
+  },
+  "additional_information": {
+    "about": "<p>La l\u00e9gende de ce puzzle parle d\u2019un groupe de soldats dans un cercle. </p>",
+    "references": [
+      "<p><a href=\"https://lycee.samicharity.co.uk/2016/10/20/sword-of-josephus/\" target=\"_blank\">https://lycee.samicharity.co.uk/2016/10/20/sword-of-josephus/</a></p>"
+    ]
+  }
+}

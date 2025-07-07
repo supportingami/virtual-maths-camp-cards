@@ -1,0 +1,21 @@
+{
+  "title": "Gagnedeuxtroisquatre",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p>Retirez les 10, J, Q, K et les Jokers. Distribuez 9 cartes \u00e0 chaque\njoueur (A = 1 ici). Les joueurs arrangent secr\u00e8tement leurs cartes pour\nformer un nombre \u00e0 4 chiffres, un nombre \u00e0 3 chiffres et un nombre \u00e0 2\nchiffres. Tout \u00e0 coup, les joueurs montrent leurs trois num\u00e9ros.</p>\n<p>Le num\u00e9ro \u00e0 2 chiffres le plus grand gagne 2 points, le num\u00e9ro \u00e0 3\nchiffres le plus grand gagne 3 points, le num\u00e9ro \u00e0 4 chiffres le plus\ngrand gagne 4 points. S\u2019 il y a \u00e9galit\u00e9, les points sont partag\u00e9s\nentres les joueurs.</p>",
+    "further_instructions": "<p>Vous pouvez jouer un certain nombre de tours ou jouer jusqu'\u00e0 ce qu'un\njoueur atteigne un certain score, par exemple 25.</p>",
+    "strategy_tips": "<p>Il est tentant de vous concentrer pour faire votre nombre de quatre\nchiffres le plus grand possible, mais peut-\u00eatre que tous les autres\nessayent de faire cela aussi! Il est important de regarder comment\nvotre adversaire joue et d\u2019essayer d\u2019adapter votre strat\u00e9gie.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Essayez de jouer cela pour que le nombre de 2 chiffres le plus petit\nait 2 points, le nombre de 3 chiffres le plus petit ait 3 points et le\nnombre 4 chiffres le plus petit ait 4 points. </p>"
+  },
+  "additional_information": {
+    "about": "<p>Ce jeu figurait dans le pack book du chef de Andrew Jeffrey a 52 jeux\net activit\u00e9s li\u00e9s \u00e0 des cartes. Il est simple de comprendre les r\u00e8gles\nmais tr\u00e8s int\u00e9ressant pour essayer de trouver une strat\u00e9gie pour\ngagner.</p>",
+    "references": [
+      "<p><a href=\"http://andrewjeffrey.co.uk/product/leader-of-the-pack/\" target=\"_blank\">http://andrewjeffrey.co.uk/product/leader-of-the-pack/</a></p>",
+      "<p><a href=\"https://www.jennettspark.bracknell-forest.sch.uk/wp-content/uploads/2020/04/52-Card-Activities-for-Mathematics.pdf\" target=\"_blank\">https://www.jennettspark.bracknell-forest.sch.uk/wp-content/uploads/2020/04/52-Card-Activities-for-Mathematics.pdf</a></p>"
+    ]
+  }
+}

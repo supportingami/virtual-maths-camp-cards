@@ -1,0 +1,24 @@
+{
+  "title": "Nombres carr\u00e9s et nombres triangulaires",
+  "metadata": {
+    "type": "funfact"
+  },
+  "main_version": {
+    "statement": "<p>Les six premiers nombres triangulaires sont 1, 3, 6, 10 et 15</p>\n<p>Les six premiers num\u00e9ros carr\u00e9s sont 1, 4, 9, 16 et 25</p>\n<p>Tout nombre carr\u00e9 sup\u00e9rieur \u00e0 1 est la somme de deux nombres triangulaires cons\u00e9cutifs.</p>",
+    "hint": "<p>Les nombres triangulaires peuvent \u00eatre dessin\u00e9s avec des points en forme de triangle. Les num\u00e9ros carr\u00e9s peuvent \u00eatre dessin\u00e9s avec des points en forme de grille carr\u00e9e. Voyez si vous pouvez repr\u00e9senter cela visuellement en premier. Pouvez-vous aussi l'exprimer alg\u00e9briquement ?</p>",
+    "explanation": "<p>D'abord, nous montrons cela visuellement, dans l'image ci-dessous, vous pouvez voir que 4 = 1 + 3, 9 = 3 + 6, 16 = 6 + 10, et 25 = 10 + 15. </p>\n<p><img alt=\"\" src=\"assets/images/Square_Numbers_and_Triangular_Numbers_image_0.png\" class=\"Square_Numbers_and_Triangular_Numbers_image_0\" /></p>\n<p>Si nous prenons T = triangulaire et S = carr\u00e9, alors nous pouvons dessiner le nombre S en tant que grille S de points, le plus petit nombre T forme le T sup\u00e9rieur des points, le plus grand nombre T forme le T inf\u00e9rieur ET la diagonale des points.</p>\n<p>Ce sont des nombres triangulaires cons\u00e9cutifs qui forment un carr\u00e9.</p>\n<p>La longueur lat\u00e9rale en points du plus grand nombre T est la racine carr\u00e9e du nombre S. </p>"
+  },
+  "extension_1": {
+    "statement": "<p>Trouvez le 250\u00e8me nombre triangulaire.</p>",
+    "hint": "<p>Commencer par un petit nombre triangulaire peut vous aider. Pouvez-vous utiliser le mod\u00e8le de triangles et de carr\u00e9s pour vous aider ? Quel carr\u00e9 pourrait \u00eatre la somme du 250e nombre triangulaire et d'un autre nombre triangulaire ? Pensez au 250e nombre carr\u00e9 et \u00e0 son rapport avec le 250e nombre triangulaire.</p>",
+    "explanation": "<p>Regardons d'abord un plus petit exemple. Nous pourrions trouver le 5\u00e8me num\u00e9ro triangulaire en utilisant ce carr\u00e9:</p>\n<p><img alt=\"\" src=\"assets/images/Square_Numbers_and_Triangular_Numbers_image_1.png\" class=\"Square_Numbers_and_Triangular_Numbers_image_1\" /></p>\n<p>Nous recherchons le nombre de carr\u00e9s violets. Nous pouvons calculer \u00bd\u00d7(5\u00d75 - 5) = 10 pour obtenir le triangle rose. Et en ajoutant sur les 5 carr\u00e9s de la diagonale, on obtient le triangle violet. Du coup nous avons 15.</p>\n<p><img alt=\"\" src=\"assets/images/Square_Numbers_and_Triangular_Numbers_image_2.png\" class=\"Square_Numbers_and_Triangular_Numbers_image_2\" /></p>\n<p>Pour le 250e nombre triangulaire, nous recherchons le nombre de carr\u00e9s dans le \"triangle\" noir. Il sera environ \u00bd\u00d7250\u00d7250, sauf que la diagonale sera incluse. On calcule donc \u00bd\u00d7(250\u00d7250 - 5) pour trouver le triangle bleu, puis on ajoute 250 pour trouver le triangle noir, la r\u00e9ponse est 31375.</p>\n<p>On peut \u00e9tendre cette logique pour trouver une formule pour le n-i\u00e8me nombre triangulaire</p>\n<p>\u00bd\u00d7(n\u00d7n - n) + n = \u00bd\u00d7(n\u00b2 +2\u00d7n - n) = \u00bd\u00d7(n\u00b2 + n) = \u00bd\u00d7n\u00d7(n + 1)</p>\n<p>V\u00e9rifier: \u00bd\u00d7250\u00d7251 = 31375</p>\n<p>En utilisant la formule, on peut \u00e9galement voir que les nombres triangulaires cons\u00e9cutifs ajoutent \u00e0 un nombre carr\u00e9. Les nombres triangulaires cons\u00e9cutifs peuvent \u00eatre repr\u00e9sent\u00e9s par \u00bd\u00d7(n - 1)\u00d7n and \u00bd\u00d7n\u00d7(n + 1).</p>\n<p>Si on ajoute ces nombres triangulaires cons\u00e9cutifs et qu'on simplifie, on peut trouver :</p>\n<p>\u00bd\u00d7(n - 1)\u00d7n + \u00bd\u00d7n\u00d7(n + 1)=  \u00bd\u00d7((n - 1)\u00d7n + n\u00d7(n + 1)) = \u00bd\u00d7(n\u00b2 - n + n\u00b2  + n) = n\u00b2 </p>"
+  },
+  "additional_information": {
+    "about": "<p>La formule pour le n-i\u00e8me nombre triangulaire est aussi exactement \u00e9gale \u00e0 la somme 1 + 2 + 3 + 3 + \u2026 + n et c'est donc un moyen rapide pour ajouter des listes de nombres cons\u00e9cutifs! Cette formule a \u00e9t\u00e9 \u00e9crite par le moine irlandais Dicuil environ 816AD mais \u00e9tait probablement d\u00e9j\u00e0 connue des Pythagores au Ve si\u00e8cle av. J.-C.</p>",
+    "references": [
+      "<p><a href=\"https://www.geogebra.org/m/ZXAP0QPv\" target=\"_blank\">https://www.geogebra.org/m/ZXAP0QPv</a></p>",
+      "<p><a href=\"https://nrich.maths.org/2274\" target=\"_blank\">https://nrich.maths.org/2274</a></p>",
+      "<p><a href=\"https://en.wikipedia.org/wiki/Triangular_number#Applications\" target=\"_blank\">https://en.wikipedia.org/wiki/Triangular_number#Applications</a></p>"
+    ]
+  }
+}

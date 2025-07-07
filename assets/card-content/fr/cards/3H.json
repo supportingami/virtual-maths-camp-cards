@@ -1,0 +1,23 @@
+{
+  "title": "Palindrome cube",
+  "metadata": {
+    "type": "funfact"
+  },
+  "main_version": {
+    "statement": "<p>10662526601 = 2201\u00b3 est le seul cube palindromique connu dont la racine cube n\u2019est pas palindromique (un palindrome est un nombre qui reste pareil qu'on le lise de gauche \u00e0 droite ou de droite \u00e0 gauche).</p>",
+    "hint": "<p>Prenez le num\u00e9ro 1030301. C'est un palindrome. Sa racine cubique est 101, qui est aussi un palindrome. Pouvez-vous trouver d'autres exemples de paires o\u00f9 le nombre et sa racine cubique sont aussi des palindromes? (N'oubliez pas que tous les nombres \u00e0 un seul chiffre sont des palindromes!)   </p>",
+    "explanation": "<p>Selon l'Encyclop\u00e9die en ligne des s\u00e9quences d'entiers, On-line Encyclopedia of Integer Sequences, la s\u00e9quence d'entiers positifs dont le cube est palindromique commence :</p>\n<p>1, 2, 7, 11, 101, 111, 1001, 2201, 10001, 10101, ...</p>\n<p>La s\u00e9quence correspondante des cubes palindromiques commence :</p>\n<p>1, 8, 343, 1331, 1030301, 1367631, 1003003001, 10662526601, 1000300030001, ...</p>\n<p>2201 est le plus petit nombre (et seulement connu jusqu'\u00e0 pr\u00e9sent) qui est lui-m\u00eame non palindromique. </p>"
+  },
+  "extension_1": {
+    "statement": "<p>Il y a 5 nombres carr\u00e9s palindromiques entre 1 et 1000 (inclus) dont la racine carr\u00e9e est \u00e9galement un palindrome. Pouvez-vous tous les trouver ?</p>",
+    "hint": "<p>Rappelez-vous que tous les nombres \u00e0 un chiffre sont des palindromes.</p>",
+    "explanation": "<p>Les cinq nombres sont 1\u00b2=1, 2\u00b2=4, 3\u00b2=9, 11\u00b2=121, 22\u00b2=484</p>"
+  },
+  "additional_information": {
+    "about": "<p>Les gens ont utilis\u00e9 les ordinateurs pour essayer de trouver un autre num\u00e9ro palindromique dont la racine cube n'est pas palindromique mais personne n'en a trouv\u00e9 un. Cela peut \u00eatre d\u00fb au fait qu'il en existe un qui est plus grand que les nombres qui ont \u00e9t\u00e9 test\u00e9s jusqu'\u00e0 pr\u00e9sent. ou il se peut qu'ils n'existent plus d'autres. </p>",
+    "references": [
+      "<p><a href=\"https://proofwiki.org/wiki/Sequence_of_Palindromic_Cubes\" target=\"_blank\">https://proofwiki.org/wiki/Sequence_of_Palindromic_Cubes</a></p>",
+      "<p><a href=\"https://oeis.org/A002780\" target=\"_blank\">https://oeis.org/A002780</a></p>"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Pong Hau K'i",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p><img alt=\"\" src=\"assets/images/Pong_Hau_K_i_image_0.png\" class=\"Pong_Hau_K_i_image_0\" /></p>\n<p>Dessinez la grille montr\u00e9e avec cinq points et sept lignes de\nconnexion. Deux joueurs placent deux pions de la m\u00eame couleur/ du\nm\u00eame motif dans la grille comme indiqu\u00e9.</p>\n<p>D\u00e9cidez qui commencera en premier. Le premier joueur d\u00e9place une\nde ses pi\u00e8ces vers le point central. Ensuite, les joueurs\nd\u00e9placent \u00e0 tour de r\u00f4le un pion le long d'une ligne vers une case\nvide jusqu'\u00e0 ce qu'un joueur ne puisse plus d\u00e9placer ses pions et\nperde.</p>",
+    "further_instructions": "<p>Si les m\u00eames mouvements sont r\u00e9p\u00e9t\u00e9s trois fois, vous pouvez d\u00e9cider qu'il y a\n\u00e9galit\u00e9. Chaque fois que vous jouez, vous devez changer qui joue en premier ou\n\u00e9changer les positions de d\u00e9part (si vous \u00e9tiez dans les deux premi\u00e8res positions\nla premi\u00e8re fois, prenez les deux derni\u00e8res positions la prochaine fois)</p>",
+    "strategy_tips": "<p>Pensez-vous que c'est mieux d'aller en premier ou en deuxi\u00e8me? Quelle est\nla position que vous devez atteindrepour bloquer l'autre joueur?</p>"
+  },
+  "extension_1": {
+    "statement": "<p><img alt=\"\" src=\"assets/images/Pong_Hau_K_i_image_1.png\" class=\"Pong_Hau_K_i_image_1\" /></p>\n<p>Ce jeu s'appelle Shisima et se joue au Kenya. Deux joueurs ont chacun\nbesoin de 3 pions de la m\u00eame couleur ou avec le m\u00eame motif.</p>\n<p>Placez les pions sur trois points cons\u00e9cutifs sur les extr\u00e9mit\u00e9s de l\u2019octagone, de direction oppos\u00e9e. Il doit y avoir un point vide sur les deux extr\u00e9mit\u00e9s du groupe des pions d\u2019un joueur. </p>\n<p>Les joueurs font \u00e0 chaque tour bouger leur pion d\u2019une case dans une ligne. </p>\n<p>Afin de gagner, un joueur doit faire en sorte d\u2019arranger ses trois pions dans\nune ligne, avec une pion sur le centre (shisima). </p>"
+  },
+  "extension_2": {
+    "statement": "<p><img alt=\"\" src=\"assets/images/Pong_Hau_K_i_image_2.png\" class=\"Pong_Hau_K_i_image_2\" /></p>\n<p>Deux joueurs ont chacun besoin de 3 pions de la m\u00eame couleur/motif. \u00c0 tour\nde r\u00f4le, ajoutez un marqueur \u00e0 la grille jusqu'\u00e0 ce que les six marqueurs aient\n\u00e9t\u00e9 plac\u00e9s. Ensuite, les joueurs d\u00e9placent \u00e0 tour de r\u00f4le un pion sur une case\nvide jusqu'\u00e0 ce qu'un joueur ait r\u00e9ussi \u00e0 obtenir trois de ses pions d'affil\u00e9e.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Pong Hau K'i est un simple jeu de soci\u00e9t\u00e9 chinois. C'est aussi un jeu\ntraditionnel en Cor\u00e9e, o\u00f9 il est connu sous le nom de Ou-moul-ko-no. Des\njeux similaires se jouent au Togo. Si les deux joueurs jouent parfaitement, le\njeu devrait se terminer par un match nul.</p>",
+    "references": [
+      "<p><a href=\"https://multiculturalkidblogs.com/2015/09/28/traditional-chinese-game/\" target=\"_blank\">https://multiculturalkidblogs.com/2015/09/28/traditional-chinese-game/</a></p>",
+      "<p><a href=\"https://en.wikipedia.org/wiki/Pong_Hau_K%27i\" target=\"_blank\">https://en.wikipedia.org/wiki/Pong_Hau_K%27i</a></p>",
+      "<p><a href=\"https://www.whatdowedoallday.com/shisima/\" target=\"_blank\">https://www.whatdowedoallday.com/shisima/</a></p>",
+      "<p><a href=\"https://www.whatdowedoallday.com/nine-holes-game\" target=\"_blank\">https://www.whatdowedoallday.com/nine-holes-game</a></p>"
+    ]
+  }
+}

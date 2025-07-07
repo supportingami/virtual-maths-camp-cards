@@ -1,0 +1,23 @@
+{
+  "title": "-> M\u00e9langer les Cartes",
+  "metadata": {
+    "type": "funfact"
+  },
+  "main_version": {
+    "statement": "<p>-> Si on m\u00e9lange un packet de carte correctement, il est plus probable que l'orde de cartes a pr\u00e9sent n'a jamais \u00e9t\u00e9 vu a auparavant dans l'histoire de l'univers.</p>",
+    "hint": "<p>Combien d'ordre specifique de 52 cartes existe-t'il? Peut-etre ceci est trop compliqu\u00e9 pour commencer. Essayons avec un nombre de 3 cartes, combien d'arrangements uniques peut-on avoir? Maintenant essayez aves 4 cartes?</p>\n<p>Avec cette methode, est-ce qu'on peut arriver a 52 cartes?</p>",
+    "explanation": "<p>Nous voulons d\u00e9terminer le nombre de combinaisons diff\u00e9rentes de 52 cartes. Commen\u00e7ons par penser \u00e0 seulement 3 cartes. Nous pourrions comparer cela \u00e0 la r\u00e9flexion sur le nombre de fa\u00e7ons dont 3 personnes pourraient s'asseoir sur trois chaises num\u00e9rot\u00e9es. N'importe laquelle des trois personnes pourrait s'asseoir sur la premi\u00e8re chaise, puis l'une des 2 personnes restantes pourrait s'asseoir sur la deuxi\u00e8me chaise, puis il reste 1 personne qui n'aurait d'autre choix que de s'asseoir sur la seule chaise restante. Nous pouvons multiplier le nombre de choix pour chaque chaise (3\u00d72\u00d71 = 6) pour trouver combien de fa\u00e7ons diff\u00e9rentes il y a pour les 3 personnes \u00e0 disposer. Il est int\u00e9ressant de noter que le mod\u00e8le ici prend le nombre initial puis se multiplie cons\u00e9cutivement par le plus petit entier suivant jusqu'\u00e0 ce que vous atteigniez 1. Ce processus a un nom, il s'appelle <strong>Factoriel</strong>. Le symbole pour cela est !. par exemple. 3\u00a0! = 6. G\u00e9n\u00e9ralement, si vous voulez trouver le nombre de fa\u00e7ons diff\u00e9rentes de r\u00e9organiser n \u00e9l\u00e9ments, vous pouvez trouver n\u00a0! = n!\u00d7(n - 1)!\u00d7(n - 2)!\u00d7\u2026\u00d71 Le nombre de fa\u00e7ons de m\u00e9langer 52 cartes est de 52\u00a0! = 52\u00d751\u00d750\u00d7\u2026\u00d73\u00d72\u00d71 qui est \u00e0 peu pr\u00e8s \u00e9gal \u00e0 8\u00d710\u2076\u2077</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Prenez un jeu de 52 cartes, m\u00e9langez-les autant que vous le pouvez, puis essayez de deviner quelles cartes exactes seront les 3 premi\u00e8res cartes (dans l'ordre). Avez-vous bien compris votre estimation\u00a0? </p>\n<p>Maintenant on suppose qu'il y a un million de personnes en train de faire cette proc\u00e9dure exacte, on pourrais assumer que 7 personnes aient raison.</p>",
+    "hint": "<p>Quelle est la probabilit\u00e9 de deviner correctement la carte du dessus?</p>",
+    "explanation": "<p>La probabilit\u00e9 de deviner la carte du dessus est 1/52. La probabilit\u00e9 de deviner la deuxi\u00e8me carte est 1/51, est puis 1/50 pour la troisi\u00e8me. Donc la chance de savoir exactement les trois premi\u00e8res cartes est (1/52) x(1/51) x(1/50) = 0.0000075415. Multiplies ceci par les 1 000 000 individus vous donne 7.51478.. Donc on s'attends que seulement qu'a 7 personne on r\u00e9ussi \u00e2 deviner correctement.</p>"
+  },
+  "additional_information": {
+    "about": "<p>52! est \u00e0 peu pr\u00e8s 8\u00d710\u2076\u2077. So quelqu'un m\u00e9langeait un paquet de cartes un fois par seconde depuis le d\u00e9but de l'univers (disons il y a environ de 14 billions d'ann\u00e9es), il n'aurait que m\u00e9lang\u00e9 ce paquet de cartes seulement 10\u00b9\u2078 fois.</p>\n<p>Par cons\u00e9quent, lorsque vous m\u00e9langez un paquet de cartes, il est presque certain que vous \u00eates la premi\u00e8re personne \u00e0 jouer avec des cartes dans cet ordre unique.</p>",
+    "references": [
+      "<p><a href=\"https://nrich.maths.org/5402\" target=\"_blank\">https://nrich.maths.org/5402</a></p>",
+      "<p><a href=\"https://math.hmc.edu/funfacts/making-history-by-card-shuffling/\" target=\"_blank\">https://math.hmc.edu/funfacts/making-history-by-card-shuffling/</a></p>"
+    ]
+  }
+}

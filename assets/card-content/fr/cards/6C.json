@@ -1,0 +1,32 @@
+{
+  "title": "Alphanum\u00e9rique",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>Dans la somme, CAR + CAT = RARE, chaque lettre repr\u00e9sente un unique chiffre compris entre 0 et 9. Quelle est la valeur du mot RARE ?</p>",
+    "correct_answer": "1510",
+    "hint": "<p>Quel chiffre doit repr\u00e9senter la lettre R? Si vous additionnez deux nombres de trois chiffres, quelle est la plus grande somme que vous pourriez obtenir?</p>",
+    "explanation": "<p>R doit \u00eatre \u00e9gal \u00e0 1 parce que 1 est la seule retenue possible que l\u2019on peut faire passer de la case des centaines \u00e0 la case des milliers. Nous avons donc, CA1 + CAT = 1A1E.</p>\n<p>Si on regarde la case des dizaines, nous avons A+A = 1 (ou se termine par 1). Puisque A+A est un nombre pair, la seule fa\u00e7on que le nombre se termine par le chiffre 1 est qu'il y ait une retenue provenant de la case des unit\u00e9s. </p>\n<p>Ceci nous donne A = 5 ou A = 0. </p>\n<p>Puisque l\u2019on sait qu\u2019il y a eu une retenue dans la case des unit\u00e9s, T = 9 et donc E = 0. Ceci signifie que A = 5 car chaque lettre repr\u00e9sente un unique chiffre. Ainsi, le mot RARE = 1510. \n(Bien que cela ne soit pas n\u00e9cessaire, on peut v\u00e9rifier que C = 7). Finalement nous avons 751 + 759 = 1510.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Dans la somme TWO + TWO = FOUR chaque lettre repr\u00e9sente un unique chiffre compris entre 0 \u00e0 9. Pour ces 7 solutions, quelle est la plus grande valeur du mot FOUR? </p>",
+    "hint": "<p>Une fois que vous avez trouv\u00e9 le chiffre que F repr\u00e9sente, vous pouvez alors consid\u00e9rer la plus grande valeur possible de O.</p>",
+    "correct_answer": "1876",
+    "explanation": "<p>F doit \u00eatre \u00e9gal \u00e0 1 puisque seule la retenue 1 peut provenir de la case des centaines.</p>\n<p>Nous avons maintenant TWO + TWO = 1OUR.</p>\n<p>Puisque nous essayons de trouver la plus grande valeur de FOUR, nous essayons ensuite O = 9. Ce qui donnerait, TW9 + TW9 = 19UR. Alors, la seule possibilit\u00e9 est T = 9, mais ceci est exclu puisque O = 9 veut dire que O = T.</p>\n<p>Nous essayons ensuite O = 8. Donc, TW8 + TW8 = 18UR. Ce qui entraine R = 6 et T = 9. Nous avons ensuite 9W8 + 9W8 = 18U6.</p>\n<p>Nous avons encore un choix de r\u00e9ponses pour W et U.</p>\n<p>Il faut que W soit moins que 5 pour \u00e9viter d\u2019ajouter une retenue \u00e0 la case des centaines. Si nous essayons W = 4, nous obtiendrons U = 9, toutefois ceci n\u2019est pas possible puisque nous avons d\u00e9j\u00e0 T = 9. Nous pouvons donc essayer W = 3.</p>\n<p>Nous avons donc 938 +938 = 1876, et donc la plus grande valeur du mot FOUR est 1876.</p>"
+  },
+  "extension_2": {
+    "statement": "<p>Dans la somme MATHS + GAMES = DECODE, chaque lettre repr\u00e9sente un unique chiffre compris entre 0 et 9. Quelle est la valeur du mot DECODE?</p>",
+    "hint": "<p>There are 10 different letters used in this sum so each digit from 0 to 9 will be used. You will need an organised approach to solve this one. You might want to make a table of all the possibilities and then cross out any values as you eliminate them. You can start with the fact that D = 1.</p>",
+    "correct_answer": "164816",
+    "explanation": "<p>Il y a de nombreuses mani\u00e8res de r\u00e9soudre cette \u00e9nigme. Premi\u00e8rement, D = 1. Pour continuer, nous devons utiliser toutes les informations disponibles pour \u00e9liminer certaines possibilit\u00e9s. Par exemple, nous observons que E doit \u00eatre un nombre pair. S ne peut \u00eatre \u00e9gal \u00e0 0, 1, ou 5. Beaucoup de coup de force est requis pour r\u00e9soudre ce probl\u00e8me, mais avec une table pour organiser toutes les informations, vous devriez \u00eatre en mesure de r\u00e9duire toutes les possibilit\u00e9s jusqu'\u00e0 ce que vous parveniez \u00e0 la r\u00e9ponse correcte. T = 0, D = 1, A = 2, S = 3, C = 4, H = 5, E = 6, M = 7, O = 8, G = 9.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Ces types d'\u00e9nigmes sont appel\u00e9s \u2018 Cryptarithmes\u201d, ou \"arithm\u00e9tique verbale\u201d. L'exemple le plus classique a \u00e9t\u00e9 publi\u00e9 dans l'\u00e9dition de juillet 1924 du Magazine Strand par le math\u00e9maticien anglais Henry Dudeney.  </p>\n<p>SEND + MORE = MONEY</p>\n<p>\u00c9tant donn\u00e9 le nombre consid\u00e9rable de possibilit\u00e9s, les programmes informatiques sont souvent utilis\u00e9s pour g\u00e9n\u00e9rer et r\u00e9soudre ces types d'\u00e9nigmes.</p>",
+    "references": [
+      "<p><a href=\"https://en.wikipedia.org/wiki/Verbal_arithmetic\" target=\"_blank\">https://en.wikipedia.org/wiki/Verbal_arithmetic</a></p>",
+      "<p><a href=\"https://www.dcode.fr/cryptarithm-solver\" target=\"_blank\">https://www.dcode.fr/cryptarithm-solver</a></p>",
+      "<p><a href=\"http://www.iread.it/cryptarithms.php\" target=\"_blank\">http://www.iread.it/cryptarithms.php</a></p>"
+    ]
+  }
+}

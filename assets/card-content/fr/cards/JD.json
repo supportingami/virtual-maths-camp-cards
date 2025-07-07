@@ -1,0 +1,31 @@
+{
+  "title": "Diff\u00e9rents Chemins",
+  "metadata": {
+    "type": "counting"
+  },
+  "main_version": {
+    "statement": "<p>Il y a 5 diff\u00e9rents chemins que vous pouvez emprunter pour vous rendre de la maison \u00e0 l'\u00e9cole. Dans une semaine (de lundi \u00e0 vendredi) vous aimeriez essayer un chemin diff\u00e9rent chaque jour. De combien de fa\u00e7ons diff\u00e9rentes pouvez-vous organiser votre trajet vers l'\u00e9cole pour la semaine ? </p>",
+    "correct_answer": "120",
+    "hint": "<p>Pensez au nombre d'options dont vous disposez pour choisir le premier chemin, puis au nombre d'options dont vous disposez pour le second et ainsi de suite. Attention, vous ne pouvez pas choisir le m\u00eame chemin deux fois dans la m\u00eame semaine.</p>",
+    "explanation": "<p>Vous avez 5 jours possibles de la semaine et vous souhaitez avoir un chemin diff\u00e9rent par jour. Le premier jour, vous avez le choix entre 5 chemins. Le deuxi\u00e8me jour, il ne vous reste que 4 chemins \u00e0 choisir, car vous ne pouvez pas prendre celui du lundi. Le troisi\u00e8me jour, vous avez le choix entre 3 chemins et ainsi de suite. La solution est donc 5\u00d74\u00d73\u00d72\u00d71 =120. Il s'agit de compter combien de fa\u00e7ons vous pouvez ordonner 5 objets (chemins) dans 5 positions (jours de la semaine). Il s'agit d'un probl\u00e8me de <em>permutations</em> (sans r\u00e9p\u00e9tition). </p>\n<p>Le symbole math\u00e9matique ! est appel\u00e9 <em>factoriel</em> et repr\u00e9sente la multiplication par des entiers d\u00e9croissants jusqu'\u00e0 atteindre 1. Donc 5\u00d74\u00d73\u00d72\u00d71 s'\u00e9crit 5!  </p>"
+  },
+  "extension_1": {
+    "statement": "<p>Et si vous deviez aller \u00e0 l'\u00e9cole le samedi et que vous trouviez un nouveau chemin ? De combien de fa\u00e7ons pouvez-vous organiser votre semaine de telle sorte que chaque jour vous allez \u00e0 l'\u00e9cole en empruntant des chemins diff\u00e9rents ? </p>",
+    "hint": "<p>Y a-t-il un moyen d'utiliser le r\u00e9sultat du probl\u00e8me pr\u00e9c\u00e9dent ? Pensez maintenant \u00e0 combien de fa\u00e7ons vous pouvez marcher jusqu'\u00e0 l'\u00e9cole le lundi.</p>",
+    "correct_answer": "720",
+    "explanation": "<p>Vous avez maintenant 6 jours possibles de la semaine et 6 chemins diff\u00e9rents. Vous aimeriez avoir un chemin diff\u00e9rent par jour. La solution est obtenue en comptant combien de fa\u00e7ons vous pouvez ordonner 6 objets (chemins) en 6 positions (jours de la semaine). La solution est obtenue sous la forme 6\u00d75\u00d74\u00d73\u00d72\u00d71 = 720. Remarquez que cela fait 6\u00d7120 (6 fois la solution pr\u00e9c\u00e9dente). Vous venez de d\u00e9couvrir une propri\u00e9t\u00e9 r\u00e9cursive de factoriels : n! = n\u00d7(n - 1)!.</p>"
+  },
+  "extension_2": {
+    "statement": "<p>Et si vous deviez aller \u00e0 l'\u00e9cole les dimanches et que vous trouviez quatre nouveaux chemins ? Il y a maintenant 10 chemins \u00e0 choisir. De combien de fa\u00e7ons pouvez-vous organiser votre semaine de telle sorte que chaque jour vous allez \u00e0 l'\u00e9cole en empruntant des chemins diff\u00e9rents ? </p>",
+    "hint": "<p>Is this exactly the same style of problem as before? Think about how many ways you can now walk to school on Monday etc but when you get to Sunday there will still be more than one to choose from. </p>",
+    "correct_answer": "604800",
+    "explanation": "<p>Vous avez maintenant 7 jours possibles de la semaine et 10 chemins diff\u00e9rents. Vous aimeriez avoir un chemin diff\u00e9rent par jour. La solution est obtenue en comptant le nombre de fa\u00e7ons dont vous pouvez ordonner 10 objets (chemins) dans 7 positions (jours de la semaine). La solution est obtenue par 10\u00d79\u00d78\u00d77\u00d76\u00d75\u00d74 = 604800. Si vous vouliez calculer ceci en utilisant les factoriels, 10! est proche de la r\u00e9ponse, mais nous ne d\u00e9sirons pas 3\u00d72\u00d71 \u00e0 la fin. 3\u00d72\u00d71 est 3 ! nous pouvons donc faire 10 ! \u2215 3 ! =604800.  </p>"
+  },
+  "additional_information": {
+    "about": "<p>Les factoriels ont \u00e9t\u00e9 utilis\u00e9s pour compter les permutations, au moins d\u00e8s le Xiie si\u00e8cle, par des savants indiens. La notation n! a \u00e9t\u00e9 introduite par le math\u00e9maticien fran\u00e7ais Christian Kramp en 1808.</p>\n<p>Les factoriels deviennent grands tr\u00e8s rapidement. 5! = 120, mais 20! = 2432902008176640000.</p>",
+    "references": [
+      "<p><a href=\"https://en.wikipedia.org/wiki/Factorial\" target=\"_blank\">https://en.wikipedia.org/wiki/Factorial</a></p>",
+      "<p><a href=\"https://www.mathsisfun.com/numbers/factorial.html\" target=\"_blank\">https://www.mathsisfun.com/numbers/factorial.html</a></p>"
+    ]
+  }
+}

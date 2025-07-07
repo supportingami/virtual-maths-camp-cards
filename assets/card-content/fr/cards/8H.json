@@ -1,0 +1,22 @@
+{
+  "title": "Supprimer le nombre premier",
+  "metadata": {
+    "type": "funfact"
+  },
+  "main_version": {
+    "statement": "<p>73939133 est le plus grand nombre premier qui, si vous continuez de retirer des chiffres de la\ndroite, restera toujours un nombre premier.</p>",
+    "hint": "<p>Si vous retirez le dernier chiffre le num\u00e9ro sera 7393913, ce qui est un nombre premier,\ncontinuez...</p>",
+    "explanation": "<p>Un nombre premier troncable est un nombre premier qui reste premier quand vous retirez le\ndernier chiffre successivement. Nous pouvons rechercher le plus grand nombre premier\ntroncable \u00e0 droite en commen\u00e7ant par les nombres premiers \u00e0 un chiffre 2, 3, 5 et 7.\nEnsuite, essayez d'ajouter un autre chiffre \u00e0 droite de ceux-l\u00e0 pour que les nouveaux\nnum\u00e9ros soient aussi des nombres premiers. On pourrait avoir 23, 29, 31, 37,53,59,71,73 et\n79. Maintenant on essaye d\u2019ajouter un autre chiffre. On pourrait avoir 233,239,293, 311,\n313, 317, 373, 379, 593, 599, 719, 733, 739 et 797. Si nous continuons\navec ce processus on termine avec ces num\u00e9ros \u00e0 huit chiffres 23399339, 29399999,\n37337999, 59393339, et 73939133. Il n y a pas de nombre premier \u00e0 neuf chiffres qui\ncommence avec un de ces huit chiffres alors le plus grand num\u00e9ro troncable \u00e0 droite est\n73939133.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Un nombre premier troncable \u00e0 gauche est un nombre premier qui reste premier lorsque vous\nsupprimez successivement le premier chiffre.Par exemple, 137 est un nombre premier, 37 aussi et 7\naussi donc 137 est un nombre premier troncable \u00e0 gauche. Le plus grand est\n357686312646216567629137. Il y en a onze \u00e0 2 chiffres, saurez-vous tous les trouver ? Pouvez-vous\nen trouver d'autres \u00e0 3 chiffres ?</p>",
+    "hint": "<p>23 est le premier car 23 et 3 sont tous les deux des nombres premiers.</p>",
+    "explanation": "<p>Les deux premiers nombre premiers tronquables \u00e0 gauche \u00e0 deux chiffres sont : 13, 17, 23, 37, 43, 47,\n53, 67, 73, 83, 97</p>\n<p>Les trois premiers nombres premiers tronquables \u00e0 gauche \u00e0 trois chiffres sont : 113, 137, 167, 173,\n197, 223, 283, 313, 317, 337, 347, 353, 367, 373, 383, 397, 443, 467, 523, 547, 613 , 617, 643, 647,\n653, 673, 683, 743, 773, 797, 823, 853, 883, 937, 947, 953, 967, 983, 997</p>"
+  },
+  "additional_information": {
+    "about": "<p>Fait int\u00e9ressant, il y a 4260 nombres premiers tronquables \u00e0 gauche mais seulement 83 nombres premiers tronquables \u00e0 droite. Si vous supprimez \u00e0 plusieurs reprises le premier et le dernier chiffre d'un nombre premier et qu'il reste premier, cela s'appelle un nombre premier tronquable \u00e0 gauche et \u00e0droite. Il y en a 920720315 !</p>",
+    "references": [
+      "<p><a href=\"https://en.wikipedia.org/wiki/Truncatable_prime\" target=\"_blank\">https://en.wikipedia.org/wiki/Truncatable_prime</a></p>"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Arr\u00eate ou Ose",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p>C\u2019est un jeu pour deux o\u00f9 trois joueurs. M\u00e9langez le jeu de cartes et\nplacez-le \u00e0 face \u00e0 l\u2019envers. Le premier joueur retourne la carte sur le\ndessus et continue de retourner les cartes, ajoutant ensemble la valeur\nde chaque carte, jusqu\u2019\u00e0 ce qu\u2019ils d\u00e9cident d\u2019arr\u00eater et d\u2019enregistrer\nleur score. J= 11 et Q=12.</p>\n<p>Si un A or un K est retourn\u00e9, on ne compte aucun point \u00e0 ce tour et le\ntour est fini.</p>\n<p>Les joueurs jouent chacun \u00e0 leur tour jusqu\u2019\u00e0 ce que l\u2019un atteigne 100\nou bien plus-ce joueur est le gagnant.</p>",
+    "further_instructions": "<p>Si les cartes sont toutes retourn\u00e9es avant que la cible ne soit\natteinte, m\u00e9langez \u00e0 nouveau le paquet et continuez. </p>",
+    "strategy_tips": "<p>Essayez de compter combien de cartes K et A sont d\u00e9j\u00e0 apparues . Ceci pourrait changer comment vous\nvous sentez audacieux. Si quelqu'un d'autre est pr\u00e8s de 100 c'est peut \u00eatre mieux de retourner plus de\ncartes que ce que vous feriez normalement.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Vous pourriez essayer de changer le nombre cible, ou changer combien de cartes effacent votre score\npour cet essai. Vous pourriez aussi essayer d\u2019avoir K comme effacer votre score \u201ccomplet\u201d \u00e0 z\u00e9ro pour\nessayer de le rendre plus audacieux.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Ce jeu peut aussi \u00eatre jou\u00e9 avec un d\u00e9 et s'appelle parfois Cochon. Il\ny a un ou deux versions de d\u00e9, et m\u00eame une version o\u00f9 vous pouvez\nchoisir combien de d\u00e9 \u00e0 jeter plut\u00f4t que combien de fois il faut jeter\nun nombre exact de d\u00e9.</p>",
+    "references": [
+      "<p><a href=\"https://en.wikipedia.org/wiki/Pig_(dice_game)\" target=\"_blank\">https://en.wikipedia.org/wiki/Pig_(dice_game)</a></p>",
+      "<p><a href=\"https://nrich.maths.org/1193\" target=\"_blank\">https://nrich.maths.org/1193</a></p>"
+    ]
+  }
+}

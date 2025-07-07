@@ -1,0 +1,32 @@
+{
+  "title": "Compter les carr\u00e9s",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>Combien de carr\u00e9s y a-t-il dans la grille carr\u00e9e de taille 10 fois 10 ci-dessous\u202f?</p>\n<p><img alt=\"\" src=\"assets/images/Counting_Squares_image_0.png\" class=\"Counting_Squares_image_0\" /></p>",
+    "correct_answer": "385",
+    "hint": "<p>Pouvez-vous commencer par une grille carr\u00e9e 4 fois 4 et d\u00e9terminer combien de carr\u00e9s elle contient ? N'oubliez pas de garder une trace du nombre de carr\u00e9s de taille 1 fois 1, 2 fois 2, 3 fois 3 et 4 fois 4 que vous retrouveriez.</p>",
+    "explanation": "<p>Il y a un carr\u00e9 10 fois 10, quatre carr\u00e9s 9 fois 9, neuf carr\u00e9s 8 fois 8, seize carr\u00e9s 7 fois 7, ... cent carr\u00e9s 1 fois 1, qui sont tous des nombres carr\u00e9s. Ainsi, nous devons ajouter tous les nombres carr\u00e9s de 1 \u00e0 100: 1 + 4 + 9 + 16 + 25 + 36 + 49 + 64 + 81 + 100 = 385. </p>"
+  },
+  "extension_1": {
+    "statement": "<p>Combien de carr\u00e9s diff\u00e9rents pouvez-vous obtenir en joignant les points sur une grille de taille 5 fois 5 ?</p>\n<p><img alt=\"\" src=\"assets/images/Counting_Squares_image_1.png\" class=\"Counting_Squares_image_1\" /></p>",
+    "hint": "<p>Les carr\u00e9s peuvent \u00eatre de diff\u00e9rentes tailles et provenir de diff\u00e9rentes rotations !</p>",
+    "correct_answer": "50",
+    "explanation": "<p>Il y a 50 carr\u00e9s qui se d\u00e9comptent comme suit\u00a0:</p>\n<p>Non tourn\u00e9s\u00a0: seize carr\u00e9s 1 fois 1, neuf carr\u00e9s 2 fois 2, quatre carr\u00e9s 3 fois 3 et un carr\u00e9 4 fois 4</p>\n<p>Tourn\u00e9s : 9 + 1 + 8 + 2 (en variant les dimensions et l'angle d'inclinaison)</p>\n<p><img alt=\"\" src=\"assets/images/Counting_Squares_image_2.png\" class=\"Counting_Squares_image_2\" /></p>"
+  },
+  "extension_2": {
+    "statement": "<p>Combien de carr\u00e9s diff\u00e9rents pouvez-vous obtenir en joignant les points sur une grille de taille 6 fois 6 ?</p>",
+    "hint": "<p>Keep a table of how many squares there are of each size. Remember you can include squares at an angle.</p>",
+    "correct_answer": "105",
+    "explanation": "<p>Le nombre de carr\u00e9s peut \u00eatre trouv\u00e9 par le sch\u00e9ma suivant :</p>\n<p>Grille de taille 2 fois 2 : 1\u00d71 = 1</p>\n<p>Grille de taille 3 fois 3 : 1\u00d72 + 4\u00d71 = 6</p>\n<p>Grille de taille 4 fois 4: 1\u00d73 + 4\u00d72 + 9\u00d71 = 20</p>\n<p>Grille de taille 5 fois 5 : 1\u00d74 + 4\u00d73 + 9\u00d72 + 16\u00d71 = 50</p>\n<p>Grille de taille 6 fois 6 : 1\u00d75 + 4\u00d74 + 9\u00d73 + 16\u00d72 + 25\u00d71 = 105</p>"
+  },
+  "additional_information": {
+    "about": "<p>Voici un exemple d'\u00e9nigme o\u00f9 il est pr\u00e9f\u00e9rable de commencer avec un nombre plus petit et de progresser jusqu'\u00e0 la solution. De nombreux probl\u00e8mes en math\u00e9matiques peuvent \u00eatre abord\u00e9s de cette mani\u00e8re. N\u2019oubliez pas de noter soigneusement tous vos travaux et vous serez en mesure de rep\u00e9rer plus facilement les r\u00e9gularit\u00e9s.</p>",
+    "references": [
+      "<p><a href=\"https://mathsclub.samicharity.co.uk/en/counting-squares\" target=\"_blank\">https://mathsclub.samicharity.co.uk/en/counting-squares</a></p>",
+      "<p><a href=\"https://mathforlove.com/wp-content/uploads/2019/12/On-the-Grid-1-Square-Counting.pdf\" target=\"_blank\">https://mathforlove.com/wp-content/uploads/2019/12/On-the-Grid-1-Square-Counting.pdf</a></p>",
+      "<p><a href=\"https://brilliant.org/discussions/thread/squares-on-a-grid/\" target=\"_blank\">https://brilliant.org/discussions/thread/squares-on-a-grid/</a></p>"
+    ]
+  }
+}

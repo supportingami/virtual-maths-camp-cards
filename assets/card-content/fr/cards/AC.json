@@ -1,0 +1,30 @@
+{
+  "title": "Abattre ou\nknock-down",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>Les piquets num\u00e9rot\u00e9s de 1 \u00e0 50 sont plac\u00e9s dans l'ordre en ligne, avec le num\u00e9ro 1 \u00e0 gauche.</p>\n<p>Ils sont ensuite renvers\u00e9s, un par un, en suivant ces deux r\u00e8gles :</p>\n<p>(1.) En commen\u00e7ant par le premier piquet debout \u00e0 gauche, les autres piquets sont renvers\u00e9s jusqu'\u00e0 ce que la fin de la rang\u00e9e soit atteinte.</p>\n<p>(2.) Chaque fois que la fin de la ligne est atteinte, r\u00e9p\u00e9tez la r\u00e8gle pr\u00e9c\u00e9dente.</p>\n<p>Quel est le num\u00e9ro du dernier pion \u00e0 abattre ?</p>",
+    "correct_answer": "32",
+    "hint": "<p>Que se passe-t-il si vous n'aviez que 5 piquets ? Et 10 ou 20\u00a0? Pouvez-vous rep\u00e9rer le motif ?</p>",
+    "explanation": "<p>D\u00e9part: 1 2 3 4 5 6 7 8 9 ...</p>\n<p>Premier tour: \u2715 2 \u2715 4 \u2715 6 \u2715 8 \u2715 ... seuls les nombres impairs restent</p>\n<p>Deuxi\u00e8me tour:  \u2715 4 \u2715 8 \u2715 12  ... seuls les multiples de 4 \u00e0 restent</p>\n<p>Troixi\u00e8me tour:  \u2715 8 \u2715 16 \u2715 24  ... seuls les multiples de 8 restent</p>\n<p>Quatri\u00e8me tour: Seuls les multiples de 16 resterons</p>\n<p>Cinqui\u00e8me tour: Seuls les multiples de 32 resterons.</p>\n<p>32 est le seul multiple de 32 plus petit que 50, donc 32 est le dernier piquet restant.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Les piquets num\u00e9rot\u00e9s de 1 \u00e0 1050 sont plac\u00e9s dans l'ordre en ligne, avec le num\u00e9ro 1 \u00e0 gauche.</p>\n<p>Ils sont ensuite renvers\u00e9s, un par un, en suivant ces deux r\u00e8gles :</p>\n<p>(1.) En commen\u00e7ant par le premier piquet debout \u00e0 gauche, les autres piquets sont renvers\u00e9s jusqu'\u00e0 ce que la fin de la rang\u00e9e soit atteinte.</p>\n<p>(2.) Chaque fois que la fin de la ligne est atteinte, r\u00e9p\u00e9tez la r\u00e8gle pr\u00e9c\u00e9dente.</p>\n<p>Quel est le num\u00e9ro du dernier pion \u00e0 abattre ?</p>",
+    "hint": "<p>Pouvez-vous trouver la puissance 2 la plus proche de 1050 par valeur inferieure?</p>",
+    "correct_answer": "1024",
+    "explanation": "<p>Comme pr\u00e9c\u00e9demment, apr\u00e8s le premier tour, nous n'avons que des multiples de 2. Le second ne laisse que des multiples de 4, le mod\u00e8le se poursuit et chaque tour suivant ne laisse que des multiples de 8, 16, 32, ..., 512, 1024. Tous les multiples de 1024 (\u00e0 l'exception de 1024 lui-m\u00eame) sont plus grands que 1050, ce qui signifie que 1024 sera le dernier piquet restant.</p>"
+  },
+  "extension_2": {
+    "statement": "<p>Les piquets num\u00e9rot\u00e9s de 1 \u00e0 10000050 sont plac\u00e9s dans l'ordre en ligne, avec le num\u00e9ro 1 \u00e0 gauche.</p>\n<p>Ils sont ensuite renvers\u00e9s, un par un, en suivant ces deux r\u00e8gles :</p>\n<p>(1.) En commen\u00e7ant par le premier piquet debout \u00e0 gauche, cette fois-ci <strong>9 piquets sont renvers\u00e9s et la dixi\u00e8me est laiss\u00e9e debout</strong>, jusqu'\u00e0 ce que la fin de la rang\u00e9e soit atteinte.</p>\n<p>(2.) Chaque fois que la fin de la ligne est atteinte, r\u00e9p\u00e9tez la r\u00e8gle pr\u00e9c\u00e9dente.</p>\n<p>Quel est le num\u00e9ro du dernier pion \u00e0 abattre ?</p>",
+    "hint": "<p>Think about the sequence of pegs left in the previous parts 2, 4, 8, ... is there another way of writing down this sequence? In what way will the sequence change in this new case?  </p>",
+    "correct_answer": "10000000",
+    "explanation": "<p>Cette \u00e9nigme est similaire aux parties pr\u00e9c\u00e9dentes. Dans ces cas, \u00e0 chaque tour, nous avons laiss\u00e9 les multiples des puissances croissantes de 2. La s\u00e9quence 2, 4, 8, 16,... peut s'\u00e9crire 2, 2\u00b2, 2\u00b3, 2\u2074,... </p>\n<p>Dans la nouvelle \u00e9nigme, il ne reste que des multiples de puissances de 10. En effet, apr\u00e8s le premier tour, il ne reste que des multiples de 10. Apr\u00e8s le deuxi\u00e8me tour, il ne reste que des multiples de 100 = 10\u00b2, apr\u00e8s le troisi\u00e8me tour, il ne subsiste que des multiples de 1000 = 10\u00b3, et ainsi de suite. Ainsi 10000000 = 10\u2077 sera le dernier piquet subsistant, car tous les autres multiples de 10\u2077 sont plus grands que 10000050.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Cette \u00e9nigme concerne en fait les puissances de 2 et les nombres binaires), et sa deuxi\u00e8me extension sur les puissances de 10 et les nombres d\u00e9cimaux.</p>",
+    "references": [
+      "<p><a href=\"https://nrich.maths.org/11677\" target=\"_blank\">https://nrich.maths.org/11677</a></p>"
+    ]
+  }
+}

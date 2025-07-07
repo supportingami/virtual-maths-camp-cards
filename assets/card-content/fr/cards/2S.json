@@ -1,0 +1,21 @@
+{
+  "title": "Patience",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p>Ceci est une partie de patience pour qu'un seul joueur. \u00c9talez un grille de 8 cartes en 2 rang\u00e9es de 4 cartes, en face et retenez les cartes restantes. Si vous trouvez deux cartes dans la grille dont la somme monte \u00e0 11 vous pouvez mettre des nouvelle cartes dans votre main sur celles-ci (ici, l'as = 1). Si vous trouvez le Valet, la Reine ou le Roi vous pouvez aussi mettre une nouvelle carte au dessus de chacune. Le but du jeu est de d\u00e9poser toutes les cartes dans la main. </p>",
+    "further_instructions": "<p>Retirez les Jokers avant de commencer. Le as a une valeure de 1 dans ce jeu. Si vous parvenez a placer toutse les cartes, la derni\u00e8re \u00e9tape du jeu est de ramasser les cartes de dessus dont la somme est 11, ou de trois piles avec le Valet, Reine ou Roi en haut. Vous avez gagner le jeu si vous pouvez rammaser toutes les cartes. Si vous ne pouvez pas placer toutes vos cartes, comptez combien de cartes restantes il y a</p>",
+    "strategy_tips": "<p>Ce jeu est compos\u00e9 principalement de la chance - mais vous devez r\u00e9fl\u00e9cbien hir au nombre de Valets, Reines et Rois que vous avez couvert pour gagner \u00e0 la derni\u00e8re \u00e9tape !</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Un jeu similaire utilise 10 cartes avec leur face visible et vous devez supprimer des paires qui totalisent jusqu'\u00e0 13 (As = 1, Valet = 11, Reine = 12, et Roi=13). Le Roi peut \u00eatre retir\u00e9 tout seul. Chaque fois que vous retirez des cartes, vous les remplacez par des nouvelles. Le but est de finir de jouer \u00e0 toutes les cartes du paquet. </p>\n<p>Vous pouvez cr\u00e9er votre propre version de ce type de jeu en choisissant le montant \u00e0 calculer, combien de cartes avec leur face visible et que faire avec lescartes de la cour royale. Pouvez-vous concevoir un jeu qui peut \u00eatre gagn\u00e9 environ la moiti\u00e9 des fois jou\u00e9es ?</p>"
+  },
+  "additional_information": {
+    "about": "<p>Ce genre de jeu sont souvent appel\u00e9s Patience ou Solitaire. Patience parce que vous avez besoin de beaucoup de patience pour essayer de gagner, et Solitaire parce que vous pouvez les jouer tout seul. Bien que de nombreuses variations de Patience compte sur le hasard, il est int\u00e9ressant d'utiliser des math\u00e9matiques pour analyser la probabilit\u00e9 de gagner.</p>",
+    "references": [
+      "<p><a href=\"https://nrich.maths.org/1194\" target=\"_blank\">https://nrich.maths.org/1194</a></p>",
+      "<p><a href=\"https://www.solsuite.com/games/elevens.htm\" target=\"_blank\">https://www.solsuite.com/games/elevens.htm</a></p>"
+    ]
+  }
+}

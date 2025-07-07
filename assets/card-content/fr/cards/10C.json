@@ -1,0 +1,27 @@
+{
+  "title": "Deux distances",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>Combien de fa\u00e7ons y-a-t-il de dessiner quatre points sur une feuille de papier, de fa\u00e7on que, n\u2019importe quels deux points que vous choisissiez, aient une distance qui est une de seulement deux valeurs possibles ?</p>\n<p>Voici un exemple correct :</p>\n<p><img alt=\"\" src=\"assets/images/Two_Distances_image_0.png\" class=\"Two_Distances_image_0\" /></p>",
+    "correct_answer": "6",
+    "hint": "<p>Essayez de dessiner un triangle \u00e9quilat\u00e9ral. Cela vous donnera trois points qui sont tous \u00e0 la m\u00eame distance l\u2019un de l\u2019autre. O\u00f9 pourrait se placer le quatri\u00e8me point ?</p>",
+    "explanation": "<p>Si nous appelons les deux distances \u00ab court \u00bb et \u00ab long \u00bb, alors chaque dessin de points doit avoir un triangle avec un bord \u00ab long \u00bb et deux bords \u00ab courts \u00bb. (Ce n\u2019est pas si \u00e9vident mais si vous y r\u00e9fl\u00e9chissez, vous pouvez \u00e9liminer toutes les autres possibilit\u00e9s). Maintenant, o\u00f9 est-ce que le dernier point se place ? Il est connect\u00e9 \u00e0 chacun des trois autres points soit par un bord long ou court, ce qui donne 8 possibilit\u00e9s. Essayez chacune d\u2019entre elles, vous allez remarquer que 2 d\u2019entre elles ne marchent pas, ce qui laisse 6 solutions.</p>\n<p><img alt=\"\" src=\"assets/images/Two_Distances_image_1.png\" class=\"Two_Distances_image_1\" /></p>\n<p>Les bords courts sont de couleur bleue alors que les bords longs sont de couleur verte. Une de ces solutions peut \u00eatre \u00e9tendue jusqu\u2019\u00e0 5 points qui utilisent seulement deux distances. Regardez le dessin en bas \u00e0 droite.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>De combien de fa\u00e7ons pouvez- vous dessiner quatre points sur un plan dont les distances par paire sont les suivantes ?</p>",
+    "hint": "<p>Essayez de deviner quelles sont les sortes de triangles que vous pouvez composer qui utilisent 3 de ces 6 distances. Si vous avez du papier \u00e0 carreaux, cela aide de pouvoir placer tous les sommets sur la grille.</p>",
+    "correct_answer": "2",
+    "explanation": "<p>Cet ensemble de distances est plut\u00f4t particulier. Pour la plupart des ensembles de distances par paires, il y a seulement une solution. Mais ici il y en a deux.</p>\n<p><img alt=\"\" src=\"assets/images/Two_Distances_image_2.png\" class=\"Two_Distances_image_2\" /></p>"
+  },
+  "additional_information": {
+    "about": "<p>Alex Bellos a pr\u00e9sent\u00e9 ce puzzle dans sa chronique dans le journal quotidien The Guardian au Royaume Uni apr\u00e8s en avoir entendu parler par le jongleur de maths Colin Wright, qui en avait eu ou\u00efe par l\u2019expert de puzzles Peter Winkler.</p>",
+    "references": [
+      "<p><a href=\"https://www.theguardian.com/science/2019/oct/21/can-you-solve-it-the-four-points-two-distances-problem\" target=\"_blank\">https://www.theguardian.com/science/2019/oct/21/can-you-solve-it-the-four-points-two-distances-problem</a></p>",
+      "<p><a href=\"https://www.solipsys.co.uk/new/FourPointsTwoDistancesProof.html?RSS\" target=\"_blank\">https://www.solipsys.co.uk/new/FourPointsTwoDistancesProof.html?RSS</a></p>",
+      "<p><a href=\"http://datagenetics.com/blog/october12019/index.html\" target=\"_blank\">http://datagenetics.com/blog/october12019/index.html</a></p>",
+      "<p><a href=\"https://arxiv.org/pdf/math/0304192.pdf\" target=\"_blank\">https://arxiv.org/pdf/math/0304192.pdf</a></p>"
+    ]
+  }
+}

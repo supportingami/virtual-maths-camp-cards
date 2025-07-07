@@ -1,0 +1,23 @@
+{
+  "title": "Probabilit\u00e9 d'anniversaire",
+  "metadata": {
+    "type": "funfact"
+  },
+  "main_version": {
+    "statement": "<p>Dans une chambre de 23 personnes, la probabilit\u00e9 que deux personnes aient le m\u00eame anniversaire d\u00e9passe 50 %.</p>",
+    "hint": "<p>La probabilit\u00e9 que deux personnes aient le m\u00eame anniversaire n'est que de 1 moins la probabilit\u00e9 que l'anniversaire de chacun soit diff\u00e9rent.</p>\n<p>Vous devriez vous poser les questions suivantes :</p>\n<p>Si nous n'avons que 2 personnes, quelle est la probabilit\u00e9 que leurs anniversaires soient diff\u00e9rents\u202f? </p>\n<p>Si nous avions 5 personnes, de combien de fa\u00e7ons pouvons-nous en choisir deux pour comparer leurs anniversaires?</p>\n<p>Qu'obtenons-nous si nous adoptons la m\u00eame approche pour 23 personnes?</p>",
+    "explanation": "<p>La probabilit\u00e9 que deux personnes aient des anniversaires diff\u00e9rents est d'environ 364 \u2215 365. Il y a 253 paires de personnes diff\u00e9rentes dans une salle de 23 personnes, donc la probabilit\u00e9 qu'ils aient tous des anniversaires diff\u00e9rents est d'environ 364/365 \u00e0 la puissance 253. Ceci est 0,4995 l\u00e9g\u00e8rement moins que 50% donc la probabilit\u00e9 d'avoir 2 personnes dans la salle avec le m\u00eame anniversaire est un peu plus de 50%. En fait, nous devrions inclure des ann\u00e9es bissextiles, mais le r\u00e9sultat est toujours vrai si vous le faites.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>S'il y a 50 personnes dans une pi\u00e8ce, quelle est la chance que deux personnes partagent un anniversaire?</p>",
+    "hint": "<p>R\u00e9fl\u00e9chissez \u00e0 ces questions : </p>\n<p>Combien de paires possibles de personnes y a-t-il dans une chambre contenant 50 personnes\u202f? </p>\n<p>Quelle est la chance que chaque paire de personnes aient des anniversaires diff\u00e9rents les uns des autres?</p>",
+    "explanation": "<p>Le nombre de paires de personnes est de 50x49 \u2215 2 = 1225. La probabilit\u00e9 d'une paire unique est 364 \u2215 365. La probabilit\u00e9 de 1225 paires uniques est (364 \u2215 365)\u00b9\u00b2\u00b2\u2075 = 0.0347. La probabilit\u00e9 d'au moins un match est de 1 - 0,0347 = 0,9653, ce qui est 96,53%. Alors incroyablement probable!</p>"
+  },
+  "additional_information": {
+    "about": "<p>Ce probl\u00e8me n'est pas un paradoxe mais il est contre-intuitif. Le nombre de personnes n\u00e9cessaires semble \u00e9tonnamment petit, peut-\u00eatre parce que nous nous imaginons comme l'une des personnes pr\u00e9sentes dans la salle et que nous ne pensons qu'\u00e0 22 possibilit\u00e9s qui correspondent, plut\u00f4t que de penser aux 253 diff\u00e9rentes paires de personnes dans la salle. </p>\n<p>Vous pouvez \u00e9tendre le probl\u00e8me d'anniversaire - vous n'aurez besoin que de 88 personnes pour avoir plus de 50 % de chances que 3 personnes partagent un anniversaire.</p>\n<p>Avez-vous connu une co\u00efncidence surprenante dans votre vie ? </p>\n<p>Des co\u00efncidences telles que rencontrer quelqu'un avec exactement le m\u00eame anniversaire que vous sont des \u00e9v\u00e9nements improbables par eux-m\u00eames. Cependant, comme pour le probl\u00e8me d'anniversaire, le nombre d'\u00e9v\u00e9nements peut augmenter exponentiellement, ce qui signifie que, dans un groupe ou au fil du temps, il est plus probable d'avoir des co\u00efncidences que pas!</p>\n<p>Si vous n'avez pas encore eu de co\u00efncidence, ne vous inqui\u00e9tez pas. Si vous continuez \u00e0 chercher, il est peu probable que rien de sorte ne vous arrivera jamais ! </p>",
+    "references": [
+      "<p><a href=\"https://betterexplained.com/articles/understanding-the-birthday-paradox/\" target=\"_blank\">https://betterexplained.com/articles/understanding-the-birthday-paradox/</a></p>",
+      "<p><a href=\"https://oeis.org/A014088\" target=\"_blank\">https://oeis.org/A014088</a></p>"
+    ]
+  }
+}

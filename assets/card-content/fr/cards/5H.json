@@ -1,0 +1,24 @@
+{
+  "title": "Ramanujan",
+  "metadata": {
+    "type": "funfact"
+  },
+  "main_version": {
+    "statement": "<p>1729 est le plus petit nombre qui peut \u00eatre \u00e9crit comme une somme de deux nombres cubes de deux mani\u00e8res diff\u00e9rentes.</p>",
+    "hint": "<p>72 peut \u00eatre exprim\u00e9 comme 2\u00b3 + 4\u00b3 mais c'est la seule mani\u00e8re avec deux cubes positifs. Pouvez-vous trouver les deux mani\u00e8res de calculer 1729?</p>",
+    "explanation": "<p>1\u00b3 + 12\u00b3 = 1 + 1728 = 1729 et aussi 9\u00b3 + 10\u00b3 = 729 + 1000 = 1729</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Si vous modifiez le probl\u00e8me pour permettre d'avoir un cube d'un nombre n\u00e9gatif, par ex. (-3)\u00b3=27 alors le plus petit nombre que vous pouvez calculer est inf\u00e9rieur \u00e0 100. Pouvez-vous trouver le nombre et les deux fa\u00e7ons de le faire?</p>",
+    "hint": "<p>Le nombre est compris entre 90 et 100.</p>",
+    "explanation": "<p>91 peut \u00eatre \u00e9crit comme 6\u00b3+(-5)\u00b3 = 216 - 125 =91 ou 4\u00b3+3\u00b3=64+27=91</p>"
+  },
+  "additional_information": {
+    "about": "<p>Bernard Fr\u00e9nicle de Bessy a \u00e9crit sur le nombre 1729 en 1657, mais il a \u00e9t\u00e9 rendu populaire par G. H. Hardy racontant une histoire sur Srinivasa Ramanujan vers 1919 : \"Je me souviens d'\u00eatre all\u00e9 le voir une fois quand il \u00e9tait malade \u00e0 Putney. J'\u00e9tais mont\u00e9 dans le taxi num\u00e9ro 1729 et j'avais remarqu\u00e9 que le num\u00e9ro me paraissait plut\u00f4t ennuyeux et que j'esp\u00e9rais que ce n'\u00e9tait pas un mauvais pr\u00e9sage. \"Non,\" r\u00e9pondit-il, \"c'est un nombre tr\u00e8s int\u00e9ressant; c'est le plus petit nombre exprimable comme la somme de deux cubes de deux mani\u00e8res diff\u00e9rentes.\" 1729 est maintenant appel\u00e9 un num\u00e9ro de \u00ab taxi \u00bb. C'est le deuxi\u00e8me num\u00e9ro de taxi. Le premier est 2 car c'est le plus petit nombre qui peut \u00eatre \u00e9crit d'une mani\u00e8re comme la somme de deux cubes. 87539319 est le troisi\u00e8me num\u00e9ro de taxi car c'est le plus petit nombre qui peut \u00eatre \u00e9crit de trois mani\u00e8res diff\u00e9rentes comme la somme de deux cubes. Personne ne sait quels sont les num\u00e9ros de taxi au-dessus du 6e. </p>",
+    "references": [
+      "<p><a href=\"https://en.wikipedia.org/wiki/Bernard_Fr%C3%A9nicle_de_Bessy\" target=\"_blank\">https://en.wikipedia.org/wiki/Bernard_Fr%C3%A9nicle_de_Bessy</a></p>",
+      "<p><a href=\"https://en.wikipedia.org/wiki/1729_(number)\" target=\"_blank\">https://en.wikipedia.org/wiki/1729_(number)</a></p>",
+      "<p><a href=\"https://en.wikipedia.org/wiki/Taxicab_number\" target=\"_blank\">https://en.wikipedia.org/wiki/Taxicab_number</a></p>"
+    ]
+  }
+}

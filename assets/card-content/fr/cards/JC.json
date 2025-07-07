@@ -1,0 +1,30 @@
+{
+  "title": "Partage des cartes",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>Les enfants sont assis en cercle et un enseignant fait le tour du cercle en distribuant des cartes. L'enseignant donne un Valet \u00e0 chaque deuxi\u00e8me enfant et une Reine \u00e0 chaque troisi\u00e8me enfant.</p>\n<p>Apr\u00e8s avoir fait quatre fois le tour, le sixi\u00e8me enfant dans le cercle, \u00e0 partir d'o\u00f9 l'enseignant a commenc\u00e9, a deux Valets et deux Dames.</p>\n<p>Quel est le plus petit nombre possible d\u2019enfants dans le cercle ?</p>",
+    "correct_answer": "7",
+    "hint": "<p>Doit-il y avoir un nombre pair ou impair d'enfants dans le cercle\u202f?</p>",
+    "explanation": "<p>L'enseignant fait le tour du cercle quatre fois. S'il y avait un nombre pair d'enfants, le sixi\u00e8me enfant recevrait toujours un Valet \u00e0 chaque fois et aurait quatre Valets \u00e0 la fin. Puisqu'ils n'ont que deux Valets, il doit y avoir un nombre impair d'enfants dans le cercle.</p>\n<p>Le sixi\u00e8me enfant re\u00e7oit une Reine lors du premier tour parce que 6 est un multiple de 3. Elle ne re\u00e7oit qu'une seule Reine de plus, la r\u00e9ponse ne peut donc pas \u00eatre un multiple de 3.</p>\n<p>Les options sont 7, 11, 13, 17, 19 \u2026 et donc 7 est le plus petit nombre d'enfants. </p>"
+  },
+  "extension_1": {
+    "statement": "<p>Les enfants sont assis en cercle et un enseignant fait le tour du cercle en distribuant des cartes. L'enseignant donne un Valet \u00e0 chaque deuxi\u00e8me enfant, une Reine \u00e0 chaque troisi\u00e8me enfant et un Roi \u00e0 chaque cinqui\u00e8me enfant. </p>\n<p>Apr\u00e8s avoir fait quatre tours, le sixi\u00e8me enfant, d\u2019o\u00f9 l'enseignant a commenc\u00e9, a quatre Valets, deux Reines et pas de Rois.</p>\n<p>Quel devrait \u00eatre le plus petit nombre d'enfants ?</p>",
+    "hint": "<p>Imaginez si le nombre doit \u00eatre impair ou pair et s'il doit \u00eatre divisible par 3 ou 5.</p>",
+    "correct_answer": "10",
+    "explanation": "<p>L'enfant a re\u00e7u quatre Valets, il doit donc y avoir un nombre pair d'enfants, mais il n'a re\u00e7u que deux Reines, le nombre d'enfants ne peut donc pas \u00eatre un multiple de 3. Comme l'enfant n'a pas re\u00e7u de Rois, 6 et 10 restent les deux possibilit\u00e9s (essayez de v\u00e9rifier ceci avec des cartes ou un crayon et du papier). Mais 6 \u00e9tant un multiple de 3, la r\u00e9ponse doit \u00eatre 10. </p>"
+  },
+  "extension_2": {
+    "statement": "<p>1000 enfants sont assis en cercle et un enseignant fait le tour du cercle en distribuant des cartes. L'enseignant donne un Valet \u00e0 chaque deuxi\u00e8me enfant et une Reine \u00e0 chaque troisi\u00e8me enfant</p>\n<p>Apr\u00e8s que l'enseignant ait fait 1000 tours, combien de cartes aura au total le sixi\u00e8me enfant\u202f?</p>",
+    "hint": "<p>Which child will get a Queen next after the 999\u1d57\u02b0 child gets one on the first turn round?</p>",
+    "correct_answer": "1334",
+    "explanation": "<p>Il y a un nombre pair d'enfants de sorte que le sixi\u00e8me enfant sera toujours en position de recevoir un Valet \u00e0 chaque tour. Il aura donc 1000 cartes de cette r\u00e8gle. Pour les Reines, au premier tour, les \u00e9l\u00e8ves, qui en recevront une, seront en position 3, 6, 9, 12, 15, ..., 999, puis ce sera 2, 5, 8, ..., 998, ensuite 1, 4, 7, ..., 997, 1000, et puis de retour \u00e0 3, 6, 9, ..., 999.  Ainsi, \u00e0 chaque troisi\u00e8me tour, il recevra une Reine. Comme 1000 \u2215 3 fait 333 avec un reste de 1, il en recevra une au 1000\u1d49 tour \u00e9galement. Alors 1000 + 334 = 1334 est le nombre total de cartes.  </p>"
+  },
+  "additional_information": {
+    "about": "<p>Cette \u00e9nigme a \u00e9t\u00e9 \u00e9crite par un \u00e9tudiant au Lyc\u00e9e fran\u00e7ais Charles de Gaulle pour une \u00e9nigme de No\u00ebl impliquant la distribution de cadeaux rouges et bleus.</p>",
+    "references": [
+      "<p><a href=\"https://lycee.samicharity.co.uk/2018/12/03/wrapping-presents/\" target=\"_blank\">https://lycee.samicharity.co.uk/2018/12/03/wrapping-presents/</a></p>"
+    ]
+  }
+}

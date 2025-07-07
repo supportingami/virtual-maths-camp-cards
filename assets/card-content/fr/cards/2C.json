@@ -1,0 +1,31 @@
+{
+  "title": "Un-deux-trois-quatre-cinq",
+  "metadata": {
+    "type": "puzzle"
+  },
+  "main_version": {
+    "statement": "<p>Le mod\u00e8le 123451234512345... se poursuit pour former un nombre \u00e0 2000 chiffres.</p>\n<p>Quelle est la somme de tous les 2000 chiffres ?</p>",
+    "correct_answer": "6000",
+    "hint": "<p>Combien de fois le motif 12345 appara\u00eet-il dans le nombre \u00e0 2\u00a0000\u00a0chiffres\u00a0?</p>",
+    "explanation": "<p>Les cinq nombres 1, 2, 3, 4 et 5 totalisent 15. Si la r\u00e9gularit\u00e9 se poursuit sur 2 000 chiffres, il y aura 2 000 \u2215 5 = 400 ensembles de ces cinq nombres. 400\u00d715 = 6000.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Le mod\u00e8le 123456712345671234567... se poursuit pour former un nombre \u00e0 2100 chiffres.</p>\n<p>Quelle est la somme de tous les 2100 chiffres ?</p>",
+    "hint": "<p>A quoi correspondent les nombres 1 + 2 + 3 + 4 + 5 + 6 + 7 ?</p>",
+    "correct_answer": "8400",
+    "explanation": "<p>Les sept nombres 1, 2, 3, 4, 5, 6 et 7 totalisent 28. Si la r\u00e9gularit\u00e9 se poursuit sur 2100 chiffres, il y aura 2100 \u2215 7 = 300 ensembles de ces sept nombres. 300\u00d728 = 8400.</p>"
+  },
+  "extension_2": {
+    "statement": "<p>Le mod\u00e8le 1234...n,1234,...n,1234\u2026,n est poursuivi sur 120 000 chiffres. Si la somme de ces chiffres est 960000, \u00e0 quoi est \u00e9gal n ? </p>",
+    "hint": "<p>Try dividing 960000 by 120000. What does this answer represent?</p>",
+    "correct_answer": "15",
+    "explanation": "<p>960000 est la somme de tous les chiffres. Il y a 120 000 chiffres, donc diviser 960 000 par 120 000 nous donne la moyenne des chiffres. C'est 8, nous recherchons donc une s\u00e9quence de nombres 1, 2, 3, \u2026 avec une moyenne de 8. Cela doit \u00eatre 1, 2, 3, \u2026, 15.</p>"
+  },
+  "additional_information": {
+    "about": "<p>Il existe une formule pour additionner les nombres 1, 2, 3, \u2026, n ensemble. C'est \u00bd\u00d7n\u00d7(n + 1). Par exemple 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28 peut \u00eatre trouv\u00e9 par \u00bd\u00d77\u00d78 = 28. </p>\n<p>La s\u00e9quence de nombres que cette formule donne est appel\u00e9e nombres triangulaires. Les dix premiers sont 1, 3, 6, 10, 15, 21, 28, 36, 45 et 55. </p>",
+    "references": [
+      "<p><a href=\"https://nrich.maths.org/2344\" target=\"_blank\">https://nrich.maths.org/2344</a></p>",
+      "<p><a href=\"https://www.mathsisfun.com/algebra/triangular-numbers.html\" target=\"_blank\">https://www.mathsisfun.com/algebra/triangular-numbers.html</a></p>"
+    ]
+  }
+}

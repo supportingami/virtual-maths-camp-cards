@@ -1,0 +1,24 @@
+{
+  "title": "Coloriage",
+  "metadata": {
+    "type": "counting"
+  },
+  "main_version": {
+    "statement": "<p>Combien de drapeaux tricolores similaires \u00e0 celui ci-dessous y a-t-il si nous disposons seulement de 5 couleurs. Deux bandes juxtapos\u00e9es ne peuvent PAS \u00eatre de la m\u00eame couleur.</p>\n<p><img alt=\"\" src=\"assets/images/Coloriage_image_0.png\" class=\"Coloriage_image_0\" /></p>",
+    "correct_answer": "80",
+    "hint": "<p>Pensez au nombre de couleurs diff\u00e9rentes qui pourraient \u00eatre utilis\u00e9es dans la premi\u00e8re bande, puis la deuxi\u00e8me, ...</p>",
+    "explanation": "<p>Il y a 5 choix possibles pour la premi\u00e8re bande. D\u00e8s qu\u2019une couleur a \u00e9t\u00e9 choisie, la deuxi\u00e8me bande ne peut \u00eatre de la m\u00eame couleur. Il n\u2019y a donc que quatre couleurs \u00e0 choisir pour la deuxi\u00e8me bande. Pour la troisi\u00e8me bande, il y a 4 couleurs au choix, car elle ne peut pas \u00eatre de la m\u00eame couleur que la deuxi\u00e8me, mais elle peut \u00eatre de la m\u00eame couleur que la premi\u00e8re. Ainsi, le nombre de drapeaux tricolores avec 5 couleurs au choix vaut 5 \u00d7 4 \u00d7 4 = 80.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>De combien de mani\u00e8res diff\u00e9rentes puis-je peindre les cinq murs d'une pi\u00e8ce pentagonale avec de la peinture rouge, bleue et verte de sorte que deux murs voisins ne soient de la m\u00eame couleur ?</p>\n<p><img alt=\"\" src=\"assets/images/Coloriage_image_1.png\" class=\"Coloriage_image_1\" /></p>",
+    "hint": "<p>Choisissez une couleur, par exemple, peignez le toit en rouge et essayez de lister toutes les diff\u00e9rentes options pour les autres murs.  </p>",
+    "correct_answer": "30",
+    "explanation": "<p>Tout d'abord, vous pouvez commencer par le rouge, le bleu ou le vert et utilisez l'une des autres couleurs pour le deuxi\u00e8me c\u00f4t\u00e9 et ainsi de suite autour du pentagone. Lorsque vous arrivez au dernier c\u00f4t\u00e9, il ne peut pas \u00eatre de m\u00eame couleur que le quatri\u00e8me ou le premier c\u00f4t\u00e9.</p>\n<p>Nous pouvons repr\u00e9senter les choix de couleurs dans un diagramme d'arbre, au sommet (connu comme la racine de l'arbre) nous peignons le premier c\u00f4t\u00e9. Ici, nous choisissons le rouge. La premi\u00e8re ramification est le choix du vert ou du bleu pour le deuxi\u00e8me c\u00f4t\u00e9. La prochaine ramification est le choix du troisi\u00e8me c\u00f4t\u00e9 qui d\u00e9pend de votre choix du deuxi\u00e8me c\u00f4t\u00e9. Tout chemin allant de la racine \u00e0 la fin de l'arbre (appel\u00e9 feuille) vous donne un choix pour les cinq c\u00f4t\u00e9s. Nous voyons que si nous commen\u00e7ons par le rouge, nous avons 10 colorations diff\u00e9rentes. </p>\n<p>Comme nous pouvons obtenir des diagrammes similaires si nous avions choisi le vert ou le bleu en premi\u00e8re position, nous avons un total de 3 \u00d7 10 = 30 colorations diff\u00e9rentes. </p>\n<p><img alt=\"\" src=\"assets/images/Coloriage_image_2.png\" class=\"Coloriage_image_2\" /></p>"
+  },
+  "additional_information": {
+    "about": "<p>Dans une pi\u00e8ce comportant un nombre pair de murs, deux couleurs sont suffisantes. Pour les pi\u00e8ces avec un nombre impair de murs, vous aurez besoin de trois couleurs.</p>",
+    "references": [
+      "<p><a href=\"https://nrich.maths.org/600\" target=\"_blank\">https://nrich.maths.org/600</a></p>"
+    ]
+  }
+}

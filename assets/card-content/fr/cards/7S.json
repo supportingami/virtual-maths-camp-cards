@@ -1,0 +1,20 @@
+{
+  "title": "Gomoku",
+  "metadata": {
+    "type": "game"
+  },
+  "main_version": {
+    "statement": "<p>Commencez par dessiner une grille carr\u00e9e de 15 par 15 lignes. Deux joueurs prennent chacun son tour de placer une pi\u00e8ce sur n'importe quel point o\u00f9 les lignes se croisent. Le joueur qui parvient \u00e0 avoir cinq de ses compteurs sur une ligne droite gagne, la ligne peut \u00eatre verticale, horizontale ou diagonale.</p>",
+    "further_instructions": "<p>Ce jeu est traditionnellement jou\u00e9 avec des pi\u00e8ces noir et blanc, mais vous pouvez utiliser des pi\u00e8ces diff\u00e9rents ou de petits morceaux de papier. Vous pouvez aussi dessiner la grille en stylo et ensuite utiliser marquer avec un crayon x ou o pour chaque joueur et ensuite les \u00e9ffacer \u00e0 la fin pour pouvoir utiliser la grille de nouveau.</p>",
+    "strategy_tips": "<p>Il est tr\u00e8s important de regarder le placement de votre adversaire et d'essayer de faire une ligne de 5 vous-m\u00eame. Si votre adversaire a trois pi\u00e8ces dans une rang\u00e9e sans rien \u00e0 chaque extr\u00e9mit\u00e9 - cela s'appelle \"3 ouvert\" - alors ce serai une bonne id\u00e9e d'utiliser votre tour pour bloquer une extr\u00e9mit\u00e9. S'ils r\u00e9ussissent \u00e0 \"4 ouvert\", vous avez certainement perdu! Une bonne strat\u00e9gie d'attaque pourrait \u00eatre de viser pour avoir deux lignes perpendiculaire de 3 ouvert- comme une croix - de sorte qu'il est tr\u00e8s difficile pour votre adversaire de d\u00e9fendre.</p>"
+  },
+  "extension_1": {
+    "statement": "<p>Pour les joueurs avanc\u00e9s, le premier joueur a un \u00e9norme avantage. Cet avantage peut \u00eatre \u00e9l\u00e9min\u00e9 en d\u00e9marrant la partie en utilisant la r\u00e8gle \"\u00c9changez 2\". Disons qu'au d\u00e9but de la partie le joueur un est les croix (x) et que le joueur deux est les cercles (o).</p>\n<p>Le joueur 1 commence le jeu en marquant 3 intersections (deux avec x, et une avec o), le joueur 2 choisit alors une de ces trois options (i) il prend des croix, terminant son tour (le joueur 1 devient des cercles et c'est maintenant son tour), (ii) il reste en tant que cercles et ajoute un cercle comme normal, (iii) il ajoute deux cercles au plateau, mais le joueur 1 peut maintenant d\u00e9cider s'il veut voler des cercles. Apr\u00e8s cela, le jeu se poursuit comme d'habitude.  </p>"
+  },
+  "additional_information": {
+    "about": "<p>Il y a un tournoi de Championnat du Monde pour Gomuku. Depuis 2009, ils utilisent la r\u00e8gle \u00c9changez 2 pour en faire un jeu \u00e9quitable, quel que soit le d\u00e9but. Il y a aussi des championnats pour que les ordinateurs jouent \u00e0 Gomuku! A cause de cela, ils y a certains qui \u00e9crivent un programme d'intelligence artificielle en sorte que leur programme joue contre le programme de quelqu'un d'autre pour voir qui gagne. Il y a aussi des comp\u00e9titions d'ordinateur contre des humains - en 2017 un ordinateur appel\u00e9 Yixin a battu le champion du monde humain Rudolf Dupszki 2-0.</p>",
+    "references": [
+      "<p><a href=\"https://en.wikipedia.org/wiki/Gomoku\" target=\"_blank\">https://en.wikipedia.org/wiki/Gomoku</a></p>"
+    ]
+  }
+}
