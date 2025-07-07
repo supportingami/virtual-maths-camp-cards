@@ -11,7 +11,7 @@ export type CardMetadata = {
   statement: string;
 };
 
-type CardContentSection = {
+export type CardContentSection = {
   statement: string;
   correct_answer?: string;
   hint: string;

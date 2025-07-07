@@ -59,13 +59,10 @@ export const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: (route) => {
-      if (typeof window !== 'undefined' && window.localStorage) {
-        const lang = window.localStorage.getItem('language') || 'en';
-        return `/${lang}`;
-      }
-      return '/en';
-    },
+    loadComponent: () =>
+      import('./pages/language-redirect/language-redirect.page').then(
+        (m) => m.LanguageRedirectComponent
+      ),
   },
   // Card list page
   // On the /en or /fr page show a list of all cards filtered by language
@@ -75,19 +72,15 @@ export const routes: Routes = [
       import('./pages/home/home.page').then((m) => m.HomeComponent),
     resolve: { cards: cardsResolver },
   },
-  // Pages linked by QR codes do not include language, e.g. /card/2h
-  // Apply redirect to include preferred language with fallback, e.g. /en/card/2h
+  // `/card/2d` from QR code. Component to redirects to lang version, `/en/card/2d`
+  // This is done in component and not redirect to support SSG landing page
   // Important to include this route before next to not treat 'card' as language code
   {
     path: 'card/:id',
-    redirectTo: (route) => {
-      const id = route.params['id'];
-      if (typeof window !== 'undefined' && window.localStorage) {
-        const lang = window.localStorage.getItem('language') || 'en';
-        return `/${lang}/card/${id}`;
-      }
-      return `/en/card/${id}`;
-    },
+    loadComponent: () =>
+      import('./pages/language-redirect/language-redirect.page').then(
+        (m) => m.LanguageRedirectComponent
+      ),
   },
   // Single card display page
   {

@@ -31,9 +31,14 @@ export const serverRoutes: ServerRoute[] = [
       return allRoutes;
     },
   },
-  // QR code landing pages are redirects, so simply use client to handle
+  // QR code landing pages use client code to redirect
   {
     path: 'card/:id',
+    renderMode: RenderMode.Client,
+  },
+  // Home page redirect should also be handled by client
+  {
+    path: '',
     renderMode: RenderMode.Client,
   },
   {

@@ -1,10 +1,10 @@
 # TODO
 
-- [ ] Add lightweight placeholder and QR pages to support pre-render (can't rely on redirect)
-- [ ] Card details page
+- [ ] Add references
+- [ ] Add feedback (possibly confirm)
 - [ ] Add lightweight translation system for hardcoded text
-- [ ] Consider partial defer or virtualised list for cards to avoid heavy render
 - [ ] Setup new git repo to deploy
+- [ ] Add favicon
 - [ ] SEO optimisation
 - [ ] Improve Readme (managing metadata/card data)
 - [ ] Optimise or try to remove redundant material styles inlined into every page
