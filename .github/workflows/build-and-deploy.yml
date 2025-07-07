@@ -1,0 +1,30 @@
+name: Build and deploy to Github Pages
+
+on:
+  push:
+    branches:
+      - main
+      - feat/deploy-action
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.12.0
+
+      - name: Install dependencies
+        run: corepack enable && yarn install --immutable
+
+      - name: Build
+        run: yarn build
+
+      - name: Deploy to Github Pages 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.5.0
+        with:
+          branch: gh-pages
+          folder: dist/vmc-cards/browser

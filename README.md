@@ -2,10 +2,10 @@
 
 - [ ] Add references
 - [ ] Add feedback (possibly confirm)
-- [ ] Add lightweight translation system for hardcoded text
-- [ ] Setup new git repo to deploy
+- [ ] Add lightweight translation system for hardcoded text (service + pipe)
+- [ ]
 - [ ] Add favicon
-- [ ] SEO optimisation
+- [ ] SEO optimisation (lang pages, block qr redirect)
 - [ ] Improve Readme (managing metadata/card data)
 - [ ] Optimise or try to remove redundant material styles inlined into every page
 
