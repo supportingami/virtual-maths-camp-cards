@@ -31,15 +31,19 @@ export const serverRoutes: ServerRoute[] = [
       return allRoutes;
     },
   },
-  // QR code landing pages use client code to redirect
+  // QR code landing pages also need to generate redirect pages for every card
   {
     path: 'card/:id',
-    renderMode: RenderMode.Client,
+    renderMode: RenderMode.Prerender,
+    async getPrerenderParams() {
+      const cardIDs = Object.keys(CARD_DATA.en);
+      return cardIDs.map((id) => ({ id }));
+    },
   },
-  // Home page redirect should also be handled by client
+  // Home page redirect also needs to be generated. This populates initial `index.html`
   {
     path: '',
-    renderMode: RenderMode.Client,
+    renderMode: RenderMode.Prerender,
   },
   {
     path: '**',

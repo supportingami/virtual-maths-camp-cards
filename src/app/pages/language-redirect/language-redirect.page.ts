@@ -9,7 +9,7 @@ export class LanguageRedirectComponent implements OnInit {
 
   ngOnInit() {
     const url = this.getRedirectUrl();
-    this.router.navigateByUrl(url);
+    this.router.navigateByUrl(url, { replaceUrl: true });
   }
 
   /**
@@ -18,8 +18,10 @@ export class LanguageRedirectComponent implements OnInit {
    * E.g. home page goes to list `/` -> `/en/`
    */
   private getRedirectUrl() {
-    const path = this.router.url;
+    const segments = this.router.url.split('/').filter((v) => v);
     const lang = window.localStorage.getItem('language') || 'en';
-    return `/${lang}/${path}`;
+    // add language prefix before path
+    const target = [lang, ...segments].join('/');
+    return `/${target}`;
   }
 }
