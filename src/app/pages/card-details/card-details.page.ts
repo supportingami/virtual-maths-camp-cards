@@ -1,19 +1,13 @@
-import {
-  ChangeDetectionStrategy,
-  Component,
-  computed,
-  effect,
-  inject,
-} from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { CardContent } from '../../types';
 import { PlayingCardComponent } from '../../components/playing-card/playing-card.component';
-import { JsonPipe } from '@angular/common';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { map } from 'rxjs';
+import { CardInfoComponent } from '../../components/card-info/card-info.component';
 
 @Component({
-  imports: [PlayingCardComponent, JsonPipe],
+  imports: [PlayingCardComponent, CardInfoComponent],
   templateUrl: './card-details.page.html',
   styleUrl: './card-details.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

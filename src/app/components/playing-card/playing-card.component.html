@@ -4,7 +4,10 @@
     <span class="suit"></span>
   </div>
   <div class="card-statement-container">
-    <div class="card-statement" [innerHTML]="cardStatement()"></div>
+    <div
+      class="card-statement dynamic-content"
+      [innerHTML]="cardStatement()"
+    ></div>
   </div>
   <!-- <div class="center-symbol">♠</div> -->
   <div class="corner bottom-right">

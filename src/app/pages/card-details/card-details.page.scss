@@ -1,3 +1,13 @@
 :host {
   display: block;
 }
+.content {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.card-info {
+  flex: 1;
+  min-width: 200px;
+  max-width: 600px;
+}

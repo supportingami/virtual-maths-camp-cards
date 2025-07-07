@@ -6,9 +6,37 @@
 }
 <!-- Card View -->
 @else {
-<app-playing-card
-  [card]="card"
-  [attr.view-transition-name]="'card-' + card.slug"
-></app-playing-card>
-<div>{{ card | json }}</div>
+<h1 style="margin-bottom: 0">{{ card.title }}</h1>
+<p style="margin-top: 0; margin-bottom: 2em">{{ card.type }}</p>
+<section class="content">
+  <app-playing-card
+    [card]="card"
+    [attr.view-transition-name]="'card-' + card.slug"
+  ></app-playing-card>
+  <div class="card-info">
+    <!-- Main Content -->
+    @if(card.main_version; as main_version){
+    <app-card-info [content]="main_version"></app-card-info>
+    <!-- Extension 1 -->
+    @if(card.extension_1; as extension_1){
+    <details style="margin-top: 3rem">
+      <summary>🚀 Extension 1</summary>
+      <app-card-info
+        [content]="extension_1"
+        [showStatement]="true"
+      ></app-card-info>
+    </details>
+    }
+    <!-- Extension 2 -->
+    @if(card.extension_2; as extension_2){
+    <details style="margin-top: 3rem">
+      <summary>🚀 Extension 2</summary>
+      <app-card-info
+        [content]="extension_2"
+        [showStatement]="true"
+      ></app-card-info>
+    </details>
+    } }
+  </div>
+</section>
 } }

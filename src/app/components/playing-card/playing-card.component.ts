@@ -4,7 +4,6 @@ import {
   computed,
   inject,
   input,
-  ViewEncapsulation,
 } from '@angular/core';
 import { CardMetadata } from '../../types';
 import { DomSanitizer } from '@angular/platform-browser';
@@ -14,9 +13,6 @@ import { DomSanitizer } from '@angular/platform-browser';
   styleUrl: 'playing-card.component.scss',
   templateUrl: 'playing-card.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  // Disable view encapsulation to allow generated styles to apply to dynamically rendered content
-  // Could alternatively move dynamic content styles to global and keep encapsulation
-  encapsulation: ViewEncapsulation.None,
 })
 export class PlayingCardComponent {
   private sanitizer = inject(DomSanitizer);

@@ -44,3 +44,20 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+
+// Content dynamically injected into card statement and solution
+.dynamic-content {
+  // display dynamic images centered
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100px;
+    // from playing-card component calc($cardWidth - 16px);
+    max-width: 224px;
+  }
+  // remove margin from first p element
+  p:first-of-type {
+    margin-top: 0;
+  }
+}

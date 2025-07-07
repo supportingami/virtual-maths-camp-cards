@@ -1,0 +1,30 @@
+<!-- Statement (conditionally shown depending on input) -->
+@if(showStatement()){ @if(statement(); as statement){
+<div
+  class="dynamic-content"
+  style="margin: 2rem 0 2rem 0"
+  [innerHTML]="statement"
+></div>
+} }
+
+<!-- Hint -->
+@if(hint(); as hint){
+<details>
+  <summary>💡 Hint</summary>
+  <div class="dynamic-content" [innerHTML]="hint"></div>
+</details>
+}
+<!-- Solution -->
+@if(answer(); as answer){
+<details>
+  <summary>☑️ Solution</summary>
+  <div class="dynamic-content" [innerHTML]="answer"></div>
+</details>
+}
+<!-- Explanation -->
+@if(explanation(); as explanation){
+<details>
+  <summary>🧐 Explanation</summary>
+  <div class="dynamic-content" [innerHTML]="explanation"></div>
+</details>
+}
