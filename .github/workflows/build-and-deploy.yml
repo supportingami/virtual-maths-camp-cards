@@ -19,7 +19,7 @@ jobs:
           cache: yarn
 
       - name: Install dependencies
-        run: yarn install --immutable
+        run: corepace enable && yarn install --immutable
 
       - name: Build
         run: yarn build
