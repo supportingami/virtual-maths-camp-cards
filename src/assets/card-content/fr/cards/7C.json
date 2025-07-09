@@ -4,7 +4,7 @@
     "type": "puzzle"
   },
   "main_version": {
-    "statement": "<p>Ci-dessous, une seule feuille d'un journal. \u00c9tant donn\u00e9 que chaque feuille comporte quatre pages, combien y a-t-il de feuilles en tout\u00a0?</p>\n<p><img alt=\"\" src=\"assets/images/Journal_image_0.png\" class=\"Journal_image_0\" /></p>",
+    "statement": "<p>Ci-dessous, une seule feuille d'un journal. \u00c9tant donn\u00e9 que chaque feuille comporte quatre pages, combien y a-t-il de feuilles en tout\u00a0?</p>\n<p><img alt=\"\" src=\"assets/images/Newspaper_image_0.png\" class=\"Newspaper_image_0\" /></p>",
     "correct_answer": "17",
     "hint": "<p>Pouvez-vous travailler \u00e0 rebours \u00e0 partir de 8 pour d\u00e9terminer combien de feuilles il y aurait sous celle-ci\u00a0? Vous pouvez utiliser des morceaux de papier et les num\u00e9roter pour vous aider.</p>",
     "explanation": "<p>Au verso du num\u00e9ro 8 il doit y avoir le num\u00e9ro 7. La feuille en dessous doit avoir les chiffres 6 et 5. En continuant il y aura 4 et 3 et enfin 2 et 1. Il y a donc trois feuilles en dessous. Ajouter 7 au 61 donne la derni\u00e8re page comme 68. \u00c9tant donn\u00e9 que chaque feuille a quatre pages, il y a 68 \u2215 4 = 17 feuilles.</p>"
