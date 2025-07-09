@@ -52,6 +52,5 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "typescript": "~5.8.2"
-  },
-  "packageManager": "yarn@4.9.2"
+  }
 }
