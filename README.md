@@ -3,10 +3,12 @@
 - [ ] Add references
 - [ ] Add feedback (possibly confirm)
 - [ ] Add lightweight translation system for hardcoded text (service + pipe)
+
 - [ ]
 - [ ] Add favicon
 - [ ] SEO optimisation (lang pages, block qr redirect)
 - [ ] Improve Readme (managing metadata/card data)
+- [ ] Add virtualisation or other means to defer image load on main screen
 
 # Virtual Maths Camp Cards
 

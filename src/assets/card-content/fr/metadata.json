@@ -29,7 +29,7 @@
     "slug": "4C",
     "card_value": "4",
     "card_suit": "club",
-    "statement": "<p>À partir de combien de sommets (points) est-il possible de dessiner cette figure sans soulever le stylo du papier tout en parcourant chaque ligne exactement une fois ?</p>\n<p><img alt=\"\" src=\"assets/images/Maison_image_0.png\" class=\"Maison_image_0\" /></p>"
+    "statement": "<p>À partir de combien de sommets (points) est-il possible de dessiner cette figure sans soulever le stylo du papier tout en parcourant chaque ligne exactement une fois ?</p>\n<p><img alt=\"\" src=\"assets/images/House_image_0.png\" class=\"House_image_0\" /></p>"
   },
   {
     "title": "Abeille à miel",
@@ -53,7 +53,7 @@
     "slug": "7C",
     "card_value": "7",
     "card_suit": "club",
-    "statement": "<p>Ci-dessous, une seule feuille d'un journal. Étant donné que chaque feuille comporte quatre pages, combien y a-t-il de feuilles en tout ?</p>\n<p><img alt=\"\" src=\"assets/images/Journal_image_0.png\" class=\"Journal_image_0\" /></p>"
+    "statement": "<p>Ci-dessous, une seule feuille d'un journal. Étant donné que chaque feuille comporte quatre pages, combien y a-t-il de feuilles en tout ?</p>\n<p><img alt=\"\" src=\"assets/images/Newspaper_image_0.png\" class=\"Newspaper_image_0\" /></p>"
   },
   {
     "title": "L’Épée de Josephus",
@@ -133,7 +133,7 @@
     "slug": "4D",
     "card_value": "4",
     "card_suit": "diamond",
-    "statement": "<p>Combien de drapeaux tricolores similaires à celui ci-dessous y a-t-il si nous disposons seulement de 5 couleurs. Deux bandes juxtaposées ne peuvent PAS être de la même couleur.</p>\n<p><img alt=\"\" src=\"assets/images/Coloriage_image_0.png\" class=\"Coloriage_image_0\" /></p>"
+    "statement": "<p>Combien de drapeaux tricolores similaires à celui ci-dessous y a-t-il si nous disposons seulement de 5 couleurs. Deux bandes juxtaposées ne peuvent PAS être de la même couleur.</p>\n<p><img alt=\"\" src=\"assets/images/Colouring_image_0.png\" class=\"Colouring_image_0\" /></p>"
   },
   {
     "title": "Éviter la rivière",
