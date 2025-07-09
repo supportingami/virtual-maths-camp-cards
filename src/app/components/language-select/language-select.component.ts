@@ -5,24 +5,26 @@ import {
   OnInit,
   signal,
 } from '@angular/core';
-import {
-  MatFormField,
-  MatOption,
-  MatPrefix,
-  MatSelect,
-} from '@angular/material/select';
 import { AvailableLanguage } from '../../types';
 import { Router } from '@angular/router';
 import { NgTemplateOutlet } from '@angular/common';
+
+const LANGUAGES_HASHMAP: Record<AvailableLanguage, string> = {
+  en: 'English',
+  fr: 'French',
+};
 
 @Component({
   selector: 'app-language-select',
   templateUrl: 'language-select.component.html',
   styleUrl: './language-select.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [MatPrefix, MatSelect, MatOption, MatFormField, NgTemplateOutlet],
+  imports: [NgTemplateOutlet],
 })
 export class LanguageSelectComponent implements OnInit {
+  public languageOptions = Object.entries(LANGUAGES_HASHMAP).map(
+    ([value, label]) => ({ value, label })
+  );
   public selectedLanguage = signal<AvailableLanguage>('en');
   private router = inject(Router);
 

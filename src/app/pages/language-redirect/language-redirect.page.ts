@@ -1,5 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import type { AvailableLanguage } from '../../types';
 
 @Component({
   template: '',
@@ -19,9 +20,19 @@ export class LanguageRedirectComponent implements OnInit {
    */
   private getRedirectUrl() {
     const segments = this.router.url.split('/').filter((v) => v);
-    const lang = window.localStorage.getItem('language') || 'en';
+    const lang = this.getTargetLanguage();
     // add language prefix before path
     const target = [lang, ...segments].join('/');
     return `/${target}`;
+  }
+
+  private getTargetLanguage(): AvailableLanguage {
+    if (typeof window !== 'undefined' && window.localStorage) {
+      const language = window.localStorage.getItem('language');
+      if (typeof language === 'string') {
+        return language as AvailableLanguage;
+      }
+    }
+    return 'en';
   }
 }
