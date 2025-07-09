@@ -1,34 +1,9 @@
-// Custom Theming for Angular Material
-// For more information: https://material.angular.dev/guide/theming
-@use "@angular/material" as mat;
-
 @use "./theme/colors" as colors;
+@import "./theme/typography";
 
-html {
-  @include mat.theme(
-    (
-      color: (
-        primary: colors.$primary-palette,
-        tertiary: colors.$tertiary-palette,
-        theme-type: light,
-      ),
-      typography: (
-        plain-family: Open Sans,
-        brand-family: Open Sans,
-        bold-weight: 900,
-        medium-weight: 500,
-        regular-weight: 300,
-      ),
-      density: 0,
-    )
-  );
-  @include mat.toolbar-overrides(
-    (
-      container-background-color: var(--mat-sys-primary),
-      container-text-color: white,
-    )
-  );
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html,
 body {

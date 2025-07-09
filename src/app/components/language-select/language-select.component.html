@@ -1,17 +1,31 @@
-<mat-form-field appearance="outline">
-  <div matPrefix style="margin-left: 6px">
+<div
+  class="flex items-center border border-white rounded px-2 py-1 bg-primary relative"
+  (click)="langSelect.click()"
+>
+  <!-- Prefix Icon -->
+  <span class="absolute left-1 pointer-events-none cursor-pointer">
+    <!-- Inline SVG icon (your languageIcon) -->
     <ng-container *ngTemplateOutlet="languageIcon"></ng-container>
-  </div>
-  <mat-select
-    class="language-select"
+  </span>
+
+  <!-- Native Select -->
+  <select
+    class="bg-transparent focus:outline-none text-white font-medium pl-5 py-2"
     #langSelect
-    [value]="selectedLanguage()"
-    (selectionChange)="handleLanguageSelect(langSelect.value)"
+    (change)="handleLanguageSelect(langSelect.value)"
   >
-    <mat-option class="language-option" value="en">English</mat-option>
-    <mat-option class="language-option" value="fr">Français</mat-option>
-  </mat-select>
-</mat-form-field>
+    @for(option of languageOptions; track option.value){
+    <option
+      [value]="option.value"
+      [selected]="option.value === selectedLanguage()"
+      class="bg-primary-60 px-4 text-white"
+    >
+      {{ option.label }}
+    </option>
+
+    }
+  </select>
+</div>
 
 <!-- Inline the icon to avoid importing full set of mat-icons -->
 <ng-template #languageIcon>
