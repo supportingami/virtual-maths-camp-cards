@@ -7,7 +7,6 @@
 - [ ] Add favicon
 - [ ] SEO optimisation (lang pages, block qr redirect)
 - [ ] Improve Readme (managing metadata/card data)
-- [ ] Optimise or try to remove redundant material styles inlined into every page
 
 # Virtual Maths Camp Cards
 

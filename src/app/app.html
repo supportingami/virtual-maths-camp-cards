@@ -1,14 +1,14 @@
-<mat-toolbar>
+<header class="toolbar">
   <h1 class="heading" [routerLink]="['/']">Virtual Maths Camp</h1>
 
   <app-language-select style="margin: 0 1rem 0 auto"></app-language-select>
-</mat-toolbar>
+</header>
 <section class="main-content">
   <router-outlet></router-outlet>
 </section>
 
-<mat-toolbar>
+<footer class="toolbar">
   <div style="font-size: 16px">
     © {{ currentYear }} Virtual Maths Camp. All rights reserved.
   </div>
-</mat-toolbar>
+</footer>
