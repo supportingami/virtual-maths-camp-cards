@@ -45,10 +45,10 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['"Open Sans"', "Helvetica Neue", "Arial", "sans-serif"],
+        sans: ['"Noto Sans"', "Helvetica Neue", "Arial", "sans-serif"],
         // Optionally add more custom font families
-        brand: ['"Open Sans"', "sans-serif"],
-        plain: ['"Open Sans"', "sans-serif"],
+        brand: ['"Noto Sans"', "sans-serif"],
+        plain: ['"Noto Sans"', "sans-serif"],
       },
       fontWeight: {
         regular: "300",

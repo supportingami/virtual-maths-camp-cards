@@ -16,13 +16,15 @@
 </section>
 <!-- Main Content -->
 @if(card.main_version; as main_version){
-<app-card-info [content]="main_version" class="mt-8 mb-12"></app-card-info>
+<app-card-info [content]="main_version" class="mt-8"></app-card-info>
 }
-
+<hr class="border-primary-50 border-[1px] my-16 opacity-20" />
 <!-- Extension 1 -->
 @if(card.extension_1; as extension_1){
 <details class="group extension-details">
-  <summary class="p-2 group-open:bg-secondary-90 group-open:font-semibold">
+  <summary
+    class="p-2 cursor-pointer group-open:bg-secondary-90 group-open:font-semibold"
+  >
     🚀 Extension 1
   </summary>
   <div
@@ -34,8 +36,10 @@
 }
 <!-- Extension 2 -->
 @if(card.extension_2; as extension_2){
-<details class="group extension-details mt-4">
-  <summary class="p-2 group-open:bg-secondary-90 group-open:font-semibold">
+<details class="group extension-details mt-8">
+  <summary
+    class="p-2 cursor-pointer group-open:bg-secondary-90 group-open:font-semibold"
+  >
     🚀 Extension 2
   </summary>
   <div
@@ -45,11 +49,12 @@
   <app-card-info [content]="extension_2" class="m-2"></app-card-info>
 </details>
 }
+<hr class="border-primary-50 border-[1px] my-16 opacity-20" />
 <div class="flex-1"></div>
-<section class="mt-12">
+<section>
   @if(card.additional_information; as additional_information){
   @if(additional_information.about; as about){
-  <div class="mt-4 p-2 bg-white/50">
+  <div class="p-2 bg-white/50">
     <h2>📚 Additional Info</h2>
     <div [innerHtml]="about | safeHtml"></div>
   </div>
