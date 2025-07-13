@@ -5,8 +5,8 @@
   </div>
   <div class="card-statement-container">
     <div
-      class="card-statement dynamic-content"
-      [innerHTML]="cardStatement()"
+      class="card-statement dynamic-content font-noto-serif"
+      [innerHTML]="card().statement | safeHtml"
     ></div>
   </div>
   <!-- <div class="center-symbol">♠</div> -->

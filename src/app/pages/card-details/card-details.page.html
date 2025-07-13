@@ -6,37 +6,67 @@
 }
 <!-- Card View -->
 @else {
-<h1 style="margin-bottom: 0">{{ card.title }}</h1>
-<p style="margin-top: 0; margin-bottom: 2em">{{ card.type }}</p>
-<section class="content">
+<h1 class="mb-0 mt-4 text-center">{{ card.title }}</h1>
+<p class="mt-0 mb-8 text-center">{{ card.type }}</p>
+<section class="flex gap-6 flex-wrap m-auto">
   <app-playing-card
     [card]="card"
     [attr.view-transition-name]="'card-' + card.slug"
   ></app-playing-card>
-  <div class="card-info">
-    <!-- Main Content -->
-    @if(card.main_version; as main_version){
-    <app-card-info [content]="main_version"></app-card-info>
-    <!-- Extension 1 -->
-    @if(card.extension_1; as extension_1){
-    <details style="margin-top: 3rem">
-      <summary>🚀 Extension 1</summary>
-      <app-card-info
-        [content]="extension_1"
-        [showStatement]="true"
-      ></app-card-info>
-    </details>
-    }
-    <!-- Extension 2 -->
-    @if(card.extension_2; as extension_2){
-    <details style="margin-top: 3rem">
-      <summary>🚀 Extension 2</summary>
-      <app-card-info
-        [content]="extension_2"
-        [showStatement]="true"
-      ></app-card-info>
-    </details>
-    } }
+</section>
+<!-- Main Content -->
+@if(card.main_version; as main_version){
+<app-card-info [content]="main_version" class="mt-8"></app-card-info>
+}
+<hr class="border-primary-50 border-[1px] my-16 opacity-20" />
+<!-- Extension 1 -->
+@if(card.extension_1; as extension_1){
+<details class="group extension-details">
+  <summary
+    class="p-2 cursor-pointer group-open:bg-secondary-90 group-open:font-semibold"
+  >
+    🚀 Extension 1
+  </summary>
+  <div
+    class="dynamic-content extension-summary"
+    [innerHTML]="extension_1.statement | safeHtml"
+  ></div>
+  <app-card-info [content]="extension_1" class="m-2"></app-card-info>
+</details>
+}
+<!-- Extension 2 -->
+@if(card.extension_2; as extension_2){
+<details class="group extension-details mt-8">
+  <summary
+    class="p-2 cursor-pointer group-open:bg-secondary-90 group-open:font-semibold"
+  >
+    🚀 Extension 2
+  </summary>
+  <div
+    class="dynamic-content extension-summary"
+    [innerHTML]="extension_2.statement | safeHtml"
+  ></div>
+  <app-card-info [content]="extension_2" class="m-2"></app-card-info>
+</details>
+}
+<hr class="border-primary-50 border-[1px] my-16 opacity-20" />
+<div class="flex-1"></div>
+<section>
+  @if(card.additional_information; as additional_information){
+  @if(additional_information.about; as about){
+  <div class="p-2 bg-white/50">
+    <h2>📚 Additional Info</h2>
+    <div [innerHtml]="about | safeHtml"></div>
   </div>
+
+  } @if(additional_information.references; as references){
+  <div class="mt-4 mb-4 p-2 bg-white/50">
+    <h2 class="mb-1">🔗 References</h2>
+    @for(reference of references; track $index){
+    <div [innerHTML]="reference | safeHtml"></div>
+
+    }
+  </div>
+  } }
 </section>
 } }

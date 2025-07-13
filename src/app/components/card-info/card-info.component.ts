@@ -2,17 +2,25 @@ import {
   ChangeDetectionStrategy,
   Component,
   computed,
-  inject,
   input,
+  signal,
 } from '@angular/core';
 import { CardContentSection } from '../../types';
-import { DomSanitizer } from '@angular/platform-browser';
+import { SafeHtmlPipe } from '../../pipes/safeHtml.pipe';
+import { NgClass } from '@angular/common';
+
+interface ContentTab {
+  icon: string;
+  heading: string,
+  content: string
+}
 
 @Component({
   selector: 'app-card-info',
   templateUrl: 'card-info.component.html',
   styleUrl: 'card-info.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [SafeHtmlPipe, NgClass]
 })
 /**
  * Display card content in expandable sections for
@@ -22,24 +30,56 @@ import { DomSanitizer } from '@angular/platform-browser';
  * Can be used for main content or extensions
  */
 export class CardInfoComponent {
-  private sanitizer = inject(DomSanitizer);
 
-  content = input.required<CardContentSection>();
-  showStatement = input(false);
+  public activeTabIndex = signal(-1)
 
-  statement = computed(() => this.h(this.content().statement));
+  public content = input.required<CardContentSection>();
 
-  hint = computed(() => this.h(this.content().hint));
 
-  answer = computed(() => this.h(this.content().correct_answer));
+  public tabs = computed(() => this.generateTabs(this.content()))
 
-  explanation = computed(() => this.h(this.content().explanation));
-
-  /** Convert dynamic html from JSON to SafeHTML for rendering */
-  private h(content?: string) {
-    if (content) {
-      return this.sanitizer.bypassSecurityTrustHtml(content);
+  public activeContent = computed(() => {
+    const activeIndex = this.activeTabIndex()
+    if (activeIndex > -1) {
+      return this.tabs()[activeIndex]?.content
     }
-    return undefined;
+    return undefined
+  })
+
+  public showContent = signal(true)
+
+  public async toggleSection(index: number) {
+    this.showContent.set(false)
+    if (this.activeTabIndex() === index) {
+      this.activeTabIndex.set(-1)
+      return
+    }
+    this.activeTabIndex.set(index)
+    setTimeout(() => {
+      this.showContent.set(true)
+
+    }, 50);
+
+  }
+
+
+
+  private generateTabs(content: CardContentSection,) {
+    const tabs: ContentTab[] = []
+
+    const { hint, correct_answer, explanation } = content
+
+    if (hint) {
+      tabs.push({ icon: '💡', heading: 'Hint', content: hint })
+    }
+    if (correct_answer) {
+      tabs.push({ icon: '☑️', heading: 'Solution', content: correct_answer })
+    }
+    if (explanation) {
+      tabs.push({ icon: '🧐', heading: 'Explanation', content: explanation })
+    }
+
+    return tabs
+
   }
 }

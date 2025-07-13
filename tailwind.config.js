@@ -23,12 +23,32 @@ module.exports = {
           DEFAULT: "#734c9c", // Optionally set a default shade
         },
         // ...add secondary, tertiary, etc. as needed
+
+        secondary: {
+          0: "#000000",
+          10: "#331c00",
+          20: "#4d2a00",
+          25: "#5a3200",
+          30: "#683a00",
+          35: "#754300",
+          40: "#835000",
+          50: "#cf8219", // Base color
+          60: "#dfa13e",
+          70: "#eec366",
+          80: "#f7ddb0",
+          90: "#fcefd7",
+          95: "#fdf6ea",
+          98: "#fffaf3",
+          99: "#fffcf8",
+          100: "#ffffff",
+          DEFAULT: "#cf8219",
+        },
       },
       fontFamily: {
-        sans: ['"Open Sans"', "Helvetica Neue", "Arial", "sans-serif"],
+        sans: ['"Noto Sans"', "Helvetica Neue", "Arial", "sans-serif"],
         // Optionally add more custom font families
-        brand: ['"Open Sans"', "sans-serif"],
-        plain: ['"Open Sans"', "sans-serif"],
+        brand: ['"Noto Sans"', "sans-serif"],
+        plain: ['"Noto Sans"', "sans-serif"],
       },
       fontWeight: {
         regular: "300",

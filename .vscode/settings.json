@@ -14,5 +14,6 @@
   ],
   "tailwindCSS.classAttributes": ["class", "className", "ngClass"],
   "css.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownAtRules": "ignore"
+  "scss.lint.unknownAtRules": "ignore",
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }

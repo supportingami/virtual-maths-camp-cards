@@ -1,15 +1,18 @@
 :host {
-  display: block;
+  @apply block;
 }
-summary {
-  font-size: 24px;
+.tab-heading {
+  @apply border-primary-50 border-2 flex-1 p-2  bg-white rounded text-xl;
 }
-details {
-  margin-bottom: 2rem;
+.tab-heading {
+  @apply flex gap-2 flex-wrap items-center;
 }
-
+.tab-heading.active {
+  @apply bg-primary-50 text-white;
+}
 .dynamic-content {
   background: #ffffffc9;
-  padding: 4px;
+  padding: 8px;
   margin-top: 16px;
+  min-height: 120px;
 }

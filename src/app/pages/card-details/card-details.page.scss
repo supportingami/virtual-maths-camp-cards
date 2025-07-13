@@ -1,13 +1,14 @@
 :host {
-  display: block;
-}
-.content {
   display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
-}
-.card-info {
+  flex-direction: column;
   flex: 1;
-  min-width: 200px;
+  margin: auto;
   max-width: 600px;
+}
+details.extension-details {
+  @apply border-secondary-60 border-2 bg-white;
+}
+
+.extension-summary {
+  @apply p-2 mt-2 mb-4;
 }
