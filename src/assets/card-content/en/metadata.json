@@ -29,7 +29,7 @@
     "slug": "4C",
     "card_value": "4",
     "card_suit": "club",
-    "statement": "<p>From how many vertices (points) is it possible to draw this figure without lifting the pen from the paper and going through each line exactly once?</p>\n<p><img alt=\"\" src=\"assets/images/House_image_0.png\" class=\"House_image_0\" /></p>"
+    "statement": "<p>From how many vertices (points) is it possible to draw this figure without lifting the pen from the paper and going through each line exactly once?</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/House_image_0.png\" class=\"House_image_0\" /></p>"
   },
   {
     "title": "Honey Bees",
@@ -53,7 +53,7 @@
     "slug": "7C",
     "card_value": "7",
     "card_suit": "club",
-    "statement": "<p>Below is a single sheet from a newspaper. Given that each sheet has four pages, how many sheets are there altogether?</p>\n<p><img alt=\"\" src=\"assets/images/Newspaper_image_0.png\" class=\"Newspaper_image_0\" /></p>"
+    "statement": "<p>Below is a single sheet from a newspaper. Given that each sheet has four pages, how many sheets are there altogether?</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Newspaper_image_0.png\" class=\"Newspaper_image_0\" /></p>"
   },
   {
     "title": "Sword of Josephus",
@@ -77,7 +77,7 @@
     "slug": "10C",
     "card_value": "10",
     "card_suit": "club",
-    "statement": "<p>How many ways are there to draw four dots on a piece of paper such that whichever two dots you choose, the distance between these two points is one of only two possible values?</p>\n<p>Here is one correct example:</p>\n<p><img alt=\"\" src=\"assets/images/Two_Distances_image_0.png\" class=\"Two_Distances_image_0\" /></p>"
+    "statement": "<p>How many ways are there to draw four dots on a piece of paper such that whichever two dots you choose, the distance between these two points is one of only two possible values?</p>\n<p>Here is one correct example:</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Two_Distances_image_0.png\" class=\"Two_Distances_image_0\" /></p>"
   },
   {
     "title": "Dealing Cards",
@@ -117,7 +117,7 @@
     "slug": "2D",
     "card_value": "2",
     "card_suit": "diamond",
-    "statement": "<p>Consider the cake below – a six-sided hexagon. Now split it into triangles by cutting along diagonals that don't cross each other, one example is given in red. This splitting into triangles is called a triangulation, in how many ways can you do this?</p>\n<p><img alt=\"\" src=\"assets/images/Triangular_Slices_image_0.png\" class=\"Triangular_Slices_image_0\" /></p>"
+    "statement": "<p>Consider the cake below – a six-sided hexagon. Now split it into triangles by cutting along diagonals that don't cross each other, one example is given in red. This splitting into triangles is called a triangulation, in how many ways can you do this?</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Triangular_Slices_image_0.png\" class=\"Triangular_Slices_image_0\" /></p>"
   },
   {
     "title": "Scoring Goals",
@@ -133,7 +133,7 @@
     "slug": "4D",
     "card_value": "4",
     "card_suit": "diamond",
-    "statement": "<p>How many possible three-stripe flags similar to the one below are there if only 5 colours are available and two touching stripes must NOT have the same colour.</p>\n<p><img alt=\"\" src=\"assets/images/Colouring_image_0.png\" class=\"Colouring_image_0\" /></p>"
+    "statement": "<p>How many possible three-stripe flags similar to the one below are there if only 5 colours are available and two touching stripes must NOT have the same colour.</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Colouring_image_0.png\" class=\"Colouring_image_0\" /></p>"
   },
   {
     "title": "Avoid the River",
@@ -141,7 +141,7 @@
     "slug": "5D",
     "card_value": "5",
     "card_suit": "diamond",
-    "statement": "<p>Start from home (H) and go to school (S). You can walk along the 4 by 4 grid by making steps only towards east or north. You cannot cross the river (blue line)! In how many ways can you reach your school?</p>\n<p><img alt=\"\" src=\"assets/images/Avoid_the_River_image_0.png\" class=\"Avoid_the_River_image_0\" /></p>"
+    "statement": "<p>Start from home (H) and go to school (S). You can walk along the 4 by 4 grid by making steps only towards east or north. You cannot cross the river (blue line)! In how many ways can you reach your school?</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Avoid_the_River_image_0.png\" class=\"Avoid_the_River_image_0\" /></p>"
   },
   {
     "title": "Shaking Hands",
@@ -173,7 +173,7 @@
     "slug": "9D",
     "card_value": "9",
     "card_suit": "diamond",
-    "statement": "<p>How many squares are there in the 10 by 10 square grid below?</p>\n<p><img alt=\"\" src=\"assets/images/Counting_Squares_image_0.png\" class=\"Counting_Squares_image_0\" /></p>"
+    "statement": "<p>How many squares are there in the 10 by 10 square grid below?</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Counting_Squares_image_0.png\" class=\"Counting_Squares_image_0\" /></p>"
   },
   {
     "title": "Going to School",
@@ -181,7 +181,7 @@
     "slug": "10D",
     "card_value": "10",
     "card_suit": "diamond",
-    "statement": "<p>Start from home (H) and go to school (S). You can walk along the 2 by 5 grid by making steps only towards east or north. How many different paths can you take to reach your school?</p>\n<p><img alt=\"\" src=\"assets/images/Going_to_School_image_0.png\" class=\"Going_to_School_image_0\" /></p>"
+    "statement": "<p>Start from home (H) and go to school (S). You can walk along the 2 by 5 grid by making steps only towards east or north. How many different paths can you take to reach your school?</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Going_to_School_image_0.png\" class=\"Going_to_School_image_0\" /></p>"
   },
   {
     "title": "Different Paths",
@@ -293,7 +293,7 @@
     "slug": "JH",
     "card_value": "J",
     "card_suit": "heart",
-    "statement": "<p>When you look at numbers found in real-world data sets, for most sets of numbers the first digit is more often a 1 than any other digit. 2 is a more common first digit than 3, and so on up to 9. In fact, the first digits often follow the same pattern (distribution).</p>\n<p><img alt=\"\" src=\"assets/images/Benford_s_Law_image_0.png\" class=\"Benford_s_Law_image_0\" /></p>"
+    "statement": "<p>When you look at numbers found in real-world data sets, for most sets of numbers the first digit is more often a 1 than any other digit. 2 is a more common first digit than 3, and so on up to 9. In fact, the first digits often follow the same pattern (distribution).</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Benford_s_Law_image_0.png\" class=\"Benford_s_Law_image_0\" /></p>"
   },
   {
     "title": "Lychrel Numbers",
@@ -381,7 +381,7 @@
     "slug": "9S",
     "card_value": "9",
     "card_suit": "spade",
-    "statement": "<p><img alt=\"\" src=\"assets/images/Pong_Hau_K_i_image_0.png\" class=\"Pong_Hau_K_i_image_0\" /></p>\n<p>Draw the grid shown with five points and seven connecting lines. Two players place two counters of the same colour/design in the grid as shown.</p>\n<p>Decide who will go first. The first player moves one of their pieces to the centre point. Then players take turns moving a counter along a line to an empty point until one player cannot move their counters and loses.</p>"
+    "statement": "<p><img loading='lazy' alt=\"\" src=\"assets/images/Pong_Hau_K_i_image_0.png\" class=\"Pong_Hau_K_i_image_0\" /></p>\n<p>Draw the grid shown with five points and seven connecting lines. Two players place two counters of the same colour/design in the grid as shown.</p>\n<p>Decide who will go first. The first player moves one of their pieces to the centre point. Then players take turns moving a counter along a line to an empty point until one player cannot move their counters and loses.</p>"
   },
   {
     "title": "Stop or Dare",
@@ -405,7 +405,7 @@
     "slug": "QS",
     "card_value": "Q",
     "card_suit": "spade",
-    "statement": "<p>Remove the 10, J, Q, K, and Joker cards and shuffle the rest of the pack.</p>\n<p><img alt=\"\" src=\"assets/images/Card_Sums_image_0.png\" class=\"Card_Sums_image_0\" /></p>\n<p>Any number of players can play. Deal 6 cards face up on a table. Everyone has 1 minute to decide how to set them out in the layout above to make the biggest total of the two multiplications. A counts as 1. The player with the highest score wins.</p>"
+    "statement": "<p>Remove the 10, J, Q, K, and Joker cards and shuffle the rest of the pack.</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Card_Sums_image_0.png\" class=\"Card_Sums_image_0\" /></p>\n<p>Any number of players can play. Deal 6 cards face up on a table. Everyone has 1 minute to decide how to set them out in the layout above to make the biggest total of the two multiplications. A counts as 1. The player with the highest score wins.</p>"
   },
   {
     "title": "WinTwoThreeFour",
