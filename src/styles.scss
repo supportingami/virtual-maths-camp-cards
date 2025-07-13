@@ -34,4 +34,7 @@ body {
   p {
     margin-top: 1rem;
   }
+  a {
+    @apply hover:underline block mb-2 text-primary-25;
+  }
 }
