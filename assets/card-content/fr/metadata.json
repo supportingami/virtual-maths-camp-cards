@@ -29,7 +29,7 @@
     "slug": "4C",
     "card_value": "4",
     "card_suit": "club",
-    "statement": "<p>À partir de combien de sommets (points) est-il possible de dessiner cette figure sans soulever le stylo du papier tout en parcourant chaque ligne exactement une fois ?</p>\n<p><img alt=\"\" src=\"assets/images/House_image_0.png\" class=\"House_image_0\" /></p>"
+    "statement": "<p>À partir de combien de sommets (points) est-il possible de dessiner cette figure sans soulever le stylo du papier tout en parcourant chaque ligne exactement une fois ?</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/House_image_0.png\" class=\"House_image_0\" /></p>"
   },
   {
     "title": "Abeille à miel",
@@ -53,7 +53,7 @@
     "slug": "7C",
     "card_value": "7",
     "card_suit": "club",
-    "statement": "<p>Ci-dessous, une seule feuille d'un journal. Étant donné que chaque feuille comporte quatre pages, combien y a-t-il de feuilles en tout ?</p>\n<p><img alt=\"\" src=\"assets/images/Newspaper_image_0.png\" class=\"Newspaper_image_0\" /></p>"
+    "statement": "<p>Ci-dessous, une seule feuille d'un journal. Étant donné que chaque feuille comporte quatre pages, combien y a-t-il de feuilles en tout ?</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Newspaper_image_0.png\" class=\"Newspaper_image_0\" /></p>"
   },
   {
     "title": "L’Épée de Josephus",
@@ -77,7 +77,7 @@
     "slug": "10C",
     "card_value": "10",
     "card_suit": "club",
-    "statement": "<p>Combien de façons y-a-t-il de dessiner quatre points sur une feuille de papier, de façon que, n’importe quels deux points que vous choisissiez, aient une distance qui est une de seulement deux valeurs possibles ?</p>\n<p>Voici un exemple correct :</p>\n<p><img alt=\"\" src=\"assets/images/Two_Distances_image_0.png\" class=\"Two_Distances_image_0\" /></p>"
+    "statement": "<p>Combien de façons y-a-t-il de dessiner quatre points sur une feuille de papier, de façon que, n’importe quels deux points que vous choisissiez, aient une distance qui est une de seulement deux valeurs possibles ?</p>\n<p>Voici un exemple correct :</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Two_Distances_image_0.png\" class=\"Two_Distances_image_0\" /></p>"
   },
   {
     "title": "Partage des cartes",
@@ -117,7 +117,7 @@
     "slug": "2D",
     "card_value": "2",
     "card_suit": "diamond",
-    "statement": "<p>Considérez le gâteau ci-dessous - un hexagone avec six côtés. Maintenant, divisez le en triangles en coupant le long de diagonales qui ne se croisent pas, un exemple est donné en rouge. Cette division en triangles s'appelle une triangulation, de combien de façons pouvez-vous le faire?</p>\n<p><img alt=\"\" src=\"assets/images/Triangular_Slices_image_0.png\" class=\"Triangular_Slices_image_0\" /></p>"
+    "statement": "<p>Considérez le gâteau ci-dessous - un hexagone avec six côtés. Maintenant, divisez le en triangles en coupant le long de diagonales qui ne se croisent pas, un exemple est donné en rouge. Cette division en triangles s'appelle une triangulation, de combien de façons pouvez-vous le faire?</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Triangular_Slices_image_0.png\" class=\"Triangular_Slices_image_0\" /></p>"
   },
   {
     "title": "Buts marqués",
@@ -133,7 +133,7 @@
     "slug": "4D",
     "card_value": "4",
     "card_suit": "diamond",
-    "statement": "<p>Combien de drapeaux tricolores similaires à celui ci-dessous y a-t-il si nous disposons seulement de 5 couleurs. Deux bandes juxtaposées ne peuvent PAS être de la même couleur.</p>\n<p><img alt=\"\" src=\"assets/images/Colouring_image_0.png\" class=\"Colouring_image_0\" /></p>"
+    "statement": "<p>Combien de drapeaux tricolores similaires à celui ci-dessous y a-t-il si nous disposons seulement de 5 couleurs. Deux bandes juxtaposées ne peuvent PAS être de la même couleur.</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Colouring_image_0.png\" class=\"Colouring_image_0\" /></p>"
   },
   {
     "title": "Éviter la rivière",
@@ -141,7 +141,7 @@
     "slug": "5D",
     "card_value": "5",
     "card_suit": "diamond",
-    "statement": "<p>Quittez la maison (H) pour vous rendre à l'école (S). Vous ne pouvez avancer sur la grille 4x4 qu'en faisant des pas vers l’est ou le nord. Vous ne pouvez pas traverser la rivière (ligne bleue)! De combien de façons pouvez-vous rejoindre l’école?</p>\n<p><img alt=\"\" src=\"assets/images/Avoid_the_River_image_0.png\" class=\"Avoid_the_River_image_0\" /></p>"
+    "statement": "<p>Quittez la maison (H) pour vous rendre à l'école (S). Vous ne pouvez avancer sur la grille 4x4 qu'en faisant des pas vers l’est ou le nord. Vous ne pouvez pas traverser la rivière (ligne bleue)! De combien de façons pouvez-vous rejoindre l’école?</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Avoid_the_River_image_0.png\" class=\"Avoid_the_River_image_0\" /></p>"
   },
   {
     "title": "Serrer la main",
@@ -173,7 +173,7 @@
     "slug": "9D",
     "card_value": "9",
     "card_suit": "diamond",
-    "statement": "<p>Combien de carrés y a-t-il dans la grille carrée de taille 10 fois 10 ci-dessous ?</p>\n<p><img alt=\"\" src=\"assets/images/Counting_Squares_image_0.png\" class=\"Counting_Squares_image_0\" /></p>"
+    "statement": "<p>Combien de carrés y a-t-il dans la grille carrée de taille 10 fois 10 ci-dessous ?</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Counting_Squares_image_0.png\" class=\"Counting_Squares_image_0\" /></p>"
   },
   {
     "title": "Aller à l'école",
@@ -181,7 +181,7 @@
     "slug": "10D",
     "card_value": "10",
     "card_suit": "diamond",
-    "statement": "<p>En quittant la maison (H) pour vous rendre à l'école (S), vous pouvez vous deplacer sur la grille 2 fois 5 qu'en faisant des pas vers l'est ou le nord. Combien de différents chemins pouvez-vous emprunter pour atteindre votre école ?</p>\n<p><img alt=\"\" src=\"assets/images/Going_to_School_image_0.png\" class=\"Going_to_School_image_0\" /></p>"
+    "statement": "<p>En quittant la maison (H) pour vous rendre à l'école (S), vous pouvez vous deplacer sur la grille 2 fois 5 qu'en faisant des pas vers l'est ou le nord. Combien de différents chemins pouvez-vous emprunter pour atteindre votre école ?</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Going_to_School_image_0.png\" class=\"Going_to_School_image_0\" /></p>"
   },
   {
     "title": "Différents Chemins",
@@ -293,7 +293,7 @@
     "slug": "JH",
     "card_value": "J",
     "card_suit": "heart",
-    "statement": "<p>Quand on regarde au valeurs trouvés dans les données du monde réel, le premier chiffre pour la plupart des numéros est plus souvent 1 que tous lest autres nombres. 2 est un premier chiffre plus commun que 3, et ainsi de suite jusqu'à 9. En fait, ces premiers chiffres suivent souvent le même modèle (distribution).</p>\n<p><img alt=\"\" src=\"assets/images/Benford_s_Law_image_0.png\" class=\"Benford_s_Law_image_0\" /></p>"
+    "statement": "<p>Quand on regarde au valeurs trouvés dans les données du monde réel, le premier chiffre pour la plupart des numéros est plus souvent 1 que tous lest autres nombres. 2 est un premier chiffre plus commun que 3, et ainsi de suite jusqu'à 9. En fait, ces premiers chiffres suivent souvent le même modèle (distribution).</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Benford_s_Law_image_0.png\" class=\"Benford_s_Law_image_0\" /></p>"
   },
   {
     "title": "Les Nombres de Lychrel",
@@ -381,7 +381,7 @@
     "slug": "9S",
     "card_value": "9",
     "card_suit": "spade",
-    "statement": "<p><img alt=\"\" src=\"assets/images/Pong_Hau_K_i_image_0.png\" class=\"Pong_Hau_K_i_image_0\" /></p>\n<p>Dessinez la grille montrée avec cinq points et sept lignes de\nconnexion. Deux joueurs placent deux pions de la même couleur/ du\nmême motif dans la grille comme indiqué.</p>\n<p>Décidez qui commencera en premier. Le premier joueur déplace une\nde ses pièces vers le point central. Ensuite, les joueurs\ndéplacent à tour de rôle un pion le long d'une ligne vers une case\nvide jusqu'à ce qu'un joueur ne puisse plus déplacer ses pions et\nperde.</p>"
+    "statement": "<p><img loading='lazy' alt=\"\" src=\"assets/images/Pong_Hau_K_i_image_0.png\" class=\"Pong_Hau_K_i_image_0\" /></p>\n<p>Dessinez la grille montrée avec cinq points et sept lignes de\nconnexion. Deux joueurs placent deux pions de la même couleur/ du\nmême motif dans la grille comme indiqué.</p>\n<p>Décidez qui commencera en premier. Le premier joueur déplace une\nde ses pièces vers le point central. Ensuite, les joueurs\ndéplacent à tour de rôle un pion le long d'une ligne vers une case\nvide jusqu'à ce qu'un joueur ne puisse plus déplacer ses pions et\nperde.</p>"
   },
   {
     "title": "Arrête ou Ose",
@@ -405,7 +405,7 @@
     "slug": "QS",
     "card_value": "Q",
     "card_suit": "spade",
-    "statement": "<p>Retirez les cartes 10, J, Q, K et Joker et mélangez le reste du paquet.</p>\n<p><img alt=\"\" src=\"assets/images/Card_Sums_image_0.png\" class=\"Card_Sums_image_0\" /></p>\n<p>N'importe quel nombre de joueurs peut jouer. Distribuez 6 cartes face visible sur une table. Chacun a 1 minute pour décider comment les disposer dans le schéma ci-dessus afin d'obtenir le plus grand total des deux multiplications. A compte pour 1. Le joueur avec le score le plus élevé gagne.</p>"
+    "statement": "<p>Retirez les cartes 10, J, Q, K et Joker et mélangez le reste du paquet.</p>\n<p><img loading='lazy' alt=\"\" src=\"assets/images/Card_Sums_image_0.png\" class=\"Card_Sums_image_0\" /></p>\n<p>N'importe quel nombre de joueurs peut jouer. Distribuez 6 cartes face visible sur une table. Chacun a 1 minute pour décider comment les disposer dans le schéma ci-dessus afin d'obtenir le plus grand total des deux multiplications. A compte pour 1. Le joueur avec le score le plus élevé gagne.</p>"
   },
   {
     "title": "Gagnedeuxtroisquatre",
