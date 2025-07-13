@@ -1,30 +1,28 @@
-<!-- Statement (conditionally shown depending on input) -->
-@if(showStatement()){ @if(statement(); as statement){
+<!-- Content Tabs -->
+<div class="grid grid-cols-3 justify-center gap-2">
+  @for(tab of tabs(); track $index){
+  <h2
+    class="tab-heading"
+    [class.active]="$index === activeTabIndex()"
+    (click)="toggleSection($index)"
+  >
+    <div class="w-full text-center sm:w-auto">{{ tab.icon }}</div>
+    <div
+      class="flex-1 text-center overflow-hidden overflow-ellipsis sm:text-left"
+    >
+      {{ tab.heading }}
+    </div>
+  </h2>
+  }
+</div>
+@if(activeContent(); as content){
+<!-- use additional showContent to handle fade-in-out -->
 <div
-  class="dynamic-content"
-  style="margin: 2rem 0 2rem 0"
-  [innerHTML]="statement"
+  class="dynamic-content mt-4"
+  [ngClass]="
+    showContent() ? 'opacity-100 transition-opacity duration-300' : 'opacity-0'
+  "
+  [innerHtml]="content | safeHtml"
 ></div>
-} }
 
-<!-- Hint -->
-@if(hint(); as hint){
-<details>
-  <summary>💡 Hint</summary>
-  <div class="dynamic-content" [innerHTML]="hint"></div>
-</details>
-}
-<!-- Solution -->
-@if(answer(); as answer){
-<details>
-  <summary>☑️ Solution</summary>
-  <div class="dynamic-content" [innerHTML]="answer"></div>
-</details>
-}
-<!-- Explanation -->
-@if(explanation(); as explanation){
-<details>
-  <summary>🧐 Explanation</summary>
-  <div class="dynamic-content" [innerHTML]="explanation"></div>
-</details>
 }

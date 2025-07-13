@@ -2,6 +2,9 @@ html {
   h1 {
     @apply text-2xl;
   }
+  h2 {
+    @apply text-xl;
+  }
 
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
