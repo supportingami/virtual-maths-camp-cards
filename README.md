@@ -3,6 +3,7 @@
 - [ ] Add lightweight translation system for hardcoded text (service + pipe)
 - [ ] Add favicon
 
+- [ ] Feedback section (if still used?)
 - [ ] SEO optimisation (lang pages, block qr redirect)
 - [ ] Improve Readme (managing metadata/card data, running locally)
 - [ ] Add virtualisation or other means to defer image load on main screen

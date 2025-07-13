@@ -3,11 +3,7 @@
 }
 
 .cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: center;
-  margin-bottom: 3rem;
+  @apply flex flex-wrap justify-center gap-4 mt-4 mb-12;
 }
 
 .card-heading {
