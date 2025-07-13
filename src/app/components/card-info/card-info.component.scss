@@ -2,7 +2,7 @@
   @apply block;
 }
 .tab-heading {
-  @apply cursor-pointer select-none border-primary-50 border-2 flex-1 p-2  bg-white rounded;
+  @apply border-primary-50 border-2 flex-1 p-2  bg-white rounded text-xl;
 }
 .tab-heading {
   @apply flex gap-2 flex-wrap items-center;

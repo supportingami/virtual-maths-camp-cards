@@ -1,7 +1,7 @@
 <!-- Content Tabs -->
 <div class="grid grid-cols-3 justify-center gap-2">
   @for(tab of tabs(); track $index){
-  <h2
+  <button
     class="tab-heading"
     [class.active]="$index === activeTabIndex()"
     (click)="toggleSection($index)"
@@ -12,7 +12,7 @@
     >
       {{ tab.heading }}
     </div>
-  </h2>
+  </button>
   }
 </div>
 @if(activeContent(); as content){
