@@ -54,16 +54,16 @@
 <section>
   @if(card.additional_information; as additional_information){
   @if(additional_information.about; as about){
-  <div class="p-2 bg-white/50">
+  <div class="p-2 bg-white/50 mb-8">
     <h2>📚 Additional Info</h2>
-    <div [innerHtml]="about | safeHtml"></div>
+    <div class="dynamic-content" [innerHtml]="about | safeHtml"></div>
   </div>
 
   } @if(additional_information.references; as references){
   <div class="mt-4 mb-4 p-2 bg-white/50">
     <h2 class="mb-1">🔗 References</h2>
     @for(reference of references; track $index){
-    <div [innerHTML]="reference | safeHtml"></div>
+    <div class="dynamic-content" [innerHTML]="reference | safeHtml"></div>
 
     }
   </div>

@@ -27,8 +27,15 @@ body {
     // from playing-card component calc($cardWidth - 16px);
     max-width: 224px;
   }
-  // remove margin from first p element
-  p:first-of-type {
+  // remove margin general p element
+  p {
     margin-top: 0;
+  }
+  // add margins between p siblings
+  p + p {
+    margin-top: 1rem;
+  }
+  a {
+    @apply hover:underline block mb-2 text-primary-25;
   }
 }
