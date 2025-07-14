@@ -7,7 +7,7 @@
 <!-- Card View -->
 @else {
 <h1 class="mb-0 mt-4 text-center">{{ card.title }}</h1>
-<p class="mt-0 mb-8 text-center">{{ card.type }}</p>
+<p class="mt-0 mb-8 text-center">{{ ($any(card.type) | translate)() }}</p>
 <section class="flex gap-6 flex-wrap m-auto">
   <app-playing-card
     [card]="card"
@@ -25,7 +25,7 @@
   <summary
     class="p-2 cursor-pointer group-open:bg-secondary-90 group-open:font-semibold"
   >
-    🚀 Extension 1
+    🚀 {{ ("EXTENSION" | translate)() }} {{ card.extension_2 ? "1" : "" }}
   </summary>
   <div
     class="dynamic-content extension-summary"
@@ -40,7 +40,7 @@
   <summary
     class="p-2 cursor-pointer group-open:bg-secondary-90 group-open:font-semibold"
   >
-    🚀 Extension 2
+    🚀 {{ ("EXTENSION" | translate)() }} 2
   </summary>
   <div
     class="dynamic-content extension-summary"
@@ -55,13 +55,13 @@
   @if(card.additional_information; as additional_information){
   @if(additional_information.about; as about){
   <div class="p-2 bg-white/50 mb-8">
-    <h2>📚 Additional Info</h2>
+    <h2>📚 {{ ("ADDITIONAL_INFO" | translate)() }}</h2>
     <div class="dynamic-content" [innerHtml]="about | safeHtml"></div>
   </div>
 
   } @if(additional_information.references; as references){
   <div class="mt-4 mb-4 p-2 bg-white/50">
-    <h2 class="mb-1">🔗 References</h2>
+    <h2 class="mb-1">🔗 {{ ("REFERENCES" | translate)() }}</h2>
     @for(reference of references; track $index){
     <div class="dynamic-content" [innerHTML]="reference | safeHtml"></div>
 

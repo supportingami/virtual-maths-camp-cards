@@ -6,9 +6,10 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { map } from 'rxjs';
 import { CardInfoComponent } from '../../components/card-info/card-info.component';
 import { SafeHtmlPipe } from '../../pipes/safeHtml.pipe';
+import { TranslatePipe } from '../../pipes/translate.pipe';
 
 @Component({
-  imports: [PlayingCardComponent, CardInfoComponent, SafeHtmlPipe],
+  imports: [PlayingCardComponent, CardInfoComponent, SafeHtmlPipe, TranslatePipe],
   templateUrl: './card-details.page.html',
   styleUrl: './card-details.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

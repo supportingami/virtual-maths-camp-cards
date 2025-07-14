@@ -2,7 +2,7 @@ export type AvailableLanguage = 'fr' | 'en';
 
 export type CardMetadata = {
   title: string;
-  type: 'puzzle' | 'funfact' | 'game';
+  type: 'puzzle' | 'funfact' | 'game' | 'counting';
   /** Slug used for card lookup, e.g. "2D" or "5H" */
   slug: string;
   card_value: string;

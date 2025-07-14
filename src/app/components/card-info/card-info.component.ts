@@ -8,10 +8,12 @@ import {
 import { CardContentSection } from '../../types';
 import { SafeHtmlPipe } from '../../pipes/safeHtml.pipe';
 import { NgClass } from '@angular/common';
+import { TranslatePipe } from '../../pipes/translate.pipe';
+import { TranslationStringCode } from '../../data';
 
 interface ContentTab {
   icon: string;
-  heading: string,
+  heading: TranslationStringCode,
   content: string
 }
 
@@ -20,7 +22,7 @@ interface ContentTab {
   templateUrl: 'card-info.component.html',
   styleUrl: 'card-info.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [SafeHtmlPipe, NgClass]
+  imports: [NgClass, SafeHtmlPipe, TranslatePipe,]
 })
 /**
  * Display card content in expandable sections for
@@ -70,13 +72,13 @@ export class CardInfoComponent {
     const { hint, correct_answer, explanation } = content
 
     if (hint) {
-      tabs.push({ icon: '💡', heading: 'Hint', content: hint })
+      tabs.push({ icon: '💡', heading: 'HINT', content: hint })
     }
     if (correct_answer) {
-      tabs.push({ icon: '☑️', heading: 'Solution', content: correct_answer })
+      tabs.push({ icon: '☑️', heading: 'SOLUTION', content: correct_answer })
     }
     if (explanation) {
-      tabs.push({ icon: '🧐', heading: 'Explanation', content: explanation })
+      tabs.push({ icon: '🧐', heading: 'EXPLANATION', content: explanation })
     }
 
     return tabs
