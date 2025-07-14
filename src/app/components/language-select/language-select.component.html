@@ -13,10 +13,10 @@
     #langSelect
     (change)="handleLanguageSelect(langSelect.value)"
   >
-    @for(option of languageOptions; track option.value){
+    @for(option of languageOptions; track option.code){
     <option
-      [value]="option.value"
-      [selected]="option.value === selectedLanguage()"
+      [value]="option.code"
+      [selected]="option.code === selectedLanguage()"
       class="bg-primary-60 px-4 text-white"
     >
       {{ option.label }}

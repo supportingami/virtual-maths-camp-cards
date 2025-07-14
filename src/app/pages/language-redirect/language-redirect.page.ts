@@ -27,6 +27,7 @@ export class LanguageRedirectComponent implements OnInit {
   }
 
   private getTargetLanguage(): AvailableLanguage {
+    // NOTE - language service not used to keep page load minimal
     if (typeof window !== 'undefined' && window.localStorage) {
       const language = window.localStorage.getItem('language');
       if (typeof language === 'string') {
