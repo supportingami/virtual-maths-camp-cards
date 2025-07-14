@@ -10,8 +10,8 @@ type CardHashmap = Record<
 
 const en: CardMetadata[] = enJSON.map((v) => ({
     ...v,
-    type: v.type as any,
-    card_suit: v.card_suit as any,
+    type: v.type as CardMetadata['type'],
+    card_suit: v.card_suit as CardMetadata['card_suit'],
 }));
 
 const fr: CardMetadata[] = frJSON.map((v) => ({
