@@ -1,13 +1,14 @@
 :host {
   display: block;
 }
-
-$cardHeight: 420px;
-$cardWidth: calc($cardHeight/3 * 2);
+// png 2230 x 3300
+$cardWidth: 370px;
+$cardHeight: calc($cardWidth * 1.5);
 
 .playing-card {
   cursor: pointer;
   width: $cardWidth;
+  max-width: 100vw;
   height: $cardHeight;
   // background: white;
   border: 2px solid #ccc;
@@ -42,7 +43,7 @@ $cardWidth: calc($cardHeight/3 * 2);
 }
 
 .card-statement {
-  overflow: auto;
+  @apply overflow-auto px-1 sm:px-4;
 }
 
 .playing-card[data-suit="heart"],
